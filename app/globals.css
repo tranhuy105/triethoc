@@ -73,4 +73,8 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .minscreen {
+    min-height: calc(100vh * 3 / 5);
+  }
 }

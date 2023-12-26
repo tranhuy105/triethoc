@@ -28,7 +28,7 @@ const TextArea = ({
     <div className="text-neutral-200 p-2 w-full rounded flex flex-col space-y-2 text-center">
       {/* <span>Input text</span> */}
       <textarea
-        className="px-5 py-4 leading-7 tracking-wider bg-zinc-200 min-h-[400px] text-gray-700 active:outline-none focus:outline-none rounded resize-none"
+        className="px-5 py-4 leading-7 tracking-wider bg-zinc-200 minscreen text-gray-700 active:outline-none focus:outline-none rounded resize-none"
         placeholder={
           placeholder
             ? placeholder

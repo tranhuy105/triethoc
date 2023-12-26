@@ -113,7 +113,7 @@ export default function Home() {
             </div>
             <div>
               {current === 1 && (
-                <div className="text-sm text-muted-foreground">
+                <div className="text-sm text-muted-foreground text-center px-3">
                   Đọc qua một lượt để ngấm trước cái nhỉ{" "}
                   <span className="text-muted-foreground">
                     (vài lượt cũng được)
@@ -121,7 +121,7 @@ export default function Home() {
                 </div>
               )}
               {current === 2 && (
-                <div className="text-sm text-muted-foreground">
+                <div className="text-sm text-muted-foreground text-center px-3">
                   Giờ hãy nhìn vào những chữ cái đầu tiên của mỗi từ
                   để đọc lại cả đoạn{" "}
                   <span className="text-muted-foreground">
@@ -130,7 +130,7 @@ export default function Home() {
                 </div>
               )}
               {current === 3 && (
-                <div className="text-sm text-muted-foreground">
+                <div className="text-sm text-muted-foreground text-center px-3">
                   Giờ nhìn vào mỗi từ đầu câu để đọc lại cả câu.{" "}
                   <span className="text-muted-foreground">
                     (Cứ lặp lại 3 bước đến khi nào thuộc thì thôi!)
@@ -143,12 +143,12 @@ export default function Home() {
           <>
             {" "}
             {!modString ? (
-              <div className="w-3/5 flex flex-col items-center gap-5">
+              <div className="w-4/5 md:w-3/5 flex flex-col items-center gap-5">
                 <TextArea
                   val={type}
                   setVal={setType}
                   isLearning={false}
-                  placeholder="Gõ y hệt những gì mà bạn nhớ được (không cần gõ kí tự đặc biệt kể cả chấm phẩy"
+                  placeholder="Gõ y hệt những gì mà bạn nhớ được (không cần gõ kí tự đặc biệt và dấu câu, chấm phẩy)"
                 />
                 <Button
                   variant={"default"}
@@ -171,7 +171,7 @@ export default function Home() {
           </>
         ))}
       {!isLearning && (
-        <div className="w-1/2 flex flex-col items-center gap-5">
+        <div className="w-4/5 md:w-1/2 flex flex-col items-center gap-5">
           <TextArea
             val={val}
             setVal={setVal}

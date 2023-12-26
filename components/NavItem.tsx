@@ -13,7 +13,7 @@ const NavItem = ({
     <div
       onClick={() => setMode(label)}
       className={cn(
-        "hover:text-muted text-zinc-600 font-bold px-3 py-2 rounded-md hover:bg-zinc-600 transition cursor-pointer",
+        "hover:text-muted text-zinc-600 font-bold px-3 py-2 rounded-md hover:bg-zinc-600 transition cursor-pointer text-xs md:text-base",
         {
           "bg-zinc-700 text-muted": mode === label,
         }
