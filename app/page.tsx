@@ -39,13 +39,13 @@ export default function Home() {
 
   const isFinised = currentIndex === splitString(val).length;
 
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    ref.current?.scrollIntoView({
-      behavior: "instant",
-      block: "end",
-    });
-  }, [type]);
+  // const ref = useRef<HTMLDivElement>(null);
+  // useEffect(() => {
+  //   ref.current?.scrollIntoView({
+  //     behavior: "instant",
+  //     block: "end",
+  //   });
+  // }, [type]);
 
   const startLearning = () => {
     if (val !== "") {
@@ -223,7 +223,7 @@ export default function Home() {
                   val={type}
                   setVal={setType}
                   isLearning={false}
-                  placeholder="Gõ y hệt những gì mà bạn nhớ được (không cần gõ kí tự đặc biệt và dấu câu, chấm phẩy)"
+                  placeholder="Gõ lại từng câu 1 trong đoạn văn của bạn, nếu đúng trên 80% sẽ được đi tiếp câu sau, không thì gõ lại từ đầu (hardmode). Có thể bấm vào bảng kết quả để xem đáp án gốc"
                 />
               ) : (
                 <ResScreen />
@@ -290,7 +290,6 @@ export default function Home() {
         // </Button>
         <ResetButton handleReset={handleReset} />
       )}
-      <div ref={ref} />
     </div>
   );
 }
