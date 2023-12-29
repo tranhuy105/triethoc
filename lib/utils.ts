@@ -67,18 +67,33 @@ export function compareStringsAndOutputPercentage(
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
       .replace(/[^\w\sĐđ]/g, "")
+      .replace(/[\u2022-]/g, "")
       .replace(/\s+/g, " ")
+      .replaceAll("đ", "d")
+      .replaceAll("Đ", "D")
       .toLowerCase();
 
   const normalizedReferenceString = normalizeString(referenceString);
   const normalizedTargetString = normalizeString(targetString);
 
-  const wordsReference = normalizedReferenceString.split(" ");
-  const wordsTarget = normalizedTargetString.split(" ");
+  console.log(normalizedReferenceString);
+  console.log(normalizedTargetString);
+
+  const wordsReference = normalizedReferenceString
+    .split(" ")
+    .filter((word) => word !== "");
+  const wordsTarget = normalizedTargetString
+    .split(" ")
+    .filter((word) => word !== "");
+
+  console.log(wordsReference);
+  console.log(wordsTarget);
 
   const commonWords = wordsReference.filter((word) =>
     wordsTarget.includes(word)
   );
+
+  console.log(commonWords);
 
   const percentageSimilarity =
     (commonWords.length /
