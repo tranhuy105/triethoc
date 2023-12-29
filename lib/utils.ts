@@ -104,3 +104,19 @@ export function compareStringsAndOutputPercentage(
     modifiedString,
   };
 }
+
+export function splitString(inputString: string): string[] {
+  const pattern = /[\n]/g; // Dấu ":" hoặc "."
+  const splittedStrings = inputString.split(pattern);
+  const result: string[] = [];
+
+  for (let i = 0; i < splittedStrings.length; i++) {
+    const current = splittedStrings[i].trim();
+
+    if (current) {
+      result.push(current);
+    }
+  }
+
+  return result;
+}
