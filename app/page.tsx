@@ -315,8 +315,8 @@ export default function Home() {
         <ResetButton handleReset={handleReset} />
       )}
       {wrong && (
-        <div className="absolute h-screen overflow-hidden z-50 inset-0 bg-black/80 ">
-          <div className="flex items-center justify-center h-full">
+        <div className="fixed h-full overflow-y-hidden z-50 inset-0 bg-black/80">
+          <div className="flex items-center justify-center h-full overflow-hidden">
             <div
               className="bg-white h-[70%] w-4/5 md:w-[600px] md:h-[90%] rounded-lg px-4 py-4 text-muted-foreground font-bold overflow-y-scroll space-y-4"
               ref={ref}
