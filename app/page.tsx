@@ -4,6 +4,7 @@ import ResScreen from "@/components/ResScreen";
 import ResText from "@/components/ResText";
 import ResetButton from "@/components/ResetButton";
 import TextArea from "@/components/TextArea";
+import { celebrate } from "@/components/confetti/celebrate";
 import { Button } from "@/components/ui/button";
 import {
   Carousel,
@@ -34,6 +35,7 @@ export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [res, setRes] = useState([""]);
   const [hardMode, setHardMode] = useState(false);
+  const [perfect, setPerfect] = useState<number[]>([]);
   // const [modString, setmodString] = useState("");
   const { toast } = useToast();
 
@@ -62,6 +64,7 @@ export default function Home() {
       setType("");
       setCurrentIndex(0);
       setRes([""]);
+      setPerfect([]);
       // setmodString("");
     }
   };
@@ -70,12 +73,13 @@ export default function Home() {
     setCurrentIndex(0);
     setType("");
     setRes([""]);
+    setPerfect([]);
   };
   const handleCheck = (str1: string, str2: string) => {
     const arrofstr = splitString(str1);
 
     if (isFinised) {
-      console.log("het roi");
+      // console.log("het roi");
       return;
     }
 
@@ -85,16 +89,25 @@ export default function Home() {
         str2
       );
       if (percentage >= 80) {
+        if (percentage === 100) {
+          setPerfect((cur) => [...cur, currentIndex]);
+          toast({
+            title: "ALL PERFECT",
+            variant: "destructive",
+          });
+          celebrate();
+        }
         setRes((cur) => [
           ...cur,
           str2 + ` (${percentage.toString()}%)`,
         ]);
         setCurrentIndex((c) => c + 1);
         setType("");
-        toast({
-          title: `Quá ngon, bạn trả lời đúng ${percentage}%`,
-          description: "Cố lên nhé!",
-        });
+        if (percentage !== 100)
+          toast({
+            title: `Quá ngon, bạn trả lời đúng ${percentage}%`,
+            description: "Cố lên nhé!",
+          });
       } else if (percentage < 80) {
         setType("");
         if (hardMode) {
@@ -129,7 +142,7 @@ export default function Home() {
   }, [api]);
 
   return (
-    <div className="flex flex-col gap-4 items-center pb-12 relative">
+    <div className="flex flex-col gap-4 items-center pb-12 relative bg-neutral-100">
       <Navbar
         mode={mode}
         setMode={setMode}
@@ -206,12 +219,14 @@ export default function Home() {
         ) : (
           <>
             {res[1] && (
-              <div className="w-4/5 md:w-3/5 flex flex-col items-start gap-1 shadow-lg px-4 py-3 rounded-md bg-zinc-100">
+              <div className="w-4/5 md:w-3/5 flex flex-col items-start gap-1 shadow-lg px-4 py-3 rounded-md bg-neutral-100">
                 {res.map((str, index) => (
                   <ResText
                     key={index}
                     str={str}
                     aws={splitString(val)[index - 1]}
+                    perfect={perfect}
+                    index={index}
                   />
                 ))}
               </div>

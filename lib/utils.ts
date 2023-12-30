@@ -76,8 +76,8 @@ export function compareStringsAndOutputPercentage(
   const normalizedReferenceString = normalizeString(referenceString);
   const normalizedTargetString = normalizeString(targetString);
 
-  console.log(normalizedReferenceString);
-  console.log(normalizedTargetString);
+  // console.log(normalizedReferenceString);
+  // console.log(normalizedTargetString);
 
   const wordsReference = normalizedReferenceString
     .split(" ")
@@ -86,14 +86,14 @@ export function compareStringsAndOutputPercentage(
     .split(" ")
     .filter((word) => word !== "");
 
-  console.log(wordsReference);
-  console.log(wordsTarget);
+  // console.log(wordsReference);
+  // console.log(wordsTarget);
 
   const commonWords = wordsReference.filter((word) =>
     wordsTarget.includes(word)
   );
 
-  console.log(commonWords);
+  // console.log(commonWords);
 
   const percentageSimilarity =
     (commonWords.length /
