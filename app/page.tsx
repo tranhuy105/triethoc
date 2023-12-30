@@ -15,12 +15,14 @@ import {
   CarouselApi,
 } from "@/components/ui/carousel";
 import { useToast } from "@/components/ui/use-toast";
+import { useOnClickOutside } from "@/hooks/use-on-click-outside";
 import {
   abbreviateWords,
   compareStringsAndOutputPercentage,
   firstWordsOfLines,
   splitString,
 } from "@/lib/utils";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
@@ -36,6 +38,7 @@ export default function Home() {
   const [res, setRes] = useState([""]);
   const [hardMode, setHardMode] = useState(false);
   const [perfect, setPerfect] = useState<number[]>([]);
+  const [wrong, setWrong] = useState(false);
   // const [modString, setmodString] = useState("");
   const { toast } = useToast();
 
@@ -65,6 +68,7 @@ export default function Home() {
       setCurrentIndex(0);
       setRes([""]);
       setPerfect([]);
+      setWrong(false);
       // setmodString("");
     }
   };
@@ -74,7 +78,20 @@ export default function Home() {
     setType("");
     setRes([""]);
     setPerfect([]);
+    setWrong(false);
   };
+
+  const handleRetry = () => {
+    setType("");
+    if (hardMode) {
+      setCurrentIndex(0);
+      setRes([""]);
+    }
+    setWrong(false);
+  };
+  const ref = useRef<HTMLDivElement>(null);
+  useOnClickOutside(ref, handleRetry);
+
   const handleCheck = (str1: string, str2: string) => {
     const arrofstr = splitString(str1);
 
@@ -105,16 +122,12 @@ export default function Home() {
             description: "Cố lên nhé!",
           });
       } else if (percentage < 80) {
-        setType("");
-        if (hardMode) {
-          setCurrentIndex(0);
-          setRes([""]);
-        }
-        toast({
-          title: "Sai rồi, đáp án là ",
-          description: `${arrofstr[currentIndex]}`,
-          variant: "destructive",
-        });
+        setWrong(true);
+        // toast({
+        //   title: "Sai rồi, đáp án là ",
+        //   description: `${arrofstr[currentIndex]}`,
+        //   variant: "destructive",
+        // });
         // console.log(arrofstr[currentIndex + 1]);
       }
       // console.log(percentage);
@@ -300,6 +313,40 @@ export default function Home() {
         //   Học 1 văn bản khác
         // </Button>
         <ResetButton handleReset={handleReset} />
+      )}
+      {wrong && (
+        <div className="absolute h-screen overflow-hidden z-50 inset-0 bg-black/80 ">
+          <div className="flex items-center justify-center h-full">
+            <div
+              className="bg-white h-[70%] w-4/5 md:w-[600px] md:h-[90%] rounded-lg px-4 py-4 text-muted-foreground font-bold overflow-y-scroll space-y-4"
+              ref={ref}
+            >
+              <h1 className="text-3xl md:text-4xl font-extrabold text-red-600 text-center pt-4">
+                Sai rồi, chuẩn bị đóng tiền học lại thôi bạn ơi
+              </h1>
+              <h2 className="text-xl font-extrabold  text-center py-2">
+                Đáp án đúng phải là:
+              </h2>
+              <p className="bg-zinc-200 drop-shadow-lg px-3 py-2 rounded-lg text-muted-foreground font-bold text-lg max-w-[400px] w-full mx-auto text-ellipsis h-auto overflow-hidden">
+                {splitString(val)[currentIndex]}
+              </p>
+              <div className="my-3 relative max-w-[400px] w-full h-[300px] flex mx-auto rounded-full">
+                <Image
+                  src={"/mizukinesobari.jpg"}
+                  fill
+                  alt="hoc lai thoi"
+                  className="rounded-lg"
+                />
+              </div>
+              <Button
+                onClick={handleRetry}
+                className="mx-auto max-w-[400px] w-full block"
+              >
+                Thử lại
+              </Button>
+            </div>
+          </div>
+        </div>
       )}
     </div>
   );
