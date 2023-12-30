@@ -21,7 +21,7 @@ const ResText = ({
     setHover(false);
   };
 
-  console.log(index, perfect);
+  // console.log(index, perfect);
 
   return (
     <p
