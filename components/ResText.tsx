@@ -33,7 +33,7 @@ const ResText = ({
         className={cn(
           "font-bold text-sky-950 drop-shadow-md cursor-help sticky  w-full z-20",
           {
-            "bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.600),theme(colors.indigo.300),theme(colors.sky.600),theme(colors.fuchsia.600),theme(colors.sky.600),theme(colors.indigo.300),theme(colors.indigo.600))] bg-[length:200%_auto] animate-gradient font-extrabold drop-shadow-lg cursor-default z-40":
+            "bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.600),theme(colors.indigo.300),theme(colors.sky.600),theme(colors.fuchsia.600),theme(colors.sky.600),theme(colors.indigo.300),theme(colors.indigo.600))] bg-[length:200%_auto] animate-gradient font-extrabold drop-shadow-lg cursor-default":
               perfect?.includes(index - 1),
           }
         )}
