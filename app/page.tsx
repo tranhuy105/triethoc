@@ -91,10 +91,6 @@ export default function Home() {
       if (percentage >= 80) {
         if (percentage === 100) {
           setPerfect((cur) => [...cur, currentIndex]);
-          toast({
-            title: "ALL PERFECT",
-            variant: "destructive",
-          });
           celebrate();
         }
         setRes((cur) => [
@@ -115,8 +111,8 @@ export default function Home() {
           setRes([""]);
         }
         toast({
-          title: "Sai rồi, hãy thử lại",
-          description: `Đáp án là ${arrofstr[currentIndex]}`,
+          title: "Sai rồi, đáp án là ",
+          description: `${arrofstr[currentIndex]}`,
           variant: "destructive",
         });
         // console.log(arrofstr[currentIndex + 1]);
@@ -238,7 +234,7 @@ export default function Home() {
                   val={type}
                   setVal={setType}
                   isLearning={false}
-                  placeholder="Gõ lại từng câu 1 trong đoạn văn của bạn, nếu đúng trên 80% sẽ được đi tiếp câu sau, không thì gõ lại từ đầu (hardmode). Có thể bấm vào bảng kết quả để xem đáp án gốc"
+                  placeholder="Gõ lại từng câu 1 trong đoạn văn của bạn (1 câu ở đây được tính bằng kí tự xuống dòng), nếu đúng trên 80% sẽ được đi tiếp câu sau, không thì gõ lại từ đầu (hardmode). Có thể bấm vào bảng kết quả để xem đáp án gốc"
                 />
               ) : (
                 <ResScreen />
