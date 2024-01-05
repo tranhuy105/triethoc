@@ -64,13 +64,13 @@ const Message: FC<MessageProps> = ({ message, sentBy, img }) => {
               className="object-cover"
             />
           ) : (
-            message &&
-            (sentBy === "BOT" ? (
-              <Typewriter text={message} delay={10} />
-            ) : (
-              message
-            ))
-            // message
+            // message &&
+            // (sentBy === "BOT" ? (
+            //   <Typewriter text={message} delay={10} />
+            // ) : (
+            //   message
+            // ))
+            message
           )}
         </div>
       </div>
