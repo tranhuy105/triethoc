@@ -1,4 +1,5 @@
 "use client";
+import Bot from "@/components/(chatbot)/Bot";
 import Navbar from "@/components/Navbar";
 import ResScreen from "@/components/ResScreen";
 import ResText from "@/components/ResText";
@@ -18,6 +19,7 @@ import { useToast } from "@/components/ui/use-toast";
 import { useOnClickOutside } from "@/hooks/use-on-click-outside";
 import {
   abbreviateWords,
+  cn,
   compareStringsAndOutputPercentage,
   firstWordsOfLines,
   splitString,
@@ -36,7 +38,7 @@ export default function Home() {
   // const [percen, setPercen] = useState(0.1);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [res, setRes] = useState([""]);
-  const [hardMode, setHardMode] = useState(false);
+  // const [hardMode, setHardMode] = useState(false);
   const [perfect, setPerfect] = useState<number[]>([]);
   const [wrong, setWrong] = useState(false);
   // const [modString, setmodString] = useState("");
@@ -83,10 +85,10 @@ export default function Home() {
 
   const handleRetry = () => {
     setType("");
-    if (hardMode) {
-      setCurrentIndex(0);
-      setRes([""]);
-    }
+    // if (hardMode) {
+    //   setCurrentIndex(0);
+    //   setRes([""]);
+    // }
     setWrong(false);
   };
   const ref = useRef<HTMLDivElement>(null);
@@ -151,12 +153,19 @@ export default function Home() {
   }, [api]);
 
   return (
-    <div className="flex flex-col gap-4 items-center pb-12 relative bg-neutral-100">
+    <div
+      className={cn(
+        "flex flex-col gap-4 items-center relative bg-neutral-100 pb-12",
+        {
+          "pb-0": mode === "Bot",
+        }
+      )}
+    >
       <Navbar
         mode={mode}
         setMode={setMode}
-        hardMode={hardMode}
-        setHardMode={setHardMode}
+        // hardMode={hardMode}
+        // setHardMode={setHardMode}
       />
       {isLearning &&
         (mode === "Flashcard" ? (
@@ -224,6 +233,10 @@ export default function Home() {
                 </div>
               )}
             </div>
+          </>
+        ) : mode === "Bot" ? (
+          <>
+            <Bot val={splitString(val)} />
           </>
         ) : (
           <>
@@ -304,7 +317,7 @@ export default function Home() {
           </Button>
         </div>
       )}
-      {isLearning && (
+      {isLearning && mode !== "Bot" && (
         // <Button
         //   variant={"ghost"}
         //   className="w-48 text-muted-foreground text-red-300 font-bold"
