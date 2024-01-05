@@ -70,7 +70,7 @@ const Bot = ({ val }: { val: string[] }) => {
     } else if (data.length > 20) {
       return data.slice(0, 20);
     } else {
-      return data.slice(10);
+      return data.slice(0, 10);
     }
   };
 
