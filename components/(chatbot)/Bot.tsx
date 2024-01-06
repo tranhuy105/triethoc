@@ -2,7 +2,11 @@ import { useEffect, useRef, useState } from "react";
 import Message from "./Message";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
 import { Button } from "../ui/button";
-import { cn, compareStringsAndOutputPercentage } from "@/lib/utils";
+import {
+  cn,
+  compareStringsAndOutputPercentage,
+  splitString,
+} from "@/lib/utils";
 
 interface messageType {
   sentBy: "USER" | "BOT";
@@ -10,11 +14,11 @@ interface messageType {
   img?: string;
 }
 
-const Bot = ({ val }: { val: string[] }) => {
+const Bot = ({ val }: { val: string }) => {
   const [messages, setMessages] = useState<messageType[]>([
     {
       sentBy: "BOT",
-      text: "Chào chú",
+      img: "/akitomafuyu.jpg",
     },
     {
       sentBy: "BOT",
@@ -22,19 +26,50 @@ const Bot = ({ val }: { val: string[] }) => {
     },
   ]);
 
+  const dapangoc = splitString(val);
+
   const [ready, setReady] = useState(false);
-  const [dapan, setDapan] = useState<string[]>(val);
+  const [dapan, setDapan] = useState<string[]>(dapangoc);
   const [review, setReview] = useState<string[]>([]);
+  const [isTyping, setIsTyping] = useState(false);
+
+  // SOUND
+  useEffect(() => {
+    const audio = new Audio("bg.mp3");
+    audio.volume = 0.7;
+    audio.loop = true;
+    audio.play();
+
+    return () => {
+      audio.pause();
+      audio.currentTime = 0;
+    };
+  }, []);
+
+  useEffect(() => {
+    const type = new Audio("se/type.mp3");
+    type.volume = 0.6;
+    type.loop = true;
+    if (isTyping) {
+      type.play();
+    }
+    return () => {
+      type.pause();
+      type.currentTime = 0;
+    };
+  }, [isTyping]);
+
+  //
 
   const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    if (messages.length) {
-      ref.current?.scrollIntoView({
-        behavior: "smooth",
-        block: "end",
-      });
-    }
-  }, [messages.length]);
+  // useEffect(() => {
+  //   if (messages.length) {
+  //     ref.current?.scrollIntoView({
+  //       behavior: "smooth",
+  //       block: "end",
+  //     });
+  //   }
+  // }, [messages.length]);
 
   const { handleSubmit, register, resetField } = useForm<FieldValues>(
     {
@@ -82,6 +117,8 @@ const Bot = ({ val }: { val: string[] }) => {
       );
 
       if (percentage > 80) {
+        new Audio("se/perfect.mp3").play();
+        addImage("/funnyakito.jpg", "BOT");
         setDapan((dapan) => dapan.filter((dap) => dap !== dapan[0]));
         if (dapan[1]) {
           addMessage(
@@ -94,7 +131,7 @@ const Bot = ({ val }: { val: string[] }) => {
           );
         } else if (!dapan[1] && review[0]) {
           addMessage(
-            "Bạn trả lời đúng rồi đấy, giờ ta sẽ tiến vào phần luyện tập nhé",
+            "Đã trả lời hết một lượt rồi đó, giờ sẽ tiến vào phần luyện tập nhé!",
             "BOT"
           );
           addMessage(
@@ -110,6 +147,7 @@ const Bot = ({ val }: { val: string[] }) => {
           );
         }
       } else {
+        new Audio("se/fart.mp3").play();
         addImage("/akito.jpg", "BOT");
         addMessage(
           `bạn vừa trả lời là \"${data}\" nhưng mà sai rồi, đáp án đúng phải là: \"${dapan[0]}\", đọc qua một lượt đi rồi thử lại nhé`,
@@ -127,6 +165,8 @@ const Bot = ({ val }: { val: string[] }) => {
       );
 
       if (percentage > 80) {
+        new Audio("se/perfect.mp3").play();
+        addImage("/funnyakito.jpg", "BOT");
         setReview((review) => review.slice(1));
         if (review[1]) {
           addMessage(
@@ -144,6 +184,7 @@ const Bot = ({ val }: { val: string[] }) => {
           );
         }
       } else {
+        new Audio("se/fart.mp3").play();
         addImage("/akito.jpg", "BOT");
         addMessage(
           `bạn vừa trả lời là \"${data}\" nhưng mà sai rồi, đáp án đúng phải là: \"${review[0]}\", xem qua lại một lần đi rồi thử lại nhé`,
@@ -161,10 +202,10 @@ const Bot = ({ val }: { val: string[] }) => {
   const onSubmit: SubmitHandler<FieldValues> = (message) => {
     const { data } = message;
 
-    if (data === "reset") {
+    if (data.toLowerCase() === "reset") {
       resetField("data");
       addMessage(data, "USER");
-      setDapan(val);
+      setDapan(dapangoc);
       setReview([]);
       setReady(false);
       addMessage(
@@ -179,7 +220,14 @@ const Bot = ({ val }: { val: string[] }) => {
       { text: data, sentBy: "USER" },
     ]);
 
+    if (data === "check" || data === "Check") {
+      resetField("data");
+      addMessage(val, "BOT");
+      return;
+    }
+
     if (!ready) {
+      new Audio("se/letgo.mp3").play();
       addMessage(
         `Vậy bắt đầu với câu hỏi đầu tiên nhé, nó sẽ bắt đầu bằng \"${hint(
           dapan[0]
@@ -196,20 +244,27 @@ const Bot = ({ val }: { val: string[] }) => {
   };
 
   return (
-    <div className="px-3 h-[calc(100vh-64px)] w-full md:w-[65%] flex flex-col items-center justify-center pb-4">
+    <div className="px-3 h-[calc(100vh-80px)] md:w-[90%] w-full flex flex-col items-center justify-center pb-4">
       {/* TIN NHAN */}
-      <div className="overflow-y-auto bg-black my-4 rounded-3xl text-secondary text-md h-[calc(100vh*80/100)] md:h-[calc(100vh*70/100)] w-full py-2 shadow-lg shadow-black">
+      <div
+        className={cn(
+          "overflow-y-auto bg-black my-4 rounded-3xl text-secondary text-md h-[calc(100vh-64px-64px)] w-full py-2 shadow-md shadow-black",
+          {
+            "overflow-y-auto": isTyping,
+          }
+        )}
+      >
         {messages.map((mess: messageType, index) => (
           <Message
             key={index}
             message={mess.text}
             img={mess.img}
             sentBy={mess.sentBy}
+            setIsTyping={setIsTyping}
           />
         ))}
         <div ref={ref} />
       </div>
-
       {/* FORM INPUT NGUOI DUNG */}
       <form
         className="flex items-center gap-1 justify-center text-xl w-full md:h-14"
@@ -224,9 +279,12 @@ const Bot = ({ val }: { val: string[] }) => {
             `focus:outline-none h-full text-xl px-4 py-2 rounded-lg bg-primary text-muted-foreground font-bold w-full placeholder:text-muted-foreground/20`
           )}
           {...register("data", { required: true })}
+          // disabled={isTyping}
+          autoFocus
         />
         <Button
           type="submit"
+          disabled={isTyping}
           variant="default"
           className={cn(
             " h-full text-lg text-secondary font-bold bg-sky-500 hover:bg-sky-600 rounded-xl"

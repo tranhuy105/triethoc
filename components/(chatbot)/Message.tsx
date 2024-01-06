@@ -8,9 +8,15 @@ interface MessageProps {
   sentBy: "BOT" | "USER";
   message?: string;
   img?: string;
+  setIsTyping: any;
 }
 
-const Message: FC<MessageProps> = ({ message, sentBy, img }) => {
+const Message: FC<MessageProps> = ({
+  message,
+  sentBy,
+  img,
+  setIsTyping,
+}) => {
   const container = cn(
     "flex gap-3 p-4 py-3 max-w-[80%]",
     sentBy === "USER" && "justify-end ml-auto"
@@ -64,13 +70,17 @@ const Message: FC<MessageProps> = ({ message, sentBy, img }) => {
               className="object-cover"
             />
           ) : (
-            // message &&
-            // (sentBy === "BOT" ? (
-            //   <Typewriter text={message} delay={10} />
-            // ) : (
-            //   message
-            // ))
-            message
+            message &&
+            (sentBy === "BOT" ? (
+              <Typewriter
+                text={message}
+                delay={10}
+                setIsTyping={setIsTyping}
+              />
+            ) : (
+              message
+            ))
+            // message
           )}
         </div>
       </div>

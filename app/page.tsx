@@ -236,7 +236,7 @@ export default function Home() {
           </>
         ) : mode === "Bot" ? (
           <>
-            <Bot val={splitString(val)} />
+            <Bot val={val} />
           </>
         ) : (
           <>
