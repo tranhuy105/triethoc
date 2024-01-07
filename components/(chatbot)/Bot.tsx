@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Message from "./Message";
 import { FieldValues, SubmitHandler, useForm } from "react-hook-form";
-import { Button } from "../ui/button";
+import { Button, buttonVariants } from "../ui/button";
 import {
   cn,
   compareStringsAndOutputPercentage,
@@ -248,7 +248,7 @@ const Bot = ({ val }: { val: string }) => {
       {/* TIN NHAN */}
       <div
         className={cn(
-          "overflow-y-auto bg-black my-4 rounded-3xl text-secondary text-md h-[calc(100vh-64px-64px)] w-full py-2 shadow-md shadow-black",
+          "overflow-y-auto bg-black my-4 rounded-3xl text-secondary text-md h-[calc(100vh-64px-64px)] w-full py-2",
           {
             "overflow-y-auto": isTyping,
           }
@@ -267,7 +267,7 @@ const Bot = ({ val }: { val: string }) => {
       </div>
       {/* FORM INPUT NGUOI DUNG */}
       <form
-        className="flex items-center gap-1 justify-center text-xl w-full md:h-14"
+        className="flex items-center justify-center text-xl w-full md:h-14"
         onSubmit={handleSubmit(onSubmit)}
         autoComplete="off"
       >
@@ -276,7 +276,7 @@ const Bot = ({ val }: { val: string }) => {
           id="data"
           placeholder="Soạn tin nhắn của bạn"
           className={cn(
-            `focus:outline-none h-full text-xl px-4 py-2 rounded-lg bg-primary text-muted-foreground font-bold w-full placeholder:text-muted-foreground/20`
+            `bg-black focus:border-0 focus:outline-none h-full text-base px-4 py-3 rounded-l-lg text-gray-400 w-full placeholder:text-muted-foreground/20`
           )}
           {...register("data", { required: true })}
           // disabled={isTyping}
@@ -287,7 +287,7 @@ const Bot = ({ val }: { val: string }) => {
           disabled={isTyping}
           variant="default"
           className={cn(
-            " h-full text-lg text-secondary font-bold bg-sky-500 hover:bg-sky-600 rounded-xl"
+            " h-full text-base text-secondary font-bold bg-sky-500 hover:bg-sky-600 rounded-r-xl rounded-l-none"
           )}
         >
           Gửi

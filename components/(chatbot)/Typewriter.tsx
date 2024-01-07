@@ -11,19 +11,16 @@ const Typewriter = ({
 }) => {
   const [currentText, setCurrentText] = useState(text);
   const [currentIndex, setCurrentIndex] = useState(0);
+
   useEffect(() => {
     setCurrentText("");
   }, []);
 
-  const ref = useRef<HTMLInputElement>(null);
+  const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (currentText.length) {
       ref.current?.scrollIntoView({ behavior: "instant" });
-      // bref.current?.scrollIntoView({
-      //   behavior: "smooth",
-      //   // block: "end",
-      // });
     }
   }, [currentText]);
 
@@ -48,7 +45,7 @@ const Typewriter = ({
   return (
     <>
       <>{currentText}</>
-      <input className="opacity-0 w-0 h-0" aria-hidden ref={ref} />
+      <div className="opacity-0 w-0 h-0" aria-hidden ref={ref} />
     </>
   );
 };
