@@ -226,6 +226,41 @@ const Bot = ({ val }: { val: string }) => {
       return;
     }
 
+    if (data.toLowerCase() === "check current") {
+      resetField("data");
+      if (!ready) {
+        new Audio("se/letgo.mp3").play();
+        addMessage(
+          `Vậy bắt đầu với câu hỏi đầu tiên nhé, nó sẽ bắt đầu bằng \"${hint(
+            dapan[0]
+          )}...\"`,
+          "BOT"
+        );
+        setReady(true);
+        return;
+      }
+
+      if (dapan[0]) {
+        addMessage(
+          "Bạn vừa yêu cầu xem đáp án của câu hỏi hiện tại, đáp án là như sau:",
+          "BOT"
+        );
+        addMessage(dapan[0], "BOT");
+      }
+      if (!dapan[0] && review[0]) {
+        addMessage(
+          "Bạn vừa yêu cầu xem đáp án của câu hỏi hiện tại, đáp án là như sau:",
+          "BOT"
+        );
+        addMessage(review[0], "BOT");
+      }
+      if (!dapan[0] && !review[0]) {
+        addMessage("Nhập reset để chơi lại!", "BOT");
+      }
+
+      return;
+    }
+
     if (!ready) {
       new Audio("se/letgo.mp3").play();
       addMessage(
