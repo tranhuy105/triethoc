@@ -34,17 +34,17 @@ const Bot = ({ val }: { val: string }) => {
   const [isTyping, setIsTyping] = useState(false);
 
   // SOUND
-  useEffect(() => {
-    const audio = new Audio("bg.mp3");
-    audio.volume = 0.7;
-    audio.loop = true;
-    audio.play();
+  // useEffect(() => {
+  //   const audio = new Audio("bg.mp3");
+  //   audio.volume = 0.7;
+  //   audio.loop = true;
+  //   audio.play();
 
-    return () => {
-      audio.pause();
-      audio.currentTime = 0;
-    };
-  }, []);
+  //   return () => {
+  //     audio.pause();
+  //     audio.currentTime = 0;
+  //   };
+  // }, []);
 
   useEffect(() => {
     const type = new Audio("se/type.mp3");
