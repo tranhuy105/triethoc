@@ -24,11 +24,13 @@ import {
   firstWordsOfLines,
   splitString,
 } from "@/lib/utils";
+import { goicauhoitriet } from "@/public/data";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 export default function Home() {
   const [val, setVal] = useState("");
+  const [select, setSelect] = useState("");
   const [type, setType] = useState("");
   const [isLearning, setIsLearning] = useState(false);
   const [api, setApi] = useState<CarouselApi>();
@@ -71,6 +73,7 @@ export default function Home() {
       setRes([""]);
       setPerfect([]);
       setWrong(false);
+      setSelect("");
       // setmodString("");
     }
   };
@@ -240,6 +243,9 @@ export default function Home() {
           </>
         ) : (
           <>
+            <h1 className="font-bold text-2xl italic w-4/5 md:w-3/5 text-wrap leading-relaxed">
+              {select.slice(6)}
+            </h1>
             {res[1] && (
               <div className="w-4/5 md:w-3/5 flex flex-col items-start gap-1 shadow-lg px-4 py-3 rounded-md bg-neutral-100">
                 {res.map((str, index) => (
@@ -302,11 +308,43 @@ export default function Home() {
         ))}
       {!isLearning && (
         <div className="w-4/5 md:w-1/2 flex flex-col items-center gap-5">
-          <TextArea
+          {/* <TextArea
             val={val}
             setVal={setVal}
             isLearning={isLearning}
-          />
+          /> */}
+          <div className="flex flex-wrap justify-center">
+            {goicauhoitriet.map((caccau, index) => (
+              <p
+                className={cn(
+                  "hover:bg-zinc-200 transition-all rounded-md px-2 py-3 text-center cursor-pointer text-muted-foreground ",
+                  {
+                    "bg-zinc-200": select === caccau.label,
+                  }
+                )}
+                key={index}
+                onClick={() => {
+                  setVal(caccau.dapan);
+                  setSelect(caccau.label);
+                }}
+              >
+                {caccau.label.slice(0, 5)}
+              </p>
+            ))}
+          </div>
+
+          {val !== "" && (
+            <>
+              <h1 className="font-bold text-2xl italic">
+                {select.slice(6)}
+              </h1>
+              <TextArea
+                val={val}
+                setVal={setVal}
+                isLearning={isLearning}
+              />
+            </>
+          )}
 
           <Button
             variant={"default"}
