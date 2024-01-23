@@ -185,3 +185,15 @@ export const goicauhoitriet = [
       `,
   },
 ];
+
+// xoa cai nay di nua
+export function addNewlines(inputString: string) {
+  // Split the input string into an array of lines
+  const inputLines = inputString.split("\n");
+
+  const outputLines = inputLines.map((line) => line + "\\n");
+  const outputString = outputLines.join("\n");
+  console.log(outputString);
+
+  return outputString;
+}

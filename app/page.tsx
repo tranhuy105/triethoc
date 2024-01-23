@@ -24,7 +24,7 @@ import {
   firstWordsOfLines,
   splitString,
 } from "@/lib/utils";
-import { goicauhoitriet } from "@/public/data";
+import { addNewlines, goicauhoitriet } from "@/public/data";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
@@ -333,18 +333,27 @@ export default function Home() {
             ))}
           </div>
 
-          {val !== "" && (
+          {
             <>
               <h1 className="font-bold text-2xl italic">
                 {select.slice(6)}
               </h1>
-              <TextArea
-                val={val}
-                setVal={setVal}
-                isLearning={isLearning}
-              />
+              <div className="flex flex-1 w-full">
+                <TextArea
+                  val={val}
+                  setVal={setVal}
+                  isLearning={isLearning}
+                />
+
+                {/* xoa cai nay di  */}
+                <TextArea
+                  val={addNewlines(val)}
+                  setVal={setVal}
+                  isLearning={true}
+                />
+              </div>
             </>
-          )}
+          }
 
           <Button
             variant={"default"}
