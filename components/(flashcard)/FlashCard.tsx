@@ -1,4 +1,4 @@
-import { splitString } from "@/lib/utils";
+import { cn, splitString } from "@/lib/utils";
 import { RotateCcw, StepBack, StepForward } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
@@ -43,7 +43,13 @@ const FlashCard = ({ val }: { val: string }) => {
       <div className="w-full flex justify-center gap-5">
         <div className="w-full max-w-[75%] md:max-w-[50%] min-h-[calc(100vh*3/4)] border rounded-lg bg-neutral-200 text-neutral-600 px-5 py-4 ">
           {show.map((phrase, index) => (
-            <p className="intro" key={index}>
+            <p
+              className={cn("intro font-normal transition-all", {
+                "font-bold text-neutrl-700":
+                  phrase === show.slice(-1)[0],
+              })}
+              key={index}
+            >
               {phrase}
             </p>
           ))}
