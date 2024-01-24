@@ -184,6 +184,54 @@ export const goicauhoitriet = [
     
       `,
   },
+  {
+    label:
+      "4.1tt: Phân tích tư tưởng Hồ Chí Minh về xây dựng nhà nước pháp quyền.",
+    dapan: `Thứ nhất, nhà nước CHXHCN Việt Nam là nhà nước hiến pháp, hợp pháp.
+
+    Nhà nước Việt Nam được tổ chức thông qua tổng tuyển cử và tuân thủ hiến pháp. 
+    Chủ tịch Hồ Chí Minh, ngay sau Cách mạng Tháng Tám, đại diện chính phủ lâm thời thông báo độc lập của nước Việt Nam. Điều này củng cố vị thế hợp pháp của chính phủ lâm thời do cách mạng nhân dân lập ra. 
+    Hồ Chí Minh đề xuất tổ chức sớm cuộc tổng tuyển cử để hình thành Quốc hội và Chính phủ, thể hiện quyền lực tối cao của nhân dân. Quốc hội đầu tiên họp vào ngày 2-3-1946, xác định cơ sở pháp lí cho Chính phủ giải quyết các vấn đề nội và ngoại trọng quốc gia.
+    
+    Thứ hai, nhà nước ta là nhà nước thượng tôn pháp luật.
+    
+    Chủ tịch Hồ Chí Minh luôn đặt sự ưu tiên cao cho việc xây dựng cơ sở pháp lý cho Nhà nước Việt Nam mới. Người đã nhận thức ngay từ sớm về tầm quan trọng của Hiến pháp và pháp luật trong đời sống chính trị - xã hội, điều này được thể hiện trong bản Yêu sách của nhân dân An Nam, nơi đòi hỏi quyền bình đẳng về chế độ pháp lý. Khi trở thành người đứng đầu Nhà nước, Người tiếp tục tăng cường quan tâm để đảm bảo tổ chức và hoạt động của Nhà nước tuân thủ pháp luật.
+    Theo tư tưởng của Người, quản lý xã hội bằng bộ máy nhà nước và các biện pháp khác nhau, nhưng quan trọng nhất là quản lý bằng Hiến pháp và pháp luật. Người lãnh đạo cũng đặt sự chú trọng đặc biệt vào công tác lập pháp và đưa pháp luật vào cuộc sống, đồng thời đảm bảo tính minh bạch và nghiêm minh trong việc thi hành pháp luật.
+    Người cũng đặc biệt quan tâm đến công tác giáo dục pháp luật cho mọi người, đặc biệt là thế hệ trẻ, và nhấn mạnh rằng điều này là quan trọng để xây dựng một Nhà nước pháp quyền. Người khuyến khích việc phê bình và giám sát công việc của Nhà nước, đồng thời thúc đẩy tính minh bạch và nghiêm minh trong thi hành pháp luật. Chủ tịch Hồ Chí Minh cũng đặt ra yêu cầu cao về tính công tâm của người thực thi pháp luật và gương mẫu của cán bộ các cấp, đặc biệt là ngành hành pháp và tư pháp.
+    
+    Thứ ba, nhà nước ta là nhà nước pháp quyền nhân nghĩa.
+    
+    Pháp quyền nhân nghĩa nhấn mạnh rằng Nhà nước cần tôn trọng và bảo vệ đầy đủ các quyền con người, đồng thời đảm bảo lợi ích hợp pháp của mọi người. Hiến pháp Việt Nam chi tiết hóa toàn diện về quyền con người, cung cấp nền tảng pháp lý để bảo vệ và thực thi những quyền này một cách triệt để.
+    Trong pháp quyền nhân nghĩa, tính nhân văn và khuyến thiện của pháp luật là quan trọng. Hệ thống pháp luật thể hiện sự nhân văn khi ghi nhận và bảo vệ đầy đủ quyền con người, duy trì tính nghiêm minh, khách quan và công bằng. Nói cách khác, pháp luật trong Nhà nước pháp quyền nhân nghĩa phải là pháp luật vì con người. 
+    Liên hệ với việc xây dựng nhà nước XHCN Việt Nam hiện nay:
+    Đại hội Đảng lần thứ XIII đã xác định mục tiêu trọng tâm là xây dựng và hoàn thiện Nhà nước pháp quyền XHCN Việt Nam, do nhân dân, vì nhân dân, và dưới sự lãnh đạo của Đảng. Để đạt được mục tiêu này, cần tăng cường hoàn thiện pháp luật và tổ chức thi hành pháp luật, nhằm nâng cao hiệu lực và hiệu quả của Nhà nước. Pháp luật không chỉ là công cụ quản lý xã hội của Nhà nước mà còn là công cụ để nhân dân tham gia làm chủ, kiểm tra và giám sát quyền lực nhà nước.
+    Cần tiếp tục hoàn thiện hệ thống pháp luật, tôn trọng và bảo vệ quyền con người, cũng như quyền và nghĩa vụ của công dân. Quyền lực nhà nước cần được phân công và phối hợp thực hiện một cách rõ ràng, đặc biệt là trong việc kiểm soát quyền lực giữa các cơ quan nhà nước. Chú trọng vào xây dựng đội ngũ cán bộ, công chức, đồng thời đẩy mạnh công tác dân chủ hoá trong việc quản lý cán bộ. Điều này bao gồm việc xác định rõ trách nhiệm, thẩm quyền của từng tổ chức và cấp độ, nhằm xây dựng đội ngũ cán bộ có phẩm chất đạo đức, chính trị vững vàng, và năng lực chuyên môn phù hợp để đáp ứng yêu cầu của giai đoạn mới.
+    `,
+  },
+  {
+    label:
+      "4.2tt: Phân tích tư tưởng Hồ Chí Minh về xây dựng nhà nước dân chủ.",
+    dapan: `Bản chất giai cấp của nhà nước
+    Nhà nước Việt Nam mới – Nhà nước Việt Nam Dân chủ Cộng hòa, theo quan điểm của Hồ Chí Minh, là một nhà nước mang bản chất giai cấp công nhân. Bản chất giai cấp công nhân của Nhà nước Việt Nam thể hiện trên mấy phương diện: Một là, Đảng Cộng sản Việt Nam giữ vị trí và vai trò cầm quyền, Đảng cầm quyền bằng phương thức thích hợp sau đây: (1) Bằng đường lối, chủ trương để Nhà nước thể chế hóa thành pháp luật, chính sách, kế hoạch; (2) Bằng hoạt động của các tổ chức đảng và đảng viên của mình trong bộ máy, cơ quan nhà nước; (3) Bằng công tác kiểm tra.
+    Hai là, bản chất giai cấp của Nhà nước Việt Nam thể hiện ở tính định hướng xã hội chủ nghĩa trong sự phát triển đất nước. Đưa đất nước đi lên chủ nghĩa xã hội và chủ nghĩa cộng sản là mục tiêu cách mạng nhất quán của Hồ Chí Minh. 
+    Ba là, bản chất giai cấp công nhân của Nhà nước thể hiện ở nguyên tắc tổ chức và hoạt động của nó là nguyên tắc tập trung dân chủ. Chủ tịch Hồ Chí Minh nhấn mạnh nhà nước phải tập trung thống nhất quyền lực để tất cả mọi quyền lực thuộc về nhân dân
+    Trong tư tưởng của Người về Nhà nước mới ở Việt Nam, bản chất giai cấp công nhân của Nhà nước thống nhất với tính nhân dân và tính dân tộc, thể hiện cụ thể như sau:
+    Một là, Nhà nước Việt Nam ra đời là kết quả của cuộc đấu tranh lâu dài, gian khổ của rất nhiều thế hệ người Việt Nam, của toàn thể dân tộc. Từ giữa thế kỷ XIX, khi đất nước bị ngoại xâm, các tầng lớp nhân dân Việt Nam, hết thế hệ này đến thế hệ khác đã không quản hy sinh, xương máu chiến đấu cho độc lập, tự do của Tổ quốc. Nhà nước Việt Nam do vậy, không phải của riêng giai cấp, tầng lớp nào, mà là thuộc về nhân dân
+    Hai là, Nhà nước Việt Nam ngay từ khi ra đời đã xác định rõ và luôn kiên trì, nhất quán mục tiêu vì quyền lợi của nhân dân, lấy quyền lợi của dân tộc làm nền tảng. Bản chất của vấn đề này là ở chỗ, Hồ Chí Minh khẳng định quyền lợi cơ bản của giai cấp công nhân thống nhất với lợi ích của toàn dân tộc. 
+    Ba là, Nhà nước mới ở Việt Nam đã đảm đương nhiệm vụ mà toàn thể dân tộc giao phó là tổ chức nhân dân tiến hành các cuộc kháng chiến để bảo vệ nền độc lập, tự do của Tổ quốc, xây dựng một nước Việt Nam độc lập, dân chủ và giàu mạnh. 
+    Nhà nước của nhân dân
+    Theo quan điểm của Hồ Chí Minh, nhà nước của nhân dân là nhà nước mà mọi quyền lực đều thuộc về nhân dân. Nhân dân là chủ thể tối cao, thể hiện qua hình thức dân chủ trực tiếp và gián tiếp. 
+    Quyền lực nhà nước được nhân dân ủy thác và kiểm soát, cán bộ nhà nước là "công bộc" phục vụ nhân dân. Hồ Chí Minh kịch liệt phê phán những cán bộ nhà nước thoái hóa, biến chất, từ chỗ là công bộc của dân đã trở thành “quan cách mạng”, đứng trên nhân dân, coi khinh nhân dân, “cậy thế” với dân, “quên rằng dân bầu mình ra là để làm việc cho dân”.
+    Hồ Chí Minh nhấn mạnh quyền của nhân dân trong việc kiểm soát, phê bình, có quyền bãi miễn những đại biểu mà họ đã bầu ra và có quyền giải tán những thiết chế quyền lực mà họ đã lập nên, đồng thời khẳng định vai trò của luật pháp là công cụ thực thi quyền lực của nhân dân và kiểm soát quyền lực nhà nước. 
+    Nhà nước do nhân dân
+    Trong tư tưởng của Hồ Chí Minh, nhà nước do nhân dân trước hết là nhà nước được xây dựng sau chiến thắng cách mạng dưới sự lãnh đạo của Đảng Cộng sản Việt Nam. Dân chủ được thể hiện qua việc nhân dân "cử ra" và "tổ chức nên" nhà nước, tuân theo các trình tự dân chủ như quyền bầu cử và phúc quyết. 
+    Nhà nước do nhân dân còn có nghĩa "Dân làm chủ" đồng nghĩa với việc nhân dân không chỉ có quyền lợi mà còn có nghĩa vụ làm tròn bổn phận công dân. Theo quan điểm của Hồ Chí Minh, “nhân dân có quyền lợi làm chủ, thì phải có nghĩa vụ làm tròn bổn phận công dân, giữ đúng đạo đức công dân”
+    Trong nhà nước dân chủ, Hồ Chí Minh nhấn mạnh vai trò của nhà nước trong việc tạo điều kiện cho nhân dân thực hiện quyền và nghĩa vụ của mình. Việc giáo dục nhân dân và khuyến khích họ phấn đấu có đủ năng lực làm chủ cũng được đặt ra để thúc đẩy tư tưởng dân chủ triệt để. 
+    Nhà nước vì nhân dân
+    Nhà nước phục vụ lợi ích và nguyện vọng của nhân dân theo tư tưởng của Hồ Chí Minh, không được hưởng đặc quyền đặc lợi và cần phải hoạt động trong sạch và liêm chính. Hồ Chí Minh là một vị Chủ tịch vì dân, đề cao nguyên tắc rằng cơ quan nhà nước và cán bộ nhà nước đều phải phục vụ cho nhân dân. Người nhấn mạnh rằng mọi công việc của Chính phủ phải hướng tới một mục đích duy nhất là đặt quyền lợi của nhân dân lên hàng đầu. Người nhấn mạnh tầm quan trọng của việc được lòng dân và tạo ra một tinh thần chí công vô tư trong cán bộ nhà nước. 
+    Trong nhà nước vì dân, cán bộ không chỉ là đầy tớ mà còn là người lãnh đạo, yêu dân, trung thành, và vừa có đức vừa có tài. Đối với Hồ Chí Minh, việc này không chỉ là để làm những việc trực tiếp có lợi cho dân mà còn để bảo vệ lợi ích toàn cục và lợi ích lâu dài của nhân dân.
+    `,
+  },
 ];
 
 // xoa cai nay di nua

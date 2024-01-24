@@ -1,10 +1,20 @@
 import { splitString } from "@/lib/utils";
 import { RotateCcw, StepBack, StepForward } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const FlashCard = ({ val }: { val: string }) => {
   const [original, setOriginal] = useState(splitString(val));
   const [show, setShow] = useState<string[]>([]);
+
+  const ref = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (show.length) {
+      ref.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "end",
+      });
+    }
+  }, [show.length]);
 
   const add = () => {
     if (original[0]) {
@@ -38,7 +48,6 @@ const FlashCard = ({ val }: { val: string }) => {
             </p>
           ))}
         </div>
-        {/* <div ref={scrollref}/> */}
       </div>
       {/* MENU */}
       <div className="flex w-full max-w-[75%] md:max-w-[50%] sticky bottom-8 z-50 bg-zinc-700 text-neutral-200 rounded-lg opacity-80 hover:opacity-100 transition-all justify-between">
@@ -62,6 +71,7 @@ const FlashCard = ({ val }: { val: string }) => {
           <StepForward />
         </div>
       </div>
+      <div ref={ref} />
     </>
   );
 };
