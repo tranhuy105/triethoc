@@ -45,7 +45,7 @@ const FlashCard = ({ val }: { val: string }) => {
           {show.map((phrase, index) => (
             <p
               className={cn("intro font-normal transition-all", {
-                "font-bold text-neutrl-700":
+                "font-bold text-neutral-700":
                   phrase === show.slice(-1)[0],
               })}
               key={index}
