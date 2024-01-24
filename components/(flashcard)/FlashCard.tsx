@@ -1,6 +1,6 @@
 import { cn, splitString } from "@/lib/utils";
 import { RotateCcw, StepBack, StepForward } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 const FlashCard = ({ val }: { val: string }) => {
   const [original, setOriginal] = useState(splitString(val));
@@ -16,19 +16,35 @@ const FlashCard = ({ val }: { val: string }) => {
     }
   }, [show.length]);
 
-  const add = () => {
+  const add = useCallback(() => {
     if (original[0]) {
       setShow((show) => [...show, original[0]]);
       setOriginal((original) => original.slice(1));
     }
-  };
+  }, [original]);
 
-  const remove = () => {
+  const remove = useCallback(() => {
     if (show.length > 0) {
       setOriginal((original) => [show.slice(-1)[0], ...original]);
       setShow((show) => show.slice(0, -1));
     }
-  };
+  }, [show]);
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "ArrowRight") {
+        add();
+      } else if (event.key === "ArrowLeft") {
+        remove();
+      }
+    };
+
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [add, remove]);
 
   const restart = () => {
     if (show[0]) {
