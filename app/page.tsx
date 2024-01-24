@@ -1,5 +1,6 @@
 "use client";
 import Bot from "@/components/(chatbot)/Bot";
+import FlashCard from "@/components/(flashcard)/FlashCard";
 import Navbar from "@/components/Navbar";
 import ResScreen from "@/components/ResScreen";
 import ResText from "@/components/ResText";
@@ -173,7 +174,7 @@ export default function Home() {
       {isLearning &&
         (mode === "Flashcard" ? (
           <>
-            <Carousel
+            {/* <Carousel
               opts={{
                 loop: true,
               }}
@@ -235,7 +236,8 @@ export default function Home() {
                   </span>
                 </div>
               )}
-            </div>
+            </div> */}
+            <FlashCard val={val} />
           </>
         ) : mode === "Bot" ? (
           <>

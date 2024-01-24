@@ -77,4 +77,19 @@
   .minscreen {
     min-height: calc(100vh * 3 / 5);
   }
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translateY(30px) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .intro {
+    animation: fade-up 0.5s;
+  }
 }
