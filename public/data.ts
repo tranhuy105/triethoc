@@ -232,6 +232,38 @@ export const goicauhoitriet = [
     Trong nhà nước vì dân, cán bộ không chỉ là đầy tớ mà còn là người lãnh đạo, yêu dân, trung thành, và vừa có đức vừa có tài. Đối với Hồ Chí Minh, việc này không chỉ là để làm những việc trực tiếp có lợi cho dân mà còn để bảo vệ lợi ích toàn cục và lợi ích lâu dài của nhân dân.
     `,
   },
+  {
+    label:
+      "1.1tt: Phân tích tinh hoa văn hóa Phương Đông trong việc hình thành Tư tưởng Hồ Chí Minh, từ đó rút ra giá trị của tinh hoa ấy trong giai đoạn hiện nay?",
+    dapan: `a. Phân tích tinh hoa văn hóa Phương Đông trong việc hình thành Tư tưởng Hồ Chí Minh
+    Chủ tịch Hồ Chí Minh đã tiếp thu và kế thừa các tư tưởng tiến bộ của văn hóa phương Đông một cách có chọn lọc. Cụ thể :
+    + Nho giáo: Hồ Chí Minh đã kế thừa và phát triển những mặt tích cực của Nho giáo như: tư tưởng nhân trị và đức trị để quản lý xã hội, tinh thần đạo đức của Nho giáo trong việc tu dưỡng rèn luyện đạo đức con người v.v. Tuy nhiên, Hồ Chí Minh cũng phê phán các mặt tiêu cực của Nho giáo như: bảo vệ chế độ phong kiến, trọng nam khinh nữ, coi trọng thi cử; suy nghĩ bảo thủ, một chiều; khinh thường công việc lao động xã hội, chỉ đề cao nghề đọc sách. . .
+    Người tiếp thu thông qua việc thường xuyên sử dụng các mệnh đề để đưa ra vấn đề về việc tu dưỡng đạo đức cá nhân (thể hiện xuyên suốt trong các tác phẩm “Đường Cách mệnh” (1927), “Sửa đổi lối làm việc” (1947), “Cần, kiệm, liêm, chính” (1949) cho đến “Nâng cao đạo đức cách mạng, quét sạch chủ nghĩa cá nhân” (1969) và bản Di chúc của Người (1969)).
+    + Phật giáo : Hồ Chí Minh kế thừa và phát triển tư tưởng từ bi bác ái, cứu khổ cứu nạn, thương người như thể thương thân, đề cao nếp sống đạo đức, trong sạch, chăm làm điều thiện, v.v.. Những quan điểm này được HCM vận động và sáng tạo để đoàn kết đồng bào theo đạo Phật, đoàn kết toàn dân vì 1 nước Việt Nam hòa bình thống nhất, độc lập dân chủ giàu mạnh. Ngoài ra, người cũng chỉ ra những mặt hạn chế tiêu cực của Phật giáo như tư tưởng giải thoát con người thụ động.
+    + Lão giáo(Đạo giáo): Hồ Chí Minh chú ý kế thừa, phát triển tư tưởng của Lão Tử, khuyên con người nên sống gắn bó với thiên nhiên, hòa đồng với thiên nhiên, hơn nữa phải biết bảo vệ môi trường sống.
+    Người khuyên cán bộ, đảng viên thực hiện cần kiệm liêm chính, chí công vô tư; hàng động theo đạo lý với ý nghĩa là hành động đúng với quy luật tự nhiên, xã hội.
+    + Chủ nghĩa Tam dân của Tôn Trung Sơn 
+    Trên hành trình ra đi tìm đường cứu nước, HCM còn bắt gặp và tiếp thu Chủ nghĩa tam dân (dân tộc độc lập, dân quyền tự do, dân sinh hạnh phúc.) Người đã thấy trong đó nhiều tư tưởng tiến bộ, tích cực và có thể vận dụng vào điều kiện cụ thể của cách mạng VN, đó là quan điểm về dân tộc, dân quyền và dân sinh.
+    Kết luận:  Cách thức tiếp thu của Hồ Chí Minh là tiếp thu trên tinh thần biện chứng, có chọn lọc, không rập khuôn máy móc, vận dụng sáng tạo và phát triển vào điều kiện cụ thể của Việt Nam. ƯU điểm được Hồ Chí Minh tiếp thu, cương quyết loại bỏ nhược điểm ra khỏi tư tưởng của mình, đồng thời những điểm chưa phù hợp được HCM cải biến cho phù hợp.
+    `,
+  },
+  {
+    label:
+      "1.2tt: Phân tích tinh hoa văn hóa Phương Tây trong việc hình thành Tư tưởng Hồ Chí Minh, Từ đó, liên hệ với việc tiếp thu giá trị văn hóa phương Tây trong giai đoạn hiện nay",
+    dapan: `a) phân tích tinh hoa văn hóa phương tây trong việc hình thành tư tưởng hồ chí minh
+    - Trước khi ra đi tìm đường cứu nước, HCM đã tiếp xúc và chịu ảnh hưởng bởi văn hóa Pháp khi người học tại trường tiểu học Vinh, Người đã bắt đầu chú ý đến lý tưởng Tự do - Bình đẳng - Bác ái của Cách mạng Pháp (1789), phát triển những quan điểm về dân chủ dân quyền trong bản Tuyên ngôn độc lập của Hoa Kỳ (1776). Sau này người còn tiếp thu tư tưởng nhân quyền, dân quyền trong bản Tuyển ngôn Nhân quyền và Dân quyền của Pháp (1791)
+    - Trong thời gian HCM sống và hoạt động ở phương Tây, Người đã tiếp thu tư tưởng tự do, bình đẳng của các nhà khai sáng Pháp như : Voltaire, Rousso,.. Hồ Chí Minh còn tham gia các hoạt động chính trị, nghiên cứu lý luận , kinh tế, văn hóa của các nước phương Tây ... đồng thời cũng thấy được những tư tưởng như kế thừa đức hy sinh cứu khổ, cứu nạn của chúa Giê-su, tư tưởng yêu thương con người, tinh thần bác ái, yêu thương.. của Thiên Chúa giáo. Hồ Chí Minh tiếp thu tư tưởng về nhân quyền , dân quyền từ các cuộc CM tư sản Pháp, Anh, Mỹ, tiếp thu tư tưởng từ CM Tháng Mười Nga, luận cương của Lê- nin.
+    - Trong quá trình hình thành phát triển hoàn thiện tư tưởng của mình về con đường CM VN, HCM đã biết làm giàu trí tuệ của mình bằng việc tiếp thu những giá trị văn hóa nhân loại (văn hóa phương Tây),tiếp thu 1 cách có chọn lọc:hay thì tiếp thu, xấu thì loại bỏ, chính điều này đã giúp người đến được với ánh sáng của CN M-L. Tìm ra con đường giải phóng cho dân tộc Việt Nam. Đó là con đường CM vô sản.
+    
+    b) liên hệ
+    - Việc tiếp nhận văn hóa phương Tây có ý nghĩa vô cùng to lớn với sinh viên làm gia tăng kiến thức, vốn văn hóa của nhân dân. Trong bối cảnh toàn cầu hóa và hội nhập quốc tế hiện nay, con người Việt Nam phát triển toàn diện phải là con người có văn hóa, thấm nhuần bản sắc văn hóa dân tộc Việt Nam, có năng lực tiếp thu tinh hoa văn hóa nhân loại, làm cho kho tàng ấy giàu có hơn, phong phú hơn, cũng là một cách để khẳng định mình trong thế giới rộng lớn.
+    - Vận dụng thực hành các giá trị ăn hóa phương Tây trong đời sống học tập, làm việc:
+    + làm giàu vốn tri thức, kết hợp yếu tố truyền thống và yếu tố hiện đại, phù hợp với các giá trị truyền thống dân tộc, thích nghi với quá trình giao lưu, hội nhập văn hóa
+    + Học được cách tiếp thu văn hóa 1 cách có chọn lọc: có những điểm hạn chế trong quá trình tiếp thu văn hóa phương Tây như một bộ phận sinh viên xa rời truyền thống lịch sử, văn hóa của dân tộc. trong việc hội nhập, tiếp thu văn hóa du nhập những văn hóa tiêu cực, không phù hợp với thuần phong mỹ tục của dân tộc.
+    Do đó trong quá trình tiếp thu giá trị văn hóa phương Tây mỗi sinh viên phải tự mình phấn đấu rèn luyện tự trau dồi cho bản thân những kỹ năng tri thức cần thiết và không ngừng nâng cao trình độ, nỗ lực rèn luyện vì lợi ích chung của cộng đồng và chính sự phát triển của bản thân
+    Khi đã nhận thức được những giá trị trong văn hóa phương Tây, cần có sự tiếp thu một cách chọn lọc, biết tận dụng những điều tốt, loại bỏ những điều chưa tốt, đồng thời kết hợp hài hòa với truyền thống văn hóa dân tộc ta.
+    `,
+  },
 ];
 
 // xoa cai nay di nua
