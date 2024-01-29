@@ -340,20 +340,25 @@ export default function Home() {
               <h1 className="font-bold text-2xl italic">
                 {select.slice(6)}
               </h1>
+              {/* 
               <div className="flex flex-1 w-full">
-                <TextArea
-                  val={val}
-                  setVal={setVal}
-                  isLearning={isLearning}
-                />
+               */}
+              <TextArea
+                val={val}
+                setVal={setVal}
+                isLearning={isLearning}
+              />
 
-                {/* xoa cai nay di  */}
+              {/* xoa cai nay di  */}
+              {/* 
+                 
                 <TextArea
                   val={addNewlines(val)}
                   setVal={setVal}
                   isLearning={true}
                 />
               </div>
+                 */}
             </>
           }
 
