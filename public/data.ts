@@ -74,7 +74,7 @@ export const goicauhoitriet = [
   },
   {
     label:
-      "8  tt: Phân tích nguyên tắc xây dựng đạo đức cách mạng và liên hệ với việc rèn luyện đạo đức của sinh viên hiện nay.",
+      "7  tt: Phân tích nguyên tắc xây dựng đạo đức cách mạng và liên hệ với việc rèn luyện đạo đức của sinh viên hiện nay.",
     dapan: `a. Phân tích quan điểm của Hồ Chí Minh về các nguyên tắc xây dựng đạo đức cách mạng
     Chủ tịch Hồ Chí Minh luôn đề cao vai trò đạo đức của con người “có tài mà không có đức thì là người vô dụng”. Người luôn nhắc nhở ta phải chú ý tu dưỡng đạo đức bản thân. Theo Hồ Chí Minh muốn thực hiện thành công sự nghiệp cách mạng xã hội chủ nghĩa- cuộc cách mạng sâu sắc nhất triệt để nhất toàn diện nhất chúng ta phải đem hết tinh thần tu dưỡng rèn luyện đạo đức cách mạng.
     1/ Nói phải đi đôi với làm, nêu gương đạo đức cá nhân
@@ -86,6 +86,45 @@ export const goicauhoitriet = [
     3/ Tu dưỡng đạo đức suốt đời
     Theo Người, đó là một quá trình gian khổ, trường kỳ. Một nền đạo đức mới chỉ có thể được xây dựng dựa trên cơ sở tự giác tu dưỡng đạo đức của mỗi người thông qua các hoạt động thực tiễn: Nhìn thẳng vào mình, không tự lừa dối; thấy rõ điểm chưa tốt của mình để khắc phục; 
     Người nhấn mạnh mỗi người cần thường xuyên được giáo dục và tự giáo dục về mặt đạo đức. Mỗi người cần luôn bền bỉ, cố gắng. Có rèn luyện như vậy, con người mới có được những phẩm chất tốt đẹp và những phẩm chất ấy ngày được bồi đắp, nâng cao.
+    `,
+  },
+  {
+    label:
+      "3 tt: Tại sao Đảng Cộng Sản Việt Nam phải lấy chủ nghĩa Mác-Lênin làm nền tảng theo Hồ Chí Minh",
+    dapan: `a. Đảng cộng sản Việt Nam phải lấy chủ nghĩa Mác-Lênin làm nền tảng theo Hồ Chí Minh
+    Vì chủ nghĩa Mác-Lênin là nền tảng tư tưởng và kim chỉ nam cho hành động của Đảng. Nói về tầm quan trọng của lí luận, trong tác phẩm Đường Kách mệnh (1927), Hồ Chí Minh khẳng định: "Đảng muốn vững thì phải có chủ nghĩa làm cốt, trong Đảng ai cũng phải hiểu, ai cũng phải theo chủ nghĩa ấy. Đảng mà không có có chủ nghĩa cũng như người không có trí khôn. Bây giờ học thuyết nhiều, chủ nghĩa nhiều, nhưng chủ nghĩa chân chính nhất, chắc chắn nhất, cách mệnh nhất là chủ nghĩa Lênin." Hồ Chí Minh luôn luôn nhấn mạnh phải trung thành với chủ nghĩa Mác-Lênin nhưng đồng thời phải biết sáng tạo, vận dụng cho phù hợp với điều kiện, hoàn cảnh, từng lúc từng nơi, không được phép giáo điều.
+    Đối với cơ quan và tổ chức Đảng, Nhà nước, Hồ Chí Minh yêu cầu:
+    + Chủ nghĩa Mác – Lênin là kim chỉ nam cho hành động chứ không phải là kinh thánh. Phải nắm vững phép duy vật biện chứng và duy vật lịch sử, phải căn cứ vào thực tiễn để xác định đúng quan điểm, đường lối chính sách, pháp luật; phải vận dụng sáng tạo, không máy móc, giáo điều, rập khuôn.
+    + Phải tìm các giải pháp, biện pháp thực hiện, phải có quyết tâm, "đường lối 1, biện pháp phải 10, quyết tâm phải 20".
+    + Phải tổng kết kinh nghiệm của Đảng minh, các Đảng anh em, tổng kết thực tiễn để rút ra những bài học thành công, chưa thành công.
+    + Phải tổ chức việc học tập, bồi dưỡng lý luận cho cán bộ, đảng viên phủ hợp, đồng thời phải tuyên truyền vận động quần chúng thực hiện đường lối, chính sách.
+    Đối với cán bộ, đảng viên, Hồ Chí Minh yêu cầu:
+    + Học lý luận, hiểu lý luận là phải vận dụng vào thực tiễn, "học mà không hành là cái hòm đựng sách”, “để lòe thiên hạ”, để ra vẻ ta đây”. Phải chống các biểu hiện kém lý luận, coi thường lý luận, lý luận suông
+    + Phải tin tưởng nhất trí với quan điểm, đường lối của Đảng, giữ vững kỷ luật Đảng và kỷ luật cơ quan đoàn thể.
+    + Phải lấy hiệu quả công tác, hoàn thành nhiệm vụ làm thước đo sự hiểu và vận dụng chủ nghĩa Mác – Lênin; công việc bê trễ thì không thể nói là hiểu chủ nghĩa Mác – Lênin được.
+    + Phải coi việc thường xuyên học tập lý luận là nhiệm vụ và tiêu chuẩn đảng viên.
+    + Phải sống với nhau có tình có nghĩa. 
+    `,
+  },
+  {
+    label: "2  tt: Tư tưởng Hồ Chí Minh về độc lập dân tộc.",
+    dapan: `1. Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc:
+    - Cái khát khao lớn nhất của nhân dân mất nước là độc lập cho tổ quốc, tự do cho nhân dân. Đây cũng là một giá trị tinh thần thiêng liêng, bất hủ của dân tộc mà Hồ Chí Minh là hiện thân của tinh thần ấy, là khát vọng, là mong muốn lớn nhất của Người . Sinh thời, chủ tịch Hồ Chí Minh đã từng nói : “ Trên đời ngàn vạn điều cay đắng, cay đắng chi bằng mất tự do”
+    - Qua tiếp xúc với bản Tuyên ngôn độc lập của Hoa Kỳ vầ Tuyên ngôn Nhân quyền và Dân quyền của cách mạng tư sản Pháp, Người đã khái quát, nêu lên chân lý về quyền cơ bản của các dân tộc : “ Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do ”
+    - Năm 1919, vận dụng nguyên tắc về quyền tự quyết của các dân tộc, Người đã gửi bản Yêu sách của nhân dân An Nam đến hội nghị Véc- xây đòi quyền bình đẳng tự do, tuy không được chấp thuận nhưng qua đó cho thấy tư tưởng về độc lập tự do đã hình thành 
+    - Cách mạng Tháng Tám thành công đã thể hiện ý chí của HCM đã được biến thành hiện thực : “Nước Việt Nam có quyền hưởng tự do và độc lập, và sự thật đã thành một nước tự do độc lập. Toàn thể dân tộc Việt Nam quyết đem tất cả tinh thần và lực lượng, tính mạng và của cải để giữ vững quyền tự do, độc lập ấy”. Trong các bức thư và điện văn gửi tới Liên hợp quốc và Chính phủ các nước vào thời gian đó, Người đã trịnh trọng tuyên bố rằng : “Nhân dân chúng tôi thành thật mong muốn hòa bình. Nhưng nhân dân chúng tôi cũng kiên quyết chiến đấu đến cùng để bảo vệ quyền thiêng liêng nhất : toàn vẹn lãnh thổ cho Tổ quốc và độc lập cho đất nước”
+    - HCM khẳng định: “ Không! Chúng ta thà hy sinh tất cả chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ ” - trong lời kêu gọi toàn quốc kháng chiến 1946 đã lại một lần nữa thể hiện quyết tâm bảo vệ độc lập chủ quyền dân tộc
+    - Chủ tịch HCM đã đưa ra một chân lý bất hủ, có giá trị cho mọi thời đại. “ Không có gì quý hơn độc lập tự do”. Xuất phát từ chân lý đó, nhân dân hai miền Nam Bắc đã kiên cường đấu tranh buộc Hoa Kỳ phải chấm dứt chiến tranh, ký vào Hiệp định Paris thừa nhận, tôn trọng độc lập chủ quyền, thống nhất toàn vẹn lãnh thổ của Việt Nam.
+    
+    Tóm lại, “ Không có gì quý hơn độc lập tự do ” không chỉ là tư tưởng mà còn là lẽ sống, là học thuyết của HCM .Đây chính là lý do chiến đấu là nguồn sức mạnh làm nên chiến thắng của dân tộc Việt Nam, đồng thời cũng là nguồn động viên đối với tất cả các dân tộc bị áp bức trên thế giới.
+    2. Độc lập dân tộc phải gắn liền tự do, cơm no, áo ấm và hạnh phúc của nhân dân:
+    - Khát khao lớn nhất của dân tộc Việt Nam là được độc lập, nhân dân được hạnh phúc tự do. Vì vậy, ngay sau khi giành được độc lập HCM đã tiếp tục đấu tranh vì mục đích cơm no, áo ấm của nhân dân : “ Nước độc lập mà dân không được hưởng hạnh phúc tự do, thì độc lập cũng chẳng có nghĩa lý gì” “ Chúng ta tranh được tự do độc lập rồi mà dân cứ chết đói, chết rét thì tự do độc lập cũng không làm gì.”
+    - Tóm lại, suốt cuộc đời hoạt động cách mạng của HCM, Người luôn coi độc lập tự do gắn liền với cơm no áo ấm của Nhân dân : “ Tôi chỉ có một sự ham muốn, ham muốn tột bậc, là làm sao cho nước ta được hoàn toàn độc lập, dân ta hoàn toàn tự do, đồng bào ai cũng có cơm ăn áo mặc, ai cũng được học hành. ”
+    3. Độc lập dân tộc phải là nền độc lập thật sự, hoàn toàn và triệt để:
+    - Hồ Chí Minh khẳng định độc lập dân tộc phải là nền độc lập thật sự, hoàn toàn triệt để trên tất cả các lĩnh vực, kinh tế, chính trị, quân sự, ngoại giao . Người nói : độc lập mà không có quân đội riêng, ngoại giao riêng, nhân dân Việt Nam quyết không thèm thứ thống nhất và độc lập giả hiệu ấy.
+    - Độc lập dân tộc phải gắn liền với hòa bình, nền độc lập thật sự phải có 1 nền hòa bình chân chính, đấu tranh cho độc lập dân tộc mình, đồng thời tôn trọng độc lập dân tộc của dân tộc khác góp phần vào hòa bình của thế giới.
+    4. Độc lập dân tộc gắn liền với thống nhất và toàn vẹn lãnh thổ:
+    Kẻ thù luôn thực hiện âm mưu xâm lược và chia cắt đất nước ta để dễ bề cai trị, khát vọng của nhân dân Việt Nam là thống nhất đất nước. Trong Di chúc, Người cũng đã thể hiện niềm tin tuyệt đối vào sự thắng lợi của Cách mạng, vào sự nghiệp thống nhất đất nước. “ Dù khó khăn gian khổ đến mấy, nhân dân ta nhất định sẽ hoàn toàn thắng lợi. Đế quốc Mỹ nhất định sẽ phải cút khỏi nước ta. Tổ quốc ta nhất định sẽ thống nhất . Đồng bào Nam Bắc nhất định sẽ sum họp một nhà. ”
     `,
   },
 ];
