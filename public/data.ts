@@ -121,6 +121,37 @@ export const goicauhoitriet = [
     Kẻ thù luôn thực hiện âm mưu xâm lược và chia cắt đất nước ta để dễ bề cai trị, khát vọng của nhân dân Việt Nam là thống nhất đất nước. Trong Di chúc, Người cũng đã thể hiện niềm tin tuyệt đối vào sự thắng lợi của Cách mạng, vào sự nghiệp thống nhất đất nước. “ Dù khó khăn gian khổ đến mấy, nhân dân ta nhất định sẽ hoàn toàn thắng lợi. Đế quốc Mỹ nhất định sẽ phải cút khỏi nước ta. Tổ quốc ta nhất định sẽ thống nhất . Đồng bào Nam Bắc nhất định sẽ sum họp một nhà. ”    
     `,
   },
+  {
+    label: "7  tt: Tư tưởng Hồ Chí Minh về vai trò của văn hóa.",
+    dapan: `a. Quan điểm của Hồ Chí Minh về vai trò của văn hóa
+    Văn hóa là mục tiêu, động lực của sự nghiệp cách mạng.
+    Mục tiêu của Hồ Chí Minh về văn hóa cũng giống như mục tiêu của chủ tịch Hồ Chí Minh, của toàn thể dân tộc Việt Nam: Đó là độc lập dân tộc và CNXH. Tuy nhiên trên lĩnh vực văn hóa, cụ thể hóa ra thành:
+    + Quyền được sống, quyền sung sướng, quyền tự do và quyền mưu cầu hạnh phúc.
+    + Đó là khát vọng của nhân dân về các giá trị: Chân, thiện, mỹ
+    + Đó là xã hội dân chủ, công bằng, văn minh, ai cũng có cơm ăn, áo mặc,. . .
+    + Đời sống vật chất và tinh thần của nhân dân được nâng cao, con người có điều kiện phát triển toàn diện.
+    Động lực: Văn hóa là động lực cho sự thúc đẩy của kinh tế, chính trị và xã hội. Ở góc độ:
+    + Văn hóa chính trị: Soi đường, mở đường cho quốc dân đi, lãnh đạo nhân dân thực hiện độc lập, tự chủ.
+    + Văn hóa văn nghệ: góp phần nâng cao lòng yêu nước, lý tưởng, tình cảm cách mạng.
+    + Văn hóa giáo dục: Diệt giặc dốt, xóa mù chữ, giúp con người hiểu được các quy luật của xã hội.
+    + Văn hóa đạo đức, lối sống: Nâng cao phẩm chất, phong cách lành mạnh hướng đến chân, thiện, mỹ.
+    Văn hóa là một mặt trận.
+    Mặt trận văn hóa là cuộc đấu tranh cách mạng trên lĩnh vực văn hóa. Đấu tranh trên các lĩnh vực: tư tưởng, đạo đức, lối sống,. . . của các hoạt động văn nghệ, báo chí, đặc biệt là định hướng giá trị Chân, Thiện, Mỹ. Anh em nghệ sĩ là chiến sĩ trên mặt trận – có nhiệm vụ phụng sự tổ quốc và nhân dân.
+    Văn hóa phục vụ quần chúng nhân dân
+    Mọi hoạt động của văn hóa phải trở về cuộc sống thực tại của quần chúng, phản ánh tư tưởng và khát vọng của quần chúng, Văn hóa phải miêu tả cho hay, cho thật, cho hùng hồn. Phải trả lời được câu hỏi. Viết cho ai? Viết vì mục đích gì? Viết như thế nào?. Nói ít, nói cho chắc chắn, thấm thía. . .
+    `,
+  },
+  {
+    label: "5  tt: Vai trò của đại đoàn kết dân tộc",
+    dapan: `a)Đại đoàn kết dân tộc là vấn đề có ý nghĩa chiến lược, quyết định thành công của CM:
+    - Theo HCM, đại đoàn kết dân tộc là chiến lược cơ bản nhất quán lâu dài của cách mạng VN, người nói: “Sử dạy cho ta bài học này: lúc nào dân ta đoàn kết muôn người như một thì nước ta độc lập, tự do. Trái lại, lúc nào dân ta không đoàn kết thì bị nước ngoài xâm lấn” như vậy HCM đã đúc rút từ quá trình đấu tranh dựng nước và giữ nước hình thành tư tưởng đại đoàn kết dân tộc của Người.
+    - HCM khẳng định: Trong các giai đoạn cách mạng, trước những yêu cầu và nhiệm vụ khác nhau, chính sách và phương pháp tập hợp đại đoàn kết có thể và cần thiết phải điều chỉnh cho phù hợp với từng đối tượng khác nhau song không bao giờ được thay đổi chủ trương đại đoàn kết toàn dân tộc, vì đó là nhân tố quyết định thành bại của cách mạng.
+    - HCM đã khái quát một số luận điểm mang tính chân lý như “đoàn kết là sức mạnh, là then chốt của thành công” , “đoàn kết là 1 lực lượng vô địch của chúng ta để khắc phục khó khăn giành lấy thắng lợi...” Người tổng kết “ đoàn kết đoàn kết đại đoàn kết. Thành công thành công đại thành công”.
+    b, Đoàn kết dân tộc là mục tiêu, nhiệm vụ hàng đầu của CMVN
+    - Trong tư tưởng HCM, đại đoàn kết không chỉ là khẩu hiệu chiến lược mà còn được xác định là nhiệm vụ hàng đầu, nó phải được quán triệt trong tất cả mọi đường lối chủ trương chính sách của Đảng cho đến các hoạt động của Đảng. Ngày 3/3/1951, trong buổi ra mắt Đảng Lao động VN, HCM tuyên bố mục đích của Đảng Lao đông VN có thể gồm trong 8 chữ là “ Đoàn kết toàn dân, phụng sự tổ quốc”.
+    - Cách mạng là sự nghiệp của quần chúng do quần chúng và vì quần chúng. Đại đoàn kết là yêu cầu khách quan của sự nghiệp CM. Đảng có sứ mệnh thức tỉnh, tập hợp quần chúng, chuyển những nhu cầu đòi hỏi khách quan tự phát của quần chúng thành hiện thực có tổ chức trong khối đại đoàn kết, tạo thành sức mạnh tổng hợp trong cuộc đấu tranh vì độc lập của dân tộc, tự do cho nhân dân và hạnh phúc cho con người
+    `,
+  },
 ];
 
 // xoa cai nay di nua
