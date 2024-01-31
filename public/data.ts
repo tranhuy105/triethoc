@@ -148,7 +148,7 @@ export const goicauhoitriet = [
     - HCM khẳng định: Trong các giai đoạn cách mạng, trước những yêu cầu và nhiệm vụ khác nhau, chính sách và phương pháp tập hợp khối đại đoàn kết cần phải điều chỉnh cho phù hợp song không bao giờ được thay đổi chủ trương đại đoàn kết toàn dân tộc, vì đó là nhân tố quyết định thành bại của cách mạng.  HCM đã khái quát một số luận điểm mang tính chân lý như “đoàn kết là sức mạnh, là then chốt của thành công” , Người tổng kết “ đoàn kết đoàn kết đại đoàn kết. Thành công thành công đại thành công”.
     b, Đoàn kết dân tộc là mục tiêu, nhiệm vụ hàng đầu của CMVN
     - Trong tư tưởng HCM, đại đoàn kết không chỉ là khẩu hiệu chiến lược mà còn được xác định là nhiệm vụ hàng đầu, nó phải được quán triệt trong tất cả mọi đường lối chủ trương chính sách của Đảng cho đến các hoạt động của Đảng. Ngày 3/3/1951, trong buổi ra mắt Đảng Lao động VN, HCM tuyên bố mục đích của Đảng Lao đông VN có thể gồm trong 8 chữ là “ Đoàn kết toàn dân, phụng sự tổ quốc”.
-    - Cách mạng là sự nghiệp của quần chúng do quần chúng và vì quần chúng. Đại đoàn kết là yêu cầu khách quan của sự nghiệp CM. Đảng có sứ mệnh thức tỉnh, tập hợp quần chúng, chuyển những nhu cầu đòi hỏi khách quan tự phát của quần chúng thành hiện thực có tổ chức trong khối đại đoàn kết, tạo thành sức mạnh tổng hợp trong cuộc đấu tranh vì độc lập của dân tộc, tự do cho nhân dân và hạnh phúc cho con người
+    - Cách mạng là sự nghiệp của quần chúng do quần chúng và vì quần chúng. Đại đoàn kết là yêu cầu khách quan của sự nghiệp CM. Đảng có sứ mệnh thức tỉnh, tập hợp quần chúng, tạo thành sức mạnh tổng hợp trong cuộc đấu tranh vì độc lập của dân tộc, tự do cho nhân dân và hạnh phúc cho con người
     `,
   },
 ];
