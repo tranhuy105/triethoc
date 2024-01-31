@@ -122,7 +122,7 @@ export const goicauhoitriet = [
     `,
   },
   {
-    label: "7  tt: Tư tưởng Hồ Chí Minh về vai trò của văn hóa.",
+    label: "6  tt: Tư tưởng Hồ Chí Minh về vai trò của văn hóa.",
     dapan: `a. Quan điểm của Hồ Chí Minh về vai trò của văn hóa
     Văn hóa là mục tiêu, động lực của sự nghiệp cách mạng.
     Mục tiêu của Hồ Chí Minh về văn hóa cũng giống như mục tiêu của chủ tịch Hồ Chí Minh, của toàn thể dân tộc Việt Nam: Đó là độc lập dân tộc và CNXH. Tuy nhiên trên lĩnh vực văn hóa, cụ thể hóa ra thành:
