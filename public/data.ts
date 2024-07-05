@@ -1,4 +1,18 @@
-export const goicauhoitriet = [
+// xoa cai nay di nua
+export function addNewlines(inputString: string) {
+  // Split the input string into an array of lines
+  const inputLines = inputString.split("\n");
+
+  const outputLines = inputLines.map(
+    (line) => line + "\\n"
+  );
+  const outputString = outputLines.join("\n");
+  console.log(outputString);
+
+  return outputString;
+}
+
+const tutuong = [
   {
     label:
       "4.1tt: Phân tích tư tưởng Hồ Chí Minh về xây dựng nhà nước pháp quyền.",
@@ -104,7 +118,8 @@ export const goicauhoitriet = [
     `,
   },
   {
-    label: "2  tt: Tư tưởng Hồ Chí Minh về độc lập dân tộc.",
+    label:
+      "2  tt: Tư tưởng Hồ Chí Minh về độc lập dân tộc.",
     dapan: `1. Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc:
     - Cái khát khao lớn nhất của nhân dân mất nước là độc lập cho tổ quốc, tự do cho nhân dân. Đây cũng là một giá trị tinh thần thiêng liêng, bất hủ của dân tộc mà Hồ Chí Minh là hiện thân của tinh thần ấy, là khát vọng, là mong muốn lớn nhất của Người . Sinh thời, chủ tịch Hồ Chí Minh đã từng nói : “ Trên đời ngàn vạn điều cay đắng, cay đắng chi bằng mất tự do”
     - Qua tiếp xúc với bản Tuyên ngôn độc lập của Hoa Kỳ vầ Tuyên ngôn Nhân quyền và Dân quyền của cách mạng tư sản Pháp, Người đã khái quát, nêu lên chân lý về quyền cơ bản của các dân tộc : “ Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do ”
@@ -122,7 +137,8 @@ export const goicauhoitriet = [
     `,
   },
   {
-    label: "6  tt: Tư tưởng Hồ Chí Minh về vai trò của văn hóa.",
+    label:
+      "6  tt: Tư tưởng Hồ Chí Minh về vai trò của văn hóa.",
     dapan: `a. Quan điểm của Hồ Chí Minh về vai trò của văn hóa
     Văn hóa là mục tiêu, động lực của sự nghiệp cách mạng.
     Mục tiêu của Hồ Chí Minh về văn hóa cũng giống như mục tiêu của chủ tịch Hồ Chí Minh, của toàn thể dân tộc Việt Nam: Đó là độc lập dân tộc và CNXH. Tuy nhiên trên lĩnh vực văn hóa, cụ thể hóa ra thành:
@@ -153,14 +169,146 @@ export const goicauhoitriet = [
   },
 ];
 
-// xoa cai nay di nua
-export function addNewlines(inputString: string) {
-  // Split the input string into an array of lines
-  const inputLines = inputString.split("\n");
+const ktct = [
+  {
+    label: "Câu 1: Nền sản xuất hàng hóa",
+    dapan: ``,
+  },
+  {
+    label:
+      "Câu 2: Hai thuộc tính của hàng hóa và các nhân tố ảnh hưởng đến lượng giá trị hàng hóa",
+    dapan: ``,
+  },
+  {
+    label:
+      "Câu 3: Nguồn gốc, bản chất và các chức năng của tiền ",
+    dapan: ``,
+  },
+  {
+    label: "Câu 4: Vì sao tiền là hàng hóa đặc biệt ",
+    dapan: ``,
+  },
+  {
+    label:
+      "Câu 5: Quy luật giá trị - quy luật cơ bản của sản xuất hàng hóa ",
+    dapan: ``,
+  },
+  {
+    label:
+      "Câu 6: Cơ chế thị trường và vai trò của các chủ thể tham gia thị trường ",
+    dapan: ``,
+  },
+  {
+    label:
+      "Câu14: Phân tích đặc điểm sự tập trung sản xuất và sự hình thành tổ chức độc quyền ",
+    dapan: ``,
+  },
+  {
+    label: "Câu15: Phân tích đặc điểm xuất khẩu tư bản ",
+    dapan: ``,
+  },
+  {
+    label:
+      "Câu17: Phân tích đặc trưng của nền kinh tế thị trường định hướng XHCN ở Việt Nam ",
+    dapan: `- Kinh tế thị trường là nền kinh tế hàng hóa vận hành theo cơ chế thị trường, phát triển tới trình độ cao, trong đó, quan hệ sản xuất và trao đổi đều thông qua thị trường và chịu sự điều tiết bởi các quy luật khách quan của thị trường. 
+- Kinh tế thị trường định hướng XHCN là nền kinh tế thị trường đầy đủ, mang đặc trưng là định hướng XHCN, có Nhà nước do ĐCS lãnh đạo nhằm mục tiêu “ dân giàu, nước manh, công bằng, dân chủ, văn minh” 
 
-  const outputLines = inputLines.map((line) => line + "\\n");
-  const outputString = outputLines.join("\n");
-  console.log(outputString);
+Cơ sở tất yếu của nền kinh tế thị trường định hướng XHCN ở Việt Nam:
+- Về cơ sở lý luận: quan hệ sản xuất phải phù hợp với trình độ của lực lượng sản xuất 
++ Lực lượng sản xuất của Việt Nam đi từ nền sản xuất nhỏ. Vì thế quan hệ sản xuất cần dựa trên kinh tế thị trường với nhiều hình thức sở hữu và thành phần kinh tế thay vì nền kinh tế bao cấp trước đổi mới. 
++ Lịch sử kinh tế thị trường của tư bản chủ nghĩa còn nhiều mâu thuẫn, hạn chế. Vì thế cần có hướng đi khác để đảm bảo sự phát triển bền vững. 
+- Về cơ sở thực tiễn: Việt Nam cần hội nhập, phát triển kinh tế, thực hiện mục tiêu “dân giàu, nước manh, công bằng, dân chủ, văn minh” 
++ Để hội nhập hệ thống phân công lao động thế giới, Việt Nam cần nền kinh tế thị trường. Để hạn chế sự bất bình đẳng, phân hóa giai tầng, Việt Nam cần có định hướng XHCN. 
++ Đặc thù lịch sử Việt Nam với việc Đảng Cộng sản lãnh đạo thành công Cách mạng Dân tộc Dân chủ cũng góp phần định hình lựa chọn này. 
 
-  return outputString;
-}
+  [bảng] Nền kinh tế thị trường định hướng xã hội chủ nghĩa (XHCN) của Việt Nam có một số đặc trưng khác biệt so với nền kinh tế thị trường tư bản chủ nghĩa (TBCN). 
+  - Về mục đích, nền kinh tế thị trường định hướng XHCN tập trung xây dựng cơ sở vật chất kỹ thuật của CNXH và đặt lợi ích của nhân dân lên trên, trong khi nền kinh tế thị trường TBCN đặt trọng tâm vào xây dựng cơ sở vật chất kỹ thuật của CNTB và ưu tiên lợi ích của các tập đoàn tư bản. 
+  - Quan hệ sở hữu trong nền kinh tế thị trường định hướng XHCN bao gồm nhiều thành phần kinh tế, với kinh tế nhà nước giữ vai trò chủ đạo, còn ở nền kinh tế thị trường TBCN thì kinh tế tư nhân giữ vai trò chủ đạo. 
+  - Về quan hệ quản lý nền kinh tế, nền kinh tế thị trường định hướng XHCN có cơ chế thị trường tự điều tiết kết hợp với sự điều tiết của nhà nước theo định hướng XHCN, trong khi nền kinh tế thị trường TBCN tự điều tiết theo cơ chế thị trường và chịu sự điều tiết của nhà nước TBCN cùng sự chi phối của giới tài phiệt. 
+  - Quan hệ phân phối trong nền kinh tế thị trường định hướng XHCN có nhiều hình thức phân phối, trong đó phân phối theo lao động là chủ đạo, trong khi ở nền kinh tế thị trường TBCN, phân phối theo vốn góp là chủ đạo.
+  - Cuối cùng, kiến trúc thượng tầng của nền kinh tế thị trường định hướng XHCN là nhà nước do Đảng Cộng sản cầm quyền, trong khi nền kinh tế thị trường TBCN là nhà nước do các đảng phái tranh cử nắm quyền.
+ 
+Trong các đặc trưng trên, đặc trưng về Xây dựng cơ sở vật chất kỹ thuật trình độ cao của CNXH là quan trọng nhất. Vì đó là nền móng để phát triển quan hệ sản xuất và kiến trúc thượng tầng đi theo định hướng XHCN. 
+`,
+  },
+  {
+    label:
+      "Câu18: Khái niệm, cấu trúc thể chế kinh tế thị trường định hướng XHCN và sự phát huy vai trò lãnh đạo của Đảng trong hoàn thiện thể chế.",
+    dapan: `-	Thể chế kinh tế thị trường định hướng XHCN: là hệ thống đường lối chiến lược phát triển kinh tế - xã hội của Đảng cộng sản, luật pháp, chính sách và bộ máy quản lý của Nhà nước; cùng với cơ chế vận hành. Có tác dụng điều chỉnh quan hệ lợi ích và phương thức hoạt động của các chủ thể kinh tế. Nhằm mục đích xây dựng cơ sở vật chất kỹ thuật trình độ cao của CNXH, một xã hội “Dân giàu, nước mạnh, dân chủ, công bằng, văn minh”.  
+
+-	Các bộ phận cấu thành thể chế kinh tế thị trường định hướng XHCN: 
++ Đường lối, pháp luật: Đường lối kinh tế - xã hội của Đảng Cộng sản; Luật pháp, chính sách, quy tắc, chế định ... 
++ Các chủ thể tham gia vào thị trường: Bộ máy quản lý Nhà nước; DN và các Tổ chức xã hội đại diện cho DN; Dân cư, các Tổ chức chính trị - xã hội 
++ Cơ chế vận hành: Cơ chế thị trường, thông qua quy luật của thị trường như: QL giá trị, QL cung-cầu, QL cạnh tranh ...Cơ chế vận hành của các chủ thể trên thị trường. Gồm có: Cơ chế phân cấp, Cơ chế phối hợp, Cơ chế giám sát đánh giá, Cơ chế tham gia 
+
+-	Sự cần thiết phải hoàn thiện thể chế kinh tế thị trường định hướng XHCN: 
++ Do yêu cầu của thực tiễn: Nền kinh tế thị trường định hướng XHCN hướng tới trình độ phát triển cao, hiện đại, phát huy ưu thế của cơ chế thị trường, đồng thời khắc phục những hạn chế của CNTB. Trong khi điều kiện thực tiễn của Việt Nam còn nhiều hạn chế. Vì thế, cần hoàn thiện Thể chế kinh tế thị trường định hướng XHCN.  
++ Do sự dịch chuyển cơ sở hạ tầng của nền kinh tế: Việt Nam dịch chuyển từ nền kinh tế kế hoạch hóa tập trung sang nền kinh tế thị trường định hướng XHCN, hội nhập kinh tế quốc tế 
+→ Từ đó đòi hỏi sự hoàn thiện về kiến trúc thượng tầng, tức là phải nâng cao năng lực quản lý của Nhà nước thông qua thể chế. Như vậy cần phải hoàn thiện thể chế kinh tế thị trường XHCN, xây dựng Nhà nước pháp quyền XHCN.  
++ Do xu thế phát huy vai trò của xã hội trong xây dựng thể chế: Các Tổ chức chính trị 
+- xã hội và Tổ chức xã hội - nghề nghiệp đang phát triển mạnh mẽ. Đó là sự đại diện cho các thành phần xã hội, có vai trò phản biện xã hội, theo tinh thần dân chủ và xây dựng => Vì thế, cần tiếp tục hoàn thiện Thể chế kinh tế thị trường định hướng XHCN. 
+
+
+- Nhiệm vụ phát huy vai trò lãnh đạo của Đảng trong quá trình hoàn thiện thể chế kinh tế thị trường định hướng XHCN (tự chém)
+Thứ nhất, vai trò phát triển lý luận, hoạch định đường lối 
++ Đảng cần phát triển lý luận phù hợp với tình hình thực tế của đất nước.  
++ hoạch định đường lối đảm bảo tính bền vững và đúng đắn của nền kinh tế. 
+Thứ hai, vai trò chỉnh đốn, giám sát, phòng chống tham nhũng 
++ Đảng cần chỉnh đốn các hoạt động kinh tế  
++ tăng cường giám sát các hoạt động kinh tế, đảm bảo tính công bằng và tránh các hành vi phi pháp và gian lận trong hoạt động kinh tế. 
+Thứ ba, vai trò lãnh đạo, phát huy dân chủ trong Đảng và trong toàn xã hội 
++ Đảng cần đảm bảo tính lãnh đạo  
++ phát huy vai trò dân chủ  
++ tạo điều kiện cho sự tham gia của nhân dân vào hoạt động kinh tế, đảm bảo tính công bằng và tính đúng đắn của hoạt động kinh tế. `,
+  },
+  {
+    label:
+      "Câu19: Phân tích quan hệ lợi ích kinh tế và vai trò của Nhà nước trong việc điều hòa quan hệ lợi ích kinh tế ",
+    dapan: `-	Lợi ích kinh tế: Là sự đáp ứng, sự thỏa mãn về các nhu cầu mà con người muốn đạt được khi thực hiện các hoạt động kinh tế. 
+-	Quan hệ lợi ích kinh tế: Là mối quan hệ tương tác giữa các chủ thể kinh tế để xác lập lợi ích kinh tế của mình, trong mối liên hệ với Lực lượng sản xuất và Kiến trúc thượng tầng. 
+-	Các kiểu quan hệ lợi ích kinh tế: 
++ Xét theo chiều ngang, với các giai tầng trong xã hội thì có: 
+•	Quan hệ lợi ích giữa Người lao động và Doanh nghiệp (tức là giữa giai cấp Công nhân và giai cấp Tư sản) 
+•	Quan hệ lợi ích giữa Doanh nghiệp với nhau (tức là nội bộ giai cấp Tư sản) 
+•	Quan hệ lợi ích giữa Ngƣời lao động với nhau (tức là nội bộ giai cấp CN, NDLĐ) 
++ Xét theo chiều dọc, với các cấp độ thì có: Quan hệ giữa Lợi ích cá nhân, Lợi ích nhóm, Lợi ích xã hội. 
+
+- Phương thức giải quyết quan hệ lợi ích kinh tế: 
+•	Phương thức cạnh tranh: các chủ thể ganh đua, giành giật lợi ích kinh tế, ưu thế kinh tế 
+•	Phương thức thống nhất: các chủ thể thỏa thuận với nhau, phân chia lợi ích kinh tế, đôi bên cùng có lợi (win – win) 
+•	Phương thức áp đặt: chủ thể có vị thế cao, có điều kiện thuận lợi hơn sẽ áp đặt chủ thể còn lại phải tuân thủ và phục tùng. 
+
+-	Vai trò của Nhà nước trong việc điều hòa các quan hệ lợi ích kinh tế: (tự chém)
++ Xây dựng và bảo vệ môi trường thuận lợi cho hoạt động tìm kiếm lợi ích hợp pháp của các chủ thể kinh tế 
++ Kiểm soát, ngăn chặn các hoạt động tìm kiếm lợi ích phi pháp, gây tác động tiêu cực cho sự phát triển xã hội 
++ Giải quyết các xung đột trong quan hệ lợi ích kinh tế, theo các chuẩn mực pháp lý minh bạch, khách quan 
++ Điều hòa lợi ích cá nhân, lợi ích nhóm, lợi ích xã hội và phân phôi lại thu nhập.  
+`,
+  },
+  {
+    label:
+      "Câu20: Đặc trưng của Cách mạng khoa học công nghệ hiện đại và nội dung Công nghiệp hóa của Việt Nam, thích ứng với CM Công nghiệp 4.0 Thành tựu các cuộc CM công nghiệp trong lịch sử nhân loại: ",
+    dapan: `- Cách mạng công nghiệp là sự phát triển về chất của tư liệu lao động, trên cơ sở ứng dụng phát minh đột phá về khoa học, kỹ thuật công nghệ một cách có hệ thống; từ đó, tạo ra sự phát triển về chất của phân công lao động xã hội, dẫn đến năng suất lao động vượt trội, và những ứng dụng mới làm thay đổi căn bản phương thức lao động, quản trị và sinh hoạt của con người. 
+- Cách mạng công nghiệp lần thứ nhất bắt đầu từ giữa đến cuối thế kỷ 18 tại Anh, với thành tựu cơ khí hóa sản xuất, năng lượng đốt than và động cơ hơi nước. Lần thứ hai diễn ra từ cuối thế kỷ 19 đến đầu thế kỷ 20 tại Mỹ, đạt tiến bộ điện khí hóa sản xuất và sản xuất dây chuyền. Lần thứ ba nổ ra từ cuối thế kỷ 20 tại Mỹ, với internet và công nghệ sinh học ADN. Lần thứ tư dự báo sẽ bùng nổ vào giữa thế kỷ 21 với các công nghệ tiên tiến như big data, IoT và trí tuệ nhân tạo (AI). 
+- Hai đặc trưng của CM khoa học công nghệ hiện đại:
++ Khoa học trở thành LLSX trực tiếp: bởi vì: Sử dụng tri thức khoa học có vai trò chủ yếu và trực tiếp để tạo nên sản phẩm; Các ngành sản xuất dựa trên thành tựu cách mạng công nghiệp hiện đại chiếm tỷ trọng lớn trong nền kinh tế. 
++ Thời gian nâng cấp các phát minh ngày càng rút ngắn: Do lực lượng sản xuất phát triển, cạnh tranh công nghệ gay gắt, vì vậy chỉ cần vài tháng để nâng cấp một phát minh. 
+- Khái niệm do Đảng Cộng sản Việt Nam đưa ra về Công nghiệp hóa 
+Công nghiệp hóa: là quá trình chuyển đổi căn bản, toàn diện trong các hoạt động bao gồm đầu tư, sản xuất kinh doanh, dịch vụ và quản lý kinh tế - xã hội, từ sử dụng lao động thủ công sang lao động với công nghệ, phương tiện và phương pháp hiện đại, dựa trên thành tựu cách mạng khoa học nhằm tạo ra NSLĐ cao, xây dựng cơ sở vật chất kỹ thuật của CNXH & phát triển bền vững. 
+
+- Đặc điểm thực hiện Công nghiệp hóa tại VN 
++ Về thể chế và mục tiêu: Công nghiệp hóa trong nền kinh tế thị trường định hướng XHCN 
++ Về kỹ thuật công nghệ: Công nghiệp hóa trong bối cảnh cách mạng công nghiệp lần thứ ba và thứ tư. 
++ Về thị trường: Công nghiệp hóa trong xu thế toàn cầu hóa, hội nhập kinh tế quốc tế 
+
+- 3 nội dung của Công nghiệp hóa có liên hệ với CM Công nghiệp 4.0 
++ Một là, phát triển LLSX, trên cơ sở thành tựu Cách mạng KHCN hiện đại 
+Ứng dụng công nghệ 4.0 vào các lĩnh vực kinh tế, phát triển kinh tế tri thức, đổi mới giáo dục, thúc đẩy đổi mới sáng tạo và khởi nghiệp, đầu tư hạ tầng đồng bộ vào viễn thông, CNTT, tài chính ngân hàng. 
++ Hai là, chuyển đổi cơ cấu kinh tế theo hướng hiện đại, hợp lý, hiệu quả 
+Cụ thể: Dịch chuyển cơ cấu kinh tế theo hướng hiện đại, tăng tỷ trọng công nghiệp và dịch vụ, giảm tỷ trọng nông nghiệp nhưng cả ba lĩnh vực đều tăng về giá trị. Công nghiệp hóa, hiện đại hóa nông nghiệp, quy hoạch vùng kinh tế phù hợp với biến đổi khí hậu và xu thế thị trường nhân lực. 
++ Ba là, điều chỉnh QHSX và Kiến trúc thượng tầng phù hợp với sự phát triển LLSX 
+Kinh tế nhà nước làm chủ đạo, hoàn thiện thể chế kinh tế thị trường định hướng XHCN, xây dựng chính phủ điện tử, phòng chống tham nhũng, phát triển kinh tế tư nhân. Chủ động hội nhập kinh tế quốc tế, đảm bảo nền kinh tế độc lập tự chủ và an ninh quốc phòng. `,
+  },
+];
+
+export const goicauhoitriet = ktct;

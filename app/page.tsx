@@ -309,7 +309,13 @@ export default function Home() {
           </>
         ))}
       {!isLearning && (
-        <div className="w-4/5 md:w-1/2 flex flex-col items-center gap-5">
+        <div className="w-4/5 md:w-1/2 flex flex-col items-center gap-3">
+          <p className="pt-3 text-lg font-thin">
+            Gói câu hỏi hiện tại:{" "}
+            <span className="bg-clip-text  text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.600),theme(colors.indigo.300),theme(colors.sky.600),theme(colors.fuchsia.600),theme(colors.sky.600),theme(colors.indigo.300),theme(colors.indigo.600))] bg-[length:200%_auto] animate-gradient font-extrabold drop-shadow-lg cursor-default">
+              Kinh tế chính trị
+            </span>
+          </p>
           {/* <TextArea
             val={val}
             setVal={setVal}
@@ -389,7 +395,8 @@ export default function Home() {
               ref={ref}
             >
               <h1 className="text-3xl md:text-4xl font-extrabold text-red-600 text-center pt-4">
-                Sai rồi, chuẩn bị đóng tiền học lại thôi bạn ơi
+                Sai rồi, chuẩn bị đóng tiền học lại thôi bạn
+                ơi
               </h1>
               <h2 className="text-xl font-extrabold  text-center py-2">
                 Đáp án đúng phải là:
