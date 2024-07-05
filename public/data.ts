@@ -218,7 +218,7 @@ Cơ sở tất yếu của nền kinh tế thị trường định hướng XHCN
 + Lực lượng sản xuất của Việt Nam đi từ nền sản xuất nhỏ. Vì thế quan hệ sản xuất cần dựa trên kinh tế thị trường với nhiều hình thức sở hữu và thành phần kinh tế thay vì nền kinh tế bao cấp trước đổi mới. 
 + Lịch sử kinh tế thị trường của tư bản chủ nghĩa còn nhiều mâu thuẫn, hạn chế. Vì thế cần có hướng đi khác để đảm bảo sự phát triển bền vững. 
 - Về cơ sở thực tiễn: Việt Nam cần hội nhập, phát triển kinh tế, thực hiện mục tiêu “dân giàu, nước manh, công bằng, dân chủ, văn minh” 
-+ Để hội nhập hệ thống phân công lao động thế giới, Việt Nam cần nền kinh tế thị trường. Để hạn chế sự bất bình đẳng, phân hóa giai tầng, Việt Nam cần có định hướng XHCN. 
++ Để hội nhập hệ thống phân công lao động thế giới, Việt Nam cần nền kinh tế thị trường. Để hạn chế sự bất bình đẳng, phân hóa giai tầng, Việt Nam cần có định hướng XHCN.  
 + Đặc thù lịch sử Việt Nam với việc Đảng Cộng sản lãnh đạo thành công Cách mạng Dân tộc Dân chủ cũng góp phần định hình lựa chọn này. 
 
   [bảng] Nền kinh tế thị trường định hướng xã hội chủ nghĩa (XHCN) của Việt Nam có một số đặc trưng khác biệt so với nền kinh tế thị trường tư bản chủ nghĩa (TBCN). 
