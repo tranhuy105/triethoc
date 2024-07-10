@@ -345,7 +345,7 @@ Gần đây XKTB có những biểu hiện mới, bao gồm:
     label:
       "Câu17: Phân tích đặc trưng của nền kinh tế thị trường định hướng XHCN ở Việt Nam ",
     dapan: `- Kinh tế thị trường là nền kinh tế hàng hóa vận hành theo cơ chế thị trường, phát triển tới trình độ cao, trong đó, quan hệ sản xuất và trao đổi đều thông qua thị trường và chịu sự điều tiết bởi các quy luật khách quan của thị trường. 
-- Kinh tế thị trường định hướng XHCN là nền kinh tế thị trường đầy đủ, mang đặc trưng là định hướng XHCN, có Nhà nước do ĐCS lãnh đạo nhằm mục tiêu “ dân giàu, nước manh, công bằng, dân chủ, văn minh” 
+- Kinh tế thị trường định hướng XHCN là nền kinh tế thị trường đầy đủ, mang đặc trưng là định hướng XHCN, có Nhà nước do ĐCS lãnh đạo
 
 Cơ sở tất yếu của nền kinh tế thị trường định hướng XHCN ở Việt Nam:
 - Về cơ sở lý luận: quan hệ sản xuất phải phù hợp với trình độ của lực lượng sản xuất 
@@ -442,6 +442,50 @@ Công nghiệp hóa: là quá trình chuyển đổi căn bản, toàn diện tr
 Cụ thể: Dịch chuyển cơ cấu kinh tế theo hướng hiện đại, tăng tỷ trọng công nghiệp và dịch vụ, giảm tỷ trọng nông nghiệp nhưng cả ba lĩnh vực đều tăng về giá trị. Công nghiệp hóa, hiện đại hóa nông nghiệp, quy hoạch vùng kinh tế phù hợp với biến đổi khí hậu và xu thế thị trường nhân lực. 
 + Ba là, điều chỉnh QHSX và Kiến trúc thượng tầng phù hợp với sự phát triển LLSX 
 Kinh tế nhà nước làm chủ đạo, hoàn thiện thể chế kinh tế thị trường định hướng XHCN, xây dựng chính phủ điện tử, phòng chống tham nhũng, phát triển kinh tế tư nhân. Chủ động hội nhập kinh tế quốc tế, đảm bảo nền kinh tế độc lập tự chủ và an ninh quốc phòng. `,
+  },
+  {
+    label:
+      "BT1:  Dạng 1 (bé tập chính tả học thuộc thoại bằng cách đánh máy 😭)",
+    dapan: `Đề bài: Kéo dài thời gian làm việc + không trả lương
+
++ Do tiền lương của công nhân không đổi, số lượng công nhân không đổi nên ta có Vsau = Vtrc
++ Sự thay đổi đó là do NTB áp dụng phương pháp sản xuất GTTD tuyệt đối bằng cách [insert đề bài]`,
+  },
+  {
+    label:
+      "BT2:  Dạng 2 (bé tập chính tả học thuộc thoại bằng cách đánh máy 😭)",
+    dapan: `Đề bài: mặt bằng giá trị hàng tiêu dùng trên thị trường giảm đi 20%
+
++ Về sau, mặt bằng giá trị hàng tiêu dùng giảm 20% nên NTB giảm lương công nhân tương ứng. Lại có, số lượng công nhân không đổi do NSLĐ, TGLĐ và QMSL không đổi. 
+tổng chi phí nhân công về sau giảm đi 20%. => Vsau = 80% x Vtrc = 0,8 Vtrc
++ Mặt khác, QMSL không đổi nên chi phí TLSX không đổi => Csau = Ctrc
++ Do NSLĐ không đổi nên giá trị của 1 đvsp không đổi. Trong khi đó, QMSL không đổi. Suy ra, giá trị tổng sản phẩm không đổi: Csau + Vsau + Msau = Ctrc + Vtrc + Mtrc
+
+Sự thay đổi đó là do NTB áp dụng phương pháp sản xuất GTTD tương đối
+Cách thức: ứng dụng thành tựu KHCN để nâng cao NSLĐ xã hội, từ đó làm giảm giá trị sức lao động để sản xuất ra mỗi sản phẩm.`,
+  },
+  {
+    label:
+      "BT3:  Dạng 3 (bé tập chính tả học thuộc thoại bằng cách đánh máy 😭)",
+    dapan: `Đề bài: tích lũy tư bản
+
++ Về sau, 80% Giá trị thặng dư được dùng để tích lũy tư bản, làm cho cấu tạo hữu cơ tư bản tăng lên thành 17/2. Suy ra:
+Csau + Vsau = (Ctrc + Vtrc) + 80% Mtrc
+Csau / Vsau = 17/2
+
+Ta thấy: Vsau/Vtrc = 4/5.  Trong khi đó, lương của mỗi công nhân bằng nhau và không thay đổi. Suy ra: Số lượng công nhân giảm đi 1/5 hay tỷ lệ công nhân bị sa thải là 20%.
+
+Sự thay đổi đó là do nhà tư bản tích lũy tư bản bằng cách chuyển hóa 80% giá trị thặng dư ban đầu thành tư bản phụ thêm vào kỳ sau, làm cho cấu tạo hữu cơ tư bản tăng từ 5/1 lên thành 17/2. `,
+  },
+  {
+    label:
+      "BT4:  Dạng 4 (bé tập chính tả học thuộc thoại bằng cách đánh máy 😭)",
+    dapan: `Có sự thay đổi đó là do nhà tư bản thực hiện đồng thời cả tích lũy tư bản và PPSX giá
+trị thặng dư tuyệt đối. Cụ thể:
+- Tích lũy tư bản: NTB chuyển hóa X% GTTD ban đầu thành tư bản phụ thêm vào kỳ
+sau, làm cho cấu tạo hữu cơ tư bản tăng từ X lên thành X
+- PPSX GTTD tuyệt đối: NTB kéo dài thời gian lao động trong ngày thêm X% mà không
+trả thêm lương cho công nhân.`,
   },
 ];
 
