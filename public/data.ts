@@ -172,40 +172,174 @@ const tutuong = [
 const ktct = [
   {
     label: "Câu 1: Nền sản xuất hàng hóa",
-    dapan: ``,
+    dapan: `- Sản xuất hàng hóa là kiểu tổ chức kinh tế mà ở đó sản phẩm được sản xuất ra để thỏa mãn nhu cầu của người khác thông qua trao đổi, mua bán.  
+
+- Có hai điều kiện để nền sản xuất hàng hóa tồn tại và phát triển. Thứ nhất, điều kiện cần: phân công lao động xã hội đạt trình độ nhất định. Thứ hai, điều kiện đủ: tồn tại sự tách biệt tương đối về kinh tế giữa các nhà sản xuất. 
+
+- Mâu thuẫn cơ bản của nền sản xuất hàng là mâu thuẫn giữa tính chất tư nhân và tính chất xã hội. Trong đó, tính chất tư nhân là việc sản xuất ra cái gì là quyết định tư nhân của nhà sản xuất, tính chất xã hội là việc sản phẩm được sản xuất ra để đáp ứng nhu cầu tiêu dùng của xã hội và nhiều nhà sản xuất liên kết để tạo ra một sản phẩm. 
+
+- Các ưu thế của nền sản xuất hàng hóa bao gồm: khai thác hiệu quả lợi thế so sánh của từng vùng, từng địa phương, từng quốc gia; tạo ra những nhà sản xuất năng động, linh hoạt, có chiến lược dài hạn, cải tiến kỹ thuật, tổ chức sản xuất hợp lý, nâng cao năng suất lao động và chất lượng sản phẩm; thúc đẩy việc nghiên cứu và ứng dụng các thành tựu nghiên cứu khoa học vào sản xuất; thúc đẩy giao lưu kinh tế, giao lưu văn hóa, tạo điều kiện nâng cao, cải thiện đời sống vật chất và tinh thần của xã hội `,
   },
   {
     label:
       "Câu 2: Hai thuộc tính của hàng hóa và các nhân tố ảnh hưởng đến lượng giá trị hàng hóa",
-    dapan: ``,
+    dapan: `- Hàng hóa là sản phẩm của lao động, được sản xuất ra nhằm thỏa mãn nhu cầu nào đó của con người và nhằm mục đích trao đổi, mua bán trên thị trường 
+
+- Hàng hóa có hai thuộc tính bao gồm giá trị sử dụng và giá trị. 
+
++ Giá trị sử dụng của hàng hóa là công dụng, tính năng của hàng hóa thỏa mãn nhu cầu tiêu dùng của con người. Giá trị sử dụng là phạm trù vĩnh viễn, tồn tại cùng với xã hội con người; nó chỉ được thể hiện trong tiêu dùng. Một hàng hóa có thể có một hoặc nhiều công dụng. Trong nền sản xuất hàng hóa, hàng hóa có giá trị sử dụng cho xã hội và mang trên mình một giá trị trao đổi. 
+
++ Giá trị của hàng hóa là hao phí lao động xã hội của người sản xuất kết tinh trong hàng hóa đó. Giá trị là phạm trù lịch sử, chỉ tồn tại khi có sự trao đổi hàng hóa; được thể hiện trong lưu thông và là nội dung bên trong của hàng hóa. Giá cả là hình thức biểu hiện ra bên ngoài bằng tiền của giá trị. 
+
+- Lượng giá trị hàng hóa là lượng hao phí lao động xã hội để sản xuất ra hàng hóa đó. Các yếu tố ảnh hưởng tới lượng giá trị hàng hóa bao gồm: năng suất lao động, cường độ lao động và mức độ phức tạp của lao động. Trong đó: năng suất lao động tỉ lệ nghịch với giá trị của một đơn vị sản phẩm, không ảnh hưởng tới giá trị tổng sản phẩm; cường độ lao động ảnh hưởng tới giá trị tổng sản phẩm, không ảnh hưởng tới giá trị của một đơn vị sản phẩm; mức độ phức tạp lao động bao gồm lao động đơn giản và lao động phức tạp, trong đó lao động phức tạp tạo ra lượng giá trị gấp bội lần lao động đơn giản. `,
   },
   {
     label:
       "Câu 3: Nguồn gốc, bản chất và các chức năng của tiền ",
-    dapan: ``,
+    dapan: `- Trong quá trình trao đổi hàng hóa, con người cần cần một hình thái làm đơn vị đo lường của hàng hóa. Từ đó, tiền tệ ra đời. 
+
+- Trong lịch sử của tiền tệ đã có 4 hình thái đo lường của tiền tệ, bao gồm: 
+
++ Hình thái giản đơn của giá trị là hình thái đo lường giá trị dựa trên sự trao đổi đơn nhất của một loại hàng hóa này lấy một loại hàng hóa khác. 
+
++ Hình thái mở rộng của giá trị là hình thái đo lường giá trị dựa trên sự trao đổi thường xuyên một loại hàng hóa này lấy nhiều loại hàng hóa khác. 
+
++ Hình thái chung của giá trị là hình thái đo lường giá trị dựa trên việc cộng đồng chọn ra một loại hàng hóa làm vật ngang giá cung cho mọi hàng hóa khác. 
+
++ Hình thái tiền tệ là hình thái đo lường giá trị dựa trên việc toàn xã hội thống nhất chọn lấy một loại hàng hóa đặc biệt là vật ngang giá duy nhất cho mọi hàng hóa khác, vàng và bạc được cả xã hội tín nhiệm. 
+
+- Bản chất của tiền là hàng hóa đặc biệt, được xã hội chọn làm vật ngang giá chung duy nhất, dùng để đo lường giá trị của mọi hàng hóa và làm phương tiện trung gian trao đổi. Vàng và bạc được cả xã hội coi là tiền thực sự vì giá trị kinh tế cao, giá trị sử dụng đa dạng, có thể dát mỏng hoặc đúc thành thỏi cũng như khó bị oxi hóa hoặc ăn mòn. 
+
+- Chức năng của tiền tệ bao gồm: 
+
++ Chức năng thước đo giá trị 
+
+Đây là chức năng gốc, gắn liền với sự ra đời của tiền tệ. Chức năng này thể hiện ở việc xã hội dùng tiền để làm đơn vị đo lường giá trị của mọi loại hàng hóa khác. Vì tiền pháp định bị mất giá do lạm phát nên không phải là đơn vị đo lường ổn định. Do đó, khi đo lường giá trị tài sản giữa các thời kỳ, cần quy đổi ra VÀNG, BẠC. 
+
++ Chức năng phương tiện cất trữ, tiền cất trữ phải là vàng, bạc. 
+
+Chức năng này thể hiện ở việc xã hội đưa tiền ra khỏi lưu thông, cho vào cất trữ, nhằm duy trì giá trị tài sản. Tiền dùng để cất trữ phải là VÀNG, BẠC, không nên cất trữ tiền pháp định bởi vì chúng đều bị mất giá do lạm phát. 
+
++ Chức năng phương tiện lưu thông. 
+
+Chức năng này thể hiện ở việc xã hội dùng tiền tệ làm phương tiện trung gian trong trao đổi theo công thức: HÀNG – TIỀN – HÀNG. Vì tiền tệ chỉ là phương tiện trung gian trao đổi, nên việc dùng VÀNG, BẠC để lưu thông sẽ gây ra lãng phí, bất tiện, nhà nước khó kiểm soát tình hình kinh tế. Vì vậy, nhà nước phát hành loại chứng chỉ thay cho Vàng, bạc để thực hiện chức năng phương tiện lưu thông. 
+
++ Chức năng phương tiện thanh toán. 
+
+Chức năng này thể hiện ở việc xã hội dùng tiền để thực hiện các nghĩa vụ kinh tế: ứng tiền trước, trả nợ, nộp thuế, trả tiền mua chịu hàng… Điều này làm xuất hiện đa dạng các phương thức thanh toán: tiền mặt, séc, chuyển khoản, thẻ tín dụng… nhưng cũng tiềm ẩn khả năng khủng hoảng kinh tế khi 1 khâu thanh toán đến hạn không được thực hiện 
+
++ Chức năng tiền tệ thế giới. 
+
+Chức năng này thể hiện ở việc xã hội dùng tiền để thanh toán quốc tế. Đến thế kỷ XIX, tiền để thanh toán quốc tế vẫn là vàng, bạc. Hiện nay, người ta dùng hệ thống tỷ giá hối đoái quy đổi các đồng tiền để thanh toán. `,
   },
   {
     label: "Câu 4: Vì sao tiền là hàng hóa đặc biệt ",
-    dapan: ``,
+    dapan: `- Bản chất của tiền tệ: 
+
+Là một loại hàng hóa đặc biệt 
+
+Được xã hội chọn làm vật ngang giá duy nhất 
+
+Dùng để đo lường giá trị hàng hóa và làm phương tiện trung gian trao đổi. 
+
+Con người thường dùng vàng, bạc làm vật ngang giá trong trao đổi vì chúng có giá trị cao và có giá trị sử dụng đa dạng. 
+
+- Tiền là một hàng hóa do lao động của con người tạo ra. Tiền phản ánh lao động xã hội và mối quan hệ giữa những người sản xuất và trao đổi hàng hóa. 
+
+Thứ nhất, trước khi tiền tệ được đem ra là vật ngang giá chung duy nhất cho mọi loại hàng hóa thì nó cũng là một loại hàng hóa, cũng có GTSD và GT
+
+Thứ hai, khi lực lượng sản xuất và phân công lao động xã hội phát triển đến một trình độ nhất định, sản xuất trao đổi trở nên thường xuyên và thị trường mở rộng thì nhu cầu của xã hội là cần có một vật ngang giá chung duy nhất để thuận tiện cho việc trao đổi, mua bán hàng hóa, vì vậy mà một hoặc một số loại hàng hóa được tách ra để làm tiền tệ. 
+
+Tiền tệ có những chức năng đặc biệt mà không hàng hóa nào có được: Thước đo giá trị; Phương tiện lưu thông; Phương tiện cất trữ; Phương tiện thanh toán; Tiền thế giới 
+
+Tiền tệ là một thứ hàng hoá đặc biệt, được tách ra khỏi thế giới hàng hoá, dùng để đo lường và biểu hiện giá trị của tất cả các loại hàng hoá khác. Nó trực tiếp thể hiện lao động xã hội và biểu hiện quan hệ sản xuất giữa những người sản xuất hàng hóa. `,
   },
   {
     label:
       "Câu 5: Quy luật giá trị - quy luật cơ bản của sản xuất hàng hóa ",
-    dapan: ``,
+    dapan: `- Nội dung quy luật giá trị:  
+
+Sản xuất và lưu thông đều dựa trên cơ sở là hao phí lao động xã hội để sản xuất hàng hóa, tức là dựa trên giá trị.  
+
+Cụ thể, trong sản xuất, nhà sản xuất phải làm cho hao phí lao động cá biệt nhỏ hơn hoặc bằng hao phí lao động xã hội, tức giá trị sản phẩm cá biệt nhỏ hơn hoặc bằng giá trị thị trường.  
+
+Trong lưu thông, giá cả vận động xoay quanh giá trị, hay giá trị quyết định giá cả. Giá trị quyết định giá cả trong dài hạn	 
+
+- Cung – cầu có tác động tới giá cả - giá trị.  
+
+Cụ thể, khi cung nhỏ hơn cầu, giá cả tăng, giả cả lớn hơn giá trị, lợi nhuận tăng dẫn đến thu hút đầu tư vào ngành, dẫn đến cung tăng và cạnh tranh tăng, kéo theo giá cả giảm, cân bằng trở lại với giá trị.  
+
+Khi cung lớn hơn cầu, giá cả giảm, giá cả nhở hơn giá trị, dẫn đến lợi nhuận giảm, xu thế doanh nghiệp rời bỏ ngành, dẫn đến cung tăng và cạnh tranh tăng, kéo theo giá cả tăng, cân bằng trở lại với giá trị.  
+
+Khi cung bằng cầu, giá cả ổn định, cân bằng với giá trị. Cung – cầu xác định giá cả trong ngắn hạn.	 
+
+- uy luật giá trị có tác dụng  
+
+điều tiết sản xuất và lưu thông,  
+
+kích thích cải tiến kĩ thuật, phát triển lực lượng sản xuất,  
+
+phân hóa những nhà sản xuất, kinh doanh, làm gia tăng khoảng cách giai tầng. 
+
+Làm xuất hiện quan hệ sản xuất TBCN, là cơ sở ra đời của CNTB `,
   },
   {
     label:
       "Câu 6: Cơ chế thị trường và vai trò của các chủ thể tham gia thị trường ",
-    dapan: ``,
+    dapan: `Thị trường là tổng hòa các mối quan hệ liên quan đến lĩnh vực mua bán, trao đổi được hình thành trong điều kiện lịch sử, kinh tế, chính trị, xã hội nhất định. Thị trường bao hàm các quan hệ giữa các chủ thể tham gia trên thị trường, quan hệ cung – cầu, cạnh tranh, hàng hóa – tiền tệ, giá trị - giá cả,... 
+
+Cơ chế thị trường là một hệ thống tổ chức và hoạt động của các quy luật kinh tế tự nhiên và quy tắc xã hội để điều chỉnh sự tương tác giữa người mua và người bán, nhằm đạt được một sự cân đối giữa cung và cầu. 
+
+Nền kinh tế thị trường là nền kinh tế được vận hành theo cơ chế thị trường. Đó là nền kinh tế hàng hóa phát triển cao, ở đó mọi quan hệ sản xuất và trao đổi đều được thông qua thị trường, chịu sự tác động, điều tiết của các quy luật thị trường 
+
+- Các chủ thể tham gia thị trường bao gồm 4 chủ thể chính: người sản xuất, người tiêu dùng, chủ thể trung gian, Nhà nước. 
+
++ Người sản xuất: là những người sản xuất và cung cấp hàng hóa, dịch vụ ra thị trường nhằm đáp ứng nhu cầu tiêu dùng của xã hội. 
+
++ Người tiêu dùng: là những người mua hàng hóa, dịch vụ trên thị trường để thỏa mãn nhu cầu tiêu dùng. Có vai trò rất quan trọng trong định hướng sản xuất 
+
++ Các chủ thể trung gian: là những cá nhân, tổ chức kết nối giữa người sản xuất và người tiêu dùng. Nhờ vai trò của các trung gian này mà nền kinh tế thị trường trở nên linh hoạt hơn. 
+
++ Nhà nước tham gia thị trường với vai trò kiến tạo môi trường vĩ mô, điều tiết vĩ mô nền kinh tế thông qua luật pháp, chính sách và an ninh xã hội. `,
   },
   {
     label:
       "Câu14: Phân tích đặc điểm sự tập trung sản xuất và sự hình thành tổ chức độc quyền ",
-    dapan: ``,
+    dapan: `Độc quyền là sự tập trung nắm giữ phần lớn việc sản xuất và tiêu thụ một (hoặc một số) loại hàng hóa vào một liên minh các doanh nghiệp lớn. 
+
+Nguyên nhân hình thành độc quyền trong kinh tế thị trường: sự cạnh tranh tự do; sự phát triển của lực lượng sản xuất và cách mạng công nghiệp cuối thế kỉ 19, đầu thế kỉ 20; khủng hoảng kinh tế cuối thế kỉ 19, đầu thế kỉ 20. 
+
+Tổ chức độc quyền (TCDQ) là liên minh các nhà tư bản dưới nhiều hình thức khác nhau, nắm trong tay, phần lớn việc sản xuất và tiêu thụ một hoặc một số hàng hóa nào đó, với mục đích thu được lợi nhuận độc quyền cao. 
+
+Các hình thức tổ chức độc quyền:  
+Consortium là TCDQ đa ngành thao túng nhiều lĩnh vực trong phạm vi một nền kinh tế. 
+Trust là TCDQ đơn ngành thống nhất về lưu thông và sản xuất. 
+Syndicate là TCDQ thống nhất về lưu thông, độc lập về sản xuất. 
+Cartel là TCDQ đơn ngành thống nhất về tiêu thụ. 
+
+Các tổ chức độc quyền ngày nay có những biểu hiện mới bao gồm: 
+- sự trở lại của hệ thống doanh nghiệp nhỏ đóng vai trò làm vệ tinh, gia công, nhà thầu ... cho TCDQ;  
+- xuất hiện 2 hình thức mới là TCDQ đa ngành thao túng toàn cầu bao gồm:  
+ + Concern (các ngành có liên kết với nhau về mặt kĩ thuật (liên kết dọc)),  
+ + Conglomerate (các ngành không nhất thiết liên kết với nhau về mặt kĩ thuật (liên kết ngang)).`,
   },
   {
     label: "Câu15: Phân tích đặc điểm xuất khẩu tư bản ",
-    dapan: ``,
+    dapan: `Nguyên nhân hình thành xuất khẩu tư bản là do: 
+- tình trạng “Tư bản thừa” tại các nước phát triển khiến nền kinh tế trong nước bão hòa, thị trường đã bị tổ chức độc quyền thao túng, dẫn đến tỷ suất lợi nhuận giảm, cần đầu tư sang thị trường mới;  
+- hoặc là do lịch sử, nhiều nước tư bản lớn có thuộc địa, cần đầu tư sang để khai thác thuộc địa. 
+
+Xuất khẩu tư bản (XKTB) là việc đầu tư Tư bản ra nước ngoài để sản xuất giá trị thặng dư và thực hiện giá trị thặng dư ở nước ngoài. Khác với xuất khẩu hàng hóa là đầu tư Tư bản vào trong nước để sản xuất giá trị thặng dư ở trong nước và thực hiện giá trị thặng dư ở nước ngoài. 
+
+Các hình thức xuất khẩu tư bản: 
+Theo chủ thể, bao gồm: xuất khẩu tư bản nhà nước, xuất khẩu tư bản của tư nhân 
+Theo tính chất, bao gồm: 
++ XKTB trực tiếp (FDI): nhà tư bản đầu tư trực tiếp vốn và thực hiện sản xuất kinh doanh. 
++ XKTB gián tiếp: đầu tư chứng khoán ở nước ngoài; cho nước ngoài vay tín dụng, hưởng lãi suất... 
+
+Gần đây XKTB có những biểu hiện mới, bao gồm: 
+- Về dòng vốn đầu tư: xuất hiện dòng vốn đầu tư giữa các nước lớn với nhau. Bởi vì khoa học kĩ thuật phát triển, tạo nên các ngành mới, nước nhỏ chưa đủ điều kiện để đầu tư, và để tránh rào cản chính sách giữa các nước, phải đầu tư qua nước thứ ba. 
+- Về chính trị: nước lớn tăng cường sử dụng xuất khẩu tư bản (của cả Nhà nước và tư nhân) để chi phối nền kinh tế của nước nhỏ, từ đó, có khả năng chi phối chính trị, văn hóa. `,
   },
   {
     label:
