@@ -446,17 +446,13 @@ Kinh tế nhà nước làm chủ đạo, hoàn thiện thể chế kinh tế th
   {
     label:
       "BT1:  Dạng 1 (bé tập chính tả học thuộc thoại bằng cách đánh máy 😭)",
-    dapan: `Đề bài: Kéo dài thời gian làm việc + không trả lương
-
-+ Do tiền lương của công nhân không đổi, số lượng công nhân không đổi nên ta có Vsau = Vtrc
+    dapan: `+ Do tiền lương của công nhân không đổi, số lượng công nhân không đổi nên ta có Vsau = Vtrc
 + Sự thay đổi đó là do NTB áp dụng phương pháp sản xuất GTTD tuyệt đối bằng cách [insert đề bài]`,
   },
   {
     label:
       "BT2:  Dạng 2 (bé tập chính tả học thuộc thoại bằng cách đánh máy 😭)",
-    dapan: `Đề bài: mặt bằng giá trị hàng tiêu dùng trên thị trường giảm đi 20%
-
-+ Về sau, mặt bằng giá trị hàng tiêu dùng giảm 20% nên NTB giảm lương công nhân tương ứng. Lại có, số lượng công nhân không đổi do NSLĐ, TGLĐ và QMSL không đổi. 
+    dapan: `+ Về sau, mặt bằng giá trị hàng tiêu dùng giảm 20% nên NTB giảm lương công nhân tương ứng. Lại có, số lượng công nhân không đổi do NSLĐ, TGLĐ và QMSL không đổi. 
 tổng chi phí nhân công về sau giảm đi 20%. => Vsau = 80% x Vtrc = 0,8 Vtrc
 + Mặt khác, QMSL không đổi nên chi phí TLSX không đổi => Csau = Ctrc
 + Do NSLĐ không đổi nên giá trị của 1 đvsp không đổi. Trong khi đó, QMSL không đổi. Suy ra, giá trị tổng sản phẩm không đổi: Csau + Vsau + Msau = Ctrc + Vtrc + Mtrc
@@ -467,8 +463,7 @@ Cách thức: ứng dụng thành tựu KHCN để nâng cao NSLĐ xã hội, 
   {
     label:
       "BT3:  Dạng 3 (bé tập chính tả học thuộc thoại bằng cách đánh máy 😭)",
-    dapan: `Đề bài: tích lũy tư bản
-
+    dapan: `
 + Về sau, 80% Giá trị thặng dư được dùng để tích lũy tư bản, làm cho cấu tạo hữu cơ tư bản tăng lên thành 17/2. Suy ra:
 Csau + Vsau = (Ctrc + Vtrc) + 80% Mtrc
 Csau / Vsau = 17/2
