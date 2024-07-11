@@ -379,20 +379,15 @@ Trong các đặc trưng trên, đặc trưng về Xây dựng cơ sở vật ch
 + Do yêu cầu của thực tiễn: Nền kinh tế thị trường định hướng XHCN hướng tới trình độ phát triển cao, hiện đại, phát huy ưu thế của cơ chế thị trường, đồng thời khắc phục những hạn chế của CNTB. Trong khi điều kiện thực tiễn của Việt Nam còn nhiều hạn chế. Vì thế, cần hoàn thiện Thể chế kinh tế thị trường định hướng XHCN.  
 + Do sự dịch chuyển cơ sở hạ tầng của nền kinh tế: Việt Nam dịch chuyển từ nền kinh tế kế hoạch hóa tập trung sang nền kinh tế thị trường định hướng XHCN, hội nhập kinh tế quốc tế 
 → Từ đó đòi hỏi sự hoàn thiện về kiến trúc thượng tầng, tức là phải nâng cao năng lực quản lý của Nhà nước thông qua thể chế. Như vậy cần phải hoàn thiện thể chế kinh tế thị trường XHCN, xây dựng Nhà nước pháp quyền XHCN.  
-+ Do xu thế phát huy vai trò của xã hội trong xây dựng thể chế: Các Tổ chức chính trị 
-- xã hội và Tổ chức xã hội - nghề nghiệp đang phát triển mạnh mẽ. Đó là sự đại diện cho các thành phần xã hội, có vai trò phản biện xã hội, theo tinh thần dân chủ và xây dựng => Vì thế, cần tiếp tục hoàn thiện Thể chế kinh tế thị trường định hướng XHCN. 
++ Do xu thế phát huy vai trò của xã hội trong xây dựng thể chế: Các Tổ chức chính trị - xã hội và Tổ chức xã hội - nghề nghiệp đang phát triển mạnh mẽ. Đó là sự đại diện cho các thành phần xã hội, có vai trò phản biện xã hội, theo tinh thần dân chủ và xây dựng => Vì thế, cần tiếp tục hoàn thiện Thể chế kinh tế thị trường định hướng XHCN. 
 
 
 - Nhiệm vụ phát huy vai trò lãnh đạo của Đảng trong quá trình hoàn thiện thể chế kinh tế thị trường định hướng XHCN (tự chém)
 Thứ nhất, vai trò phát triển lý luận, hoạch định đường lối 
-+ Đảng cần phát triển lý luận phù hợp với tình hình thực tế của đất nước.  
-+ hoạch định đường lối đảm bảo tính bền vững và đúng đắn của nền kinh tế. 
-Thứ hai, vai trò chỉnh đốn, giám sát, phòng chống tham nhũng 
-+ Đảng cần chỉnh đốn các hoạt động kinh tế  
++ Đảng cần phát triển lý luận phù hợp với tình hình thực tế của đất nước, hoạch định đường lối đảm bảo tính bền vững và đúng đắn của nền kinh tế. 
+Thứ hai, vai trò chỉnh đốn, giám sát, phòng chống tham nhũng  
 + tăng cường giám sát các hoạt động kinh tế, đảm bảo tính công bằng và tránh các hành vi phi pháp và gian lận trong hoạt động kinh tế. 
 Thứ ba, vai trò lãnh đạo, phát huy dân chủ trong Đảng và trong toàn xã hội 
-+ Đảng cần đảm bảo tính lãnh đạo  
-+ phát huy vai trò dân chủ  
 + tạo điều kiện cho sự tham gia của nhân dân vào hoạt động kinh tế, đảm bảo tính công bằng và tính đúng đắn của hoạt động kinh tế. `,
   },
   {
@@ -414,9 +409,13 @@ Thứ ba, vai trò lãnh đạo, phát huy dân chủ trong Đảng và trong to
 
 -	Vai trò của Nhà nước trong việc điều hòa các quan hệ lợi ích kinh tế: (tự chém)
 + Xây dựng và bảo vệ môi trường thuận lợi cho hoạt động tìm kiếm lợi ích hợp pháp của các chủ thể kinh tế 
+Nhà nước cần giữ vững ổn định chính trị, tạo môi trường pháp luật thông thoáng, bảo vệ lợi ích chính đáng của các chủ thể kinh tế trong và ngoài nước.
 + Kiểm soát, ngăn chặn các hoạt động tìm kiếm lợi ích phi pháp, gây tác động tiêu cực cho sự phát triển xã hội 
+Nhà nước cần quy định pháp luật để kiểm soát và ngăn chặn các hoạt động tìm kiếm lợi ích phi pháp, đưa ra biện pháp xử lý vi phạm pháp luật, và giám sát hoạt động kinh doanh. 
 + Giải quyết các xung đột trong quan hệ lợi ích kinh tế, theo các chuẩn mực pháp lý minh bạch, khách quan 
-+ Điều hòa lợi ích cá nhân, lợi ích nhóm, lợi ích xã hội và phân phôi lại thu nhập.  
+Việc xử lý các vi phạm cần thực hiện đúng quy trình pháp lý, sử dụng các cơ chế giải quyết tranh chấp như trọng tài, trung tâm giải quyết tranh chấp kinh tế hoặc tòa án. 
++ Điều hòa lợi ích cá nhân, lợi ích nhóm, lợi ích xã hội và phân phôi lại thu nhập.
+Cần áp dụng chính sách và biện pháp để đảm bảo các lợi ích này không gây ra hậu quả tiêu cực cho xã hội và kinh tế. 
 `,
   },
   {
