@@ -1,5 +1,4 @@
 "use client";
-import Bot from "@/components/(chatbot)/Bot";
 import FlashCard from "@/components/(flashcard)/FlashCard";
 import Navbar from "@/components/Navbar";
 import ResScreen from "@/components/ResScreen";
@@ -10,15 +9,85 @@ import { celebrate } from "@/components/confetti/celebrate";
 import { Button } from "@/components/ui/button";
 import { CarouselApi } from "@/components/ui/carousel";
 import { useToast } from "@/components/ui/use-toast";
+import { Question, questionPackages } from "@/data";
 import { useOnClickOutside } from "@/hooks/use-on-click-outside";
 import {
     cn,
     compareStringsAndOutputPercentage,
     splitString,
 } from "@/lib/utils";
-import { goicauhoitriet } from "@/public/data";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
+
+// Component for selecting a question package
+const PackageSelector = ({
+    selectedPackage,
+    onSelectPackage,
+}: {
+    selectedPackage: string;
+    onSelectPackage: (packageId: string) => void;
+}) => {
+    return (
+        <div className="flex flex-wrap gap-3 justify-center mb-4">
+            {questionPackages.map((pack) => (
+                <Button
+                    key={pack.id}
+                    variant={
+                        selectedPackage === pack.id
+                            ? "default"
+                            : "outline"
+                    }
+                    onClick={() => onSelectPackage(pack.id)}
+                    className="px-4 py-2"
+                >
+                    {pack.name}
+                </Button>
+            ))}
+        </div>
+    );
+};
+
+// Component for selecting a question within a package
+const QuestionSelector = ({
+    packageId,
+    selectedQuestion,
+    onSelectQuestion,
+}: {
+    packageId: string;
+    selectedQuestion: string;
+    onSelectQuestion: (question: Question) => void;
+}) => {
+    const currentPackage = questionPackages.find(
+        (p) => p.id === packageId
+    );
+
+    if (!currentPackage) return null;
+
+    return (
+        <div className="flex flex-wrap justify-center gap-2 mb-4">
+            {currentPackage.questions.map(
+                (question, index) => (
+                    <p
+                        className={cn(
+                            "hover:bg-zinc-200 transition-all rounded-md px-2 py-3 text-center cursor-pointer text-muted-foreground",
+                            {
+                                "bg-zinc-200":
+                                    selectedQuestion ===
+                                    question.label,
+                            }
+                        )}
+                        key={index}
+                        onClick={() =>
+                            onSelectQuestion(question)
+                        }
+                    >
+                        {question.label.slice(0, 5)}
+                    </p>
+                )
+            )}
+        </div>
+    );
+};
 
 export default function Home() {
     const [val, setVal] = useState("");
@@ -29,25 +98,16 @@ export default function Home() {
     const [current, setCurrent] = useState(0);
     const [count, setCount] = useState(0);
     const [mode, setMode] = useState("Flashcard");
-    // const [percen, setPercen] = useState(0.1);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [res, setRes] = useState([""]);
-    // const [hardMode, setHardMode] = useState(false);
     const [perfect, setPerfect] = useState<number[]>([]);
     const [wrong, setWrong] = useState(false);
-    // const [modString, setmodString] = useState("");
+    const [selectedPackage, setSelectedPackage] =
+        useState("lsd");
     const { toast } = useToast();
 
     const isFinised =
         currentIndex === splitString(val).length;
-
-    // const ref = useRef<HTMLDivElement>(null);
-    // useEffect(() => {
-    //   ref.current?.scrollIntoView({
-    //     behavior: "instant",
-    //     block: "end",
-    //   });
-    // }, [type]);
 
     const startLearning = () => {
         if (val !== "") {
@@ -67,7 +127,6 @@ export default function Home() {
             setPerfect([]);
             setWrong(false);
             setSelect("");
-            // setmodString("");
         }
     };
 
@@ -81,12 +140,9 @@ export default function Home() {
 
     const handleRetry = () => {
         setType("");
-        // if (hardMode) {
-        //   setCurrentIndex(0);
-        //   setRes([""]);
-        // }
         setWrong(false);
     };
+
     const ref = useRef<HTMLDivElement>(null);
     useOnClickOutside(ref, handleRetry);
 
@@ -94,7 +150,6 @@ export default function Home() {
         const arrofstr = splitString(str1);
 
         if (isFinised) {
-            // console.log("het roi");
             return;
         }
 
@@ -125,18 +180,19 @@ export default function Home() {
                     });
             } else if (percentage < 80) {
                 setWrong(true);
-                // toast({
-                //   title: "Sai rồi, đáp án là ",
-                //   description: `${arrofstr[currentIndex]}`,
-                //   variant: "destructive",
-                // });
-                // console.log(arrofstr[currentIndex + 1]);
             }
-            // console.log(percentage);
         }
-        // console.log(arrofstr);
+    };
 
-        // Check nếu % đúng > 80% thì cho nhập tiếp câu tiếp theo, sai thì bắt nhập lại toàn bộ từ đầu, làm thế nào để chuyển sang câu tiếp theo đây?
+    const handleSelectPackage = (packageId: string) => {
+        setSelectedPackage(packageId);
+        setSelect("");
+        setVal("");
+    };
+
+    const handleSelectQuestion = (question: Question) => {
+        setSelect(question.label);
+        setVal(question.dapan);
     };
 
     useEffect(() => {
@@ -161,84 +217,10 @@ export default function Home() {
                 }
             )}
         >
-            <Navbar
-                mode={mode}
-                setMode={setMode}
-                // hardMode={hardMode}
-                // setHardMode={setHardMode}
-            />
+            <Navbar mode={mode} setMode={setMode} />
             {isLearning &&
                 (mode === "Flashcard" ? (
-                    <>
-                        {/* <Carousel
-              opts={{
-                loop: true,
-              }}
-              setApi={setApi}
-              className="w-full max-w-[75%] md:max-w-[50%]"
-            >
-              <CarouselPrevious />
-              <CarouselContent>
-                <CarouselItem>
-                  <TextArea
-                    val={val}
-                    setVal={setVal}
-                    isLearning={isLearning}
-                  />
-                </CarouselItem>
-                <CarouselItem>
-                  <TextArea
-                    val={abbreviateWords(val)}
-                    setVal={setVal}
-                    isLearning={isLearning}
-                  />
-                </CarouselItem>
-                <CarouselItem>
-                  <TextArea
-                    val={firstWordsOfLines(val)}
-                    setVal={setVal}
-                    isLearning={isLearning}
-                  />
-                </CarouselItem>
-              </CarouselContent>
-              <CarouselNext />
-            </Carousel>
-            <div className="text-grat-500 text-base">
-              Bước {current}/{count}
-            </div>
-            <div>
-              {current === 1 && (
-                <div className="text-sm text-muted-foreground text-center px-3">
-                  Đọc qua một lượt để ngấm trước cái nhỉ{" "}
-                  <span className="text-muted-foreground">
-                    (vài lượt cũng được)
-                  </span>
-                </div>
-              )}
-              {current === 2 && (
-                <div className="text-sm text-muted-foreground text-center px-3">
-                  Giờ hãy nhìn vào những chữ cái đầu tiên của mỗi từ
-                  để đọc lại cả đoạn{" "}
-                  <span className="text-muted-foreground">
-                    (cố gắng không bỏ sót 1 từ nào!)
-                  </span>
-                </div>
-              )}
-              {current === 3 && (
-                <div className="text-sm text-muted-foreground text-center px-3">
-                  Giờ nhìn vào mỗi từ đầu câu để đọc lại cả câu.{" "}
-                  <span className="text-muted-foreground">
-                    (Cứ lặp lại 3 bước đến khi nào thuộc thì thôi!)
-                  </span>
-                </div>
-              )}
-            </div> */}
-                        <FlashCard val={val} />
-                    </>
-                ) : mode === "Bot" ? (
-                    <>
-                        <Bot val={val} />
-                    </>
+                    <FlashCard val={val} />
                 ) : (
                     <>
                         <h1 className="font-bold text-2xl italic w-4/5 md:w-3/5 text-wrap leading-relaxed">
@@ -261,14 +243,13 @@ export default function Home() {
                                 ))}
                             </div>
                         )}
-                        {/* {!modString ? ( */}
                         <div className="w-4/5 md:w-3/5 flex flex-col items-center gap-5">
                             {!isFinised ? (
                                 <TextArea
                                     val={type}
                                     setVal={setType}
                                     isLearning={false}
-                                    placeholder="Gõ lại từng câu 1 trong đoạn văn của bạn (1 câu ở đây được tính bằng kí tự xuống dòng), nếu đúng trên 80% sẽ được đi tiếp câu sau, không thì gõ lại từ đầu (hardmode). Có thể bấm vào bảng kết quả để xem đáp án gốc"
+                                    placeholder="Gõ lại từng câu 1 trong đoạn văn của bạn (1 câu ở đây được tính bằng kí tự xuống dòng), nếu đúng trên 80% sẽ được đi tiếp câu sau, không thì gõ lại từ đầu. Có thể bấm vào bảng kết quả để xem đáp án gốc"
                                 />
                             ) : (
                                 <ResScreen />
@@ -292,72 +273,44 @@ export default function Home() {
                                     className="w-48"
                                     onClick={handleReplay}
                                 >
-                                    Chơi lại{" "}
+                                    Chơi lại
                                 </Button>
                             )}
                         </div>
-                        {/* ) : (
-              <>
-                <ResScreen
-                  percen={percen}
-                  modString={modString}
-                  val={type}
-                  setmodString={setmodString}
-                />
-                {splitString(val).map((s) => (
-                  <p className="my-12" key={s}>
-                    {s}
-                  </p>
-                ))}
-              </>
-            )} */}
                     </>
                 ))}
             {!isLearning && (
                 <div className="w-4/5 md:w-1/2 flex flex-col items-center gap-3">
                     <p className="pt-3 text-lg font-thin">
+                        Chọn gói câu hỏi:
+                    </p>
+
+                    <PackageSelector
+                        selectedPackage={selectedPackage}
+                        onSelectPackage={
+                            handleSelectPackage
+                        }
+                    />
+
+                    <p className="text-lg font-thin">
                         Gói câu hỏi hiện tại:{" "}
-                        <span className="bg-clip-text  text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.600),theme(colors.indigo.300),theme(colors.sky.600),theme(colors.fuchsia.600),theme(colors.sky.600),theme(colors.indigo.300),theme(colors.indigo.600))] bg-[length:200%_auto] animate-gradient font-extrabold drop-shadow-lg cursor-default">
-                            Lịch sử Đảng
+                        <span className="bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.indigo.600),theme(colors.indigo.300),theme(colors.sky.600),theme(colors.fuchsia.600),theme(colors.sky.600),theme(colors.indigo.300),theme(colors.indigo.600))] bg-[length:200%_auto] animate-gradient font-extrabold drop-shadow-lg cursor-default">
+                            {questionPackages.find(
+                                (p) =>
+                                    p.id === selectedPackage
+                            )?.name || "Lịch sử Đảng"}
                         </span>
                     </p>
-                    {/* <TextArea
-            val={val}
-            setVal={setVal}
-            isLearning={isLearning}
-          /> */}
-                    <div className="flex flex-wrap justify-center">
-                        {goicauhoitriet.map(
-                            (caccau, index) => (
-                                <p
-                                    className={cn(
-                                        "hover:bg-zinc-200 transition-all rounded-md px-2 py-3 text-center cursor-pointer text-muted-foreground ",
-                                        {
-                                            "bg-zinc-200":
-                                                select ===
-                                                caccau.label,
-                                        }
-                                    )}
-                                    key={index}
-                                    onClick={() => {
-                                        setVal(
-                                            caccau.dapan
-                                        );
-                                        setSelect(
-                                            caccau.label
-                                        );
-                                    }}
-                                >
-                                    {caccau.label.slice(
-                                        0,
-                                        5
-                                    )}
-                                </p>
-                            )
-                        )}
-                    </div>
 
-                    {
+                    <QuestionSelector
+                        packageId={selectedPackage}
+                        selectedQuestion={select}
+                        onSelectQuestion={
+                            handleSelectQuestion
+                        }
+                    />
+
+                    {select && (
                         <>
                             <h1 className="font-bold text-2xl italic">
                                 {select.slice(6)}
@@ -369,35 +322,21 @@ export default function Home() {
                                     setVal={setVal}
                                     isLearning={isLearning}
                                 />
-
-                                {/* xoa cai nay di  */}
-                                {/* 
-                                <TextArea
-                                    val={addNewlines(val)}
-                                    setVal={setVal}
-                                    isLearning={true}
-                                /> */}
                             </div>
                         </>
-                    }
+                    )}
 
                     <Button
                         variant={"default"}
                         className="w-48"
                         onClick={startLearning}
+                        disabled={!val}
                     >
                         Bắt đầu học
                     </Button>
                 </div>
             )}
             {isLearning && mode !== "Bot" && (
-                // <Button
-                //   variant={"ghost"}
-                //   className="w-48 text-muted-foreground text-red-300 font-bold"
-                //   onClick={handleReset}
-                // >
-                //   Học 1 văn bản khác
-                // </Button>
                 <ResetButton handleReset={handleReset} />
             )}
             {wrong && (
