@@ -1,6 +1,17 @@
 import { cn, splitString } from "@/lib/utils";
-import { RotateCcw, StepBack, StepForward } from "lucide-react";
-import { useCallback, useEffect, useRef, useState } from "react";
+import {
+    BookOpen,
+    RotateCcw,
+    StepBack,
+    StepForward,
+} from "lucide-react";
+import {
+    useCallback,
+    useEffect,
+    useRef,
+    useState,
+} from "react";
+import LearnDialog from "./LearnDialog";
 
 const FlashCard = ({
     val,
@@ -13,6 +24,7 @@ const FlashCard = ({
         splitString(val)
     );
     const [show, setShow] = useState<string[]>([]);
+    const [isLearnOpen, setIsLearnOpen] = useState(false);
 
     const ref = useRef<HTMLDivElement>(null);
     useEffect(() => {
@@ -67,6 +79,16 @@ const FlashCard = ({
         }
     };
 
+    const handleLearnCurrentText = () => {
+        if (show.length > 0) {
+            setIsLearnOpen(true);
+        }
+    };
+
+    // Current text to learn is the last visible phrase
+    const currentTextToLearn =
+        show.length > 0 ? show[show.length - 1] : "";
+
     return (
         <>
             <div className="text-neutral-600 font-bold md:text-lg w-4/5 md:w-3/5 text-center">
@@ -97,24 +119,40 @@ const FlashCard = ({
                 <div
                     className="rounded-full hover:bg-neutral-800 transition-all p-3 cursor-pointer"
                     onClick={remove}
+                    title="Quay lại"
                 >
                     <StepBack />
                 </div>
                 <div
                     className="rounded-full hover:bg-neutral-800 transition-all p-3 cursor-pointer"
                     onClick={restart}
+                    title="Bắt đầu lại"
                 >
                     <RotateCcw />
                 </div>
-
+                <div
+                    className="rounded-full hover:bg-neutral-800 transition-all p-3 cursor-pointer"
+                    onClick={handleLearnCurrentText}
+                    title="Luyện tập câu hiện tại"
+                >
+                    <BookOpen />
+                </div>
                 <div
                     className="rounded-full hover:bg-neutral-800 transition-all p-3 cursor-pointer"
                     onClick={add}
+                    title="Tiếp theo"
                 >
                     <StepForward />
                 </div>
             </div>
             <div ref={ref} />
+
+            {/* Learn Dialog */}
+            <LearnDialog
+                isOpen={isLearnOpen}
+                onClose={() => setIsLearnOpen(false)}
+                currentText={currentTextToLearn}
+            />
         </>
     );
 };

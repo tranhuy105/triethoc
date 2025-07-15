@@ -29,7 +29,7 @@ Kết luận:
 
 - Tiền đề khoa học tự nhiên và tư tưởng lý luận
 a) Tiền đề khoa học tự nhiên
-Cuối thế kỷ XVIII – đầu thế kỷ XIX, nhân loại đạt được nhiều thành tựu lớn trong khoa học tự nhiên và xã hội, đặt nền móng cho sự phát triển của tư duy lý luận. Trong lĩnh vực khoa học tự nhiên, các phát minh đột phá trong vật lý và sinh học đã tạo ra bước tiến có tính chất cách mạng.
+Cuối thế kỷ XVIII – đầu thế kỷ XIX, nhân loại đạt được nhiều thành tựu lớn trong khoa học tự nhiên và xã hội, đặt nền móng cho sự phát triển của tư duy lý luận.
 
 Thuyết tế bào (Schleiden & Schwann, 1838–1839) bác bỏ quan điểm siêu hình biệt lập giữa động – thực vật, khẳng định sự thống nhất của sinh giới khi mọi sinh vật đều khởi nguồn từ tế bào đầu tiên. Đây là tiền đề cho học thuyết tiến hóa, đồng thời hình thành tư duy biện chứng – một trong ba luận điểm quan trọng của triết học duy vật biện chứng, khẳng định sinh giới hình thành từ quá trình ngẫu sinh hóa học và tiến hóa lâu dài, không phải bởi lực lượng siêu nhiên nào.
 
@@ -37,14 +37,14 @@ Thuyết tiến hóa (Darwin, 1859) nêu rõ cơ chế chọn lọc tự nhiên,
 
 Định luật bảo toàn và chuyển hóa năng lượng (Lômônôxốp & Mayer, 1842–1845) khẳng định rằng năng lượng không tự sinh ra và không tự mất đi, nó chỉ chuyển hóa từ dạng này sang dạng khác hoặc từ vật thể này sang vật thể khác (hoặc cả hai). Việc vận dụng định luật này cho phép các nhà triết học nhận thức rằng thế giới vật chất là vô cùng, vô tận, luôn luôn chuyển hóa và biểu hiện dưới nhiều hình thức khác nhau mà không thể biến mất.
 
-Như vậy, sự phát triển mạnh mẽ của khoa học tự nhiên thời kỳ này đã làm thay đổi quan niệm siêu hình trong nhận thức về thế giới tự nhiên, đồng thời khẳng định tính biện chứng khách quan của mọi quá trình vận động và phát triển trong thế giới. Khoa học tự nhiên mang tính lý luận ở giai đoạn này chính là tiền đề quan trọng cho sự ra đời của triết học Mác và chủ nghĩa xã hội khoa học, đồng thời là cơ sở thế giới quan và phương pháp luận khoa học cho việc nhận thức thế giới một cách khách quan.
+Như vậy, sự phát triển KHTN đã làm thay đổi quan điểm siêu hình về thế giới tự nhiên, khẳng định tính khách quan – biện chứng của mọi quá trình vận động và phát triển, tạo nền tảng lý luận, thế giới quan, phương pháp luận cho triết học Mác và CNXHKH.
 
 b)Về mặt tư tưởng – lý luận, 
 trước hết phải kể đến triết học cổ điển Đức, tiêu biểu là Hegel và Feuerbach. C. Mác đã kế thừa phép biện chứng của Hegel nhưng loại bỏ quan điểm duy tâm thần bí để xây dựng nên chủ nghĩa duy vật biện chứng và áp dụng vào việc nghiên cứu các vấn đề xã hội. Đồng thời, ông kế thừa quan điểm duy vật tiến bộ của Feuerbach trên cơ sở loại bỏ phương pháp luận siêu hình, từ đó hình thành nên chủ nghĩa duy vật lịch sử. Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử chính là hai bộ phận hợp thành nền tảng triết học của chủ nghĩa Mác.
 
-Trong lĩnh vực kinh tế chính trị học cổ điển Anh, các nhà kinh tế như Adam Smith và David Ricardo đã đưa ra nhiều thành tựu về lý luận như bàn tay vô hình, kinh tế hàng hóa, lý thuyết về tiền tệ, đặc biệt là thuyết giá trị lao động. C. Mác đã kế thừa học thuyết giá trị của A. Smith và D. Ricardo, từ đó xây dựng nên học thuyết giá trị thặng dư để vạch rõ nguồn gốc của sự giàu có trong chủ nghĩa tư bản. Đây chính là tiền đề lý luận trực tiếp cho kinh tế chính trị học Mác.
+Trong lĩnh vực kinh tế chính trị học cổ điển Anh, các nhà kinh tế như Adam Smith và David Ricardo đã đưa ra nhiều thành tựu về lý luận như bàn tay vô hình, kinh tế hàng hóa, lý thuyết về tiền tệ, đặc biệt là thuyết giá trị lao động. C. Mác đã kế thừa và từ đó xây dựng nên học thuyết giá trị thặng dư để vạch rõ nguồn gốc của sự giàu có trong chủ nghĩa tư bản. Đây chính là tiền đề lý luận trực tiếp cho kinh tế chính trị học Mác.
 
-Chủ nghĩa xã hội không tưởng phê phán Pháp đầu thế kỷ XIX, với đại diện là Saint-Simon, Fourier và Robert Owen, cũng là một tiền đề lý luận trực tiếp cho sự ra đời của chủ nghĩa xã hội khoa học. Hệ thống các quan điểm và tư tưởng của họ nhằm cải tạo xã hội và giải phóng loài người, hướng đến một chế độ xã hội không có tư hữu, bất công và bóc lột.
+Chủ nghĩa xã hội không tưởng phê phán Pháp đầu thế kỷ XIX (Saint-Simon, Fourier và Robert Owen) cũng là một tiền đề lý luận trực tiếp cho sự ra đời của chủ nghĩa xã hội khoa học. Nội dung bao gồm hệ thống các quan điểm và tư tưởng nhằm cải tạo xã hội và giải phóng loài người, hướng đến một chế độ xã hội không có tư hữu, bất công và bóc lột.
 
 Giá trị tích cực của chủ nghĩa xã hội không tưởng thể hiện ở ba điểm lớn. Thứ nhất, họ đã mạnh mẽ phê phán, lên án chế độ quân chủ chuyên chế và chủ nghĩa tư bản đầy bất công, xung đột. Thứ hai, họ đưa ra nhiều luận điểm có giá trị về xã hội tương lai như cách tổ chức sản xuất và phân phối sản phẩm xã hội, vai trò của công nghiệp và khoa học – kỹ thuật, sự nghiệp giải phóng phụ nữ, và vai trò lịch sử của nhà nước. Thứ ba, họ đã góp phần thức tỉnh giai cấp công nhân và người lao động trong cuộc đấu tranh chống lại các chế độ áp bức đương thời.
 
