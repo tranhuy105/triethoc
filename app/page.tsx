@@ -220,7 +220,7 @@ export default function Home() {
             <Navbar mode={mode} setMode={setMode} />
             {isLearning &&
                 (mode === "Flashcard" ? (
-                    <FlashCard val={val} />
+                    <FlashCard val={val} label={select} />
                 ) : (
                     <>
                         <h1 className="font-bold text-2xl italic w-4/5 md:w-3/5 text-wrap leading-relaxed">

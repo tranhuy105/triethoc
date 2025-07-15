@@ -6,7 +6,7 @@ export const cnxh: Question[] = [
         dapan: `Điều kiện kinh tế - xã hội
 Về kinh tế:
 + Trong những năm 40 của TK 19 dưới sự tác động của CMCN, CNTB đã có sự phát triển quan trọng làm bộc lộ rõ bản chất và những mâu thuận nội tại của PTSX TBCN
-+ Sự phát triển quan trọng ở ddaya đó là CNTB hình thành chưa đầy 1 thế kỷ nhưng nó đã tạo một khối lượng lực lượng sản xuất khổng lồ bằng tất cả các xã hội trước cộng lại
++ Sự phát triển quan trọng ở đây đó là CNTB hình thành chưa đầy 1 thế kỷ nhưng nó đã tạo một khối lượng lực lượng sản xuất khổng lồ bằng tất cả các xã hội trước cộng lại
 + Chính sự phát triển rất nhanh của LLSX đã tác động tới PTSX dẫn tới mâu thuẫn giữa lực lượng sản xuất mang tính xã hội hóa ngày càng cao với quan hệ sản xuất dựa trên chế độ chiếm hữu tư nhân về TLSX
 + Mẫu thuẫn ngày càng gay gắt, được thể hiện bằng các cuộc khủng hoảng kinh tế (1825, 1836, 1847, 1857)
 + Các cuộc khủng hoảng là minh chứng cho sự mất cân bằng cung và cầu trên thị trường. Khi cung lớn hơn cầu thì dẫn tới khủng hoàng thừa, sau khủng hoảng thừa thì người ta lại hạn chế sản xuất, thu hẹp quy mô sản xuất dẫn tới cung nhỏ hơn cầu và dẫn tới khủng hoảng thiếu.
@@ -29,33 +29,29 @@ Kết luận:
 
 - Tiền đề khoa học tự nhiên và tư tưởng lý luận
 a) Tiền đề khoa học tự nhiên
-Trong khoa học tự nhiên, những phát minh vạch thời đại trong vật lý học và sinh học đã tạo ra bước phát triển đột phá có tính cách mạng:
-- Học thuyết tiến hóa:
-+ Trước khi các thuyết tiến hóa ra đời, việc hình thành nhận thức của con người dựa trên thuyết duy tâm thần học, họ cho rằng thế giới này được tạo ra bởi 1 đấng sáng thế nào đó. Khi thuyết tiến hóa ra đời đã bác bỏ quan niệm này
-+ Học thuyết tiến hóa là cơ sở KHTN chứng minh rằng giữa tất cả các loài đều được tiến hóa từ các loài trước đó bằng con đường chọn lọc tự nhiên thông qua đặc tính biến dị và di truyền
-+ Đây cũng chính là một bằng chứng khoa học để bác bỏ quan điểm duy tâm thần học xây dựng quan điểm duy vật và là cơ sở để các nhà khoa học tiếp thu những nhận thức mới, hiểu biết hơn về giới tự nhiên
+Cuối thế kỷ XVIII – đầu thế kỷ XIX, nhân loại đạt được nhiều thành tựu lớn trong khoa học tự nhiên và xã hội, đặt nền móng cho sự phát triển của tư duy lý luận. Trong lĩnh vực khoa học tự nhiên, các phát minh đột phá trong vật lý và sinh học đã tạo ra bước tiến có tính chất cách mạng.
 
-- Học thuyết tế bào: đã bác bỏ phương pháp tư duy siêu hình để hình thành nên phương pháp tư duy biện chứng khi xem xét sự phát triển của sự vật, hiện tượng trong giới tự nhiên.
-+ Phương pháp tư duy biện chứng cho thấy được sự thống nhất giữa các sinh vật sống trên thế giới, nó không có gì khác biệt giữa thế giới thực vật và đồng vật. Bởi vì giới sinh vật có chung 1 cấu tạo đầu tiên đó là tế bào, chỉ khác nhau ở cấu tạo của tế bào. 
-+ Học thuyết tế bào là một phát minh ảnh hưởng tới thế giới quan của các nhà khoa học nói chung và là cơ sở, tiền đề để chuyển từ phương pháp tư duy siêu hình sang phương pháp tư duy biện chứng
+Thuyết tế bào (Schleiden & Schwann, 1838–1839) bác bỏ quan điểm siêu hình biệt lập giữa động – thực vật, khẳng định sự thống nhất của sinh giới khi mọi sinh vật đều khởi nguồn từ tế bào đầu tiên. Đây là tiền đề cho học thuyết tiến hóa, đồng thời hình thành tư duy biện chứng – một trong ba luận điểm quan trọng của triết học duy vật biện chứng, khẳng định sinh giới hình thành từ quá trình ngẫu sinh hóa học và tiến hóa lâu dài, không phải bởi lực lượng siêu nhiên nào.
 
-- Định luật bảo toàn và chuyển hóa năng lượng: đã thể hiện sự thông nhất của thế giới vật chất và bác bỏ những giới hạn của con người đối với thế giới vật chất. Như vậy, thế giới này không có điểm đầu và cũng k có điểm cuối chỉ có những thời điểm chúng ta nhận thức về thế giới vật chất này và những dạng biểu hiện cụ thể của tgvc này mà thôi. Đây cũng là động lực cho các nhà khoa học tham gia ngày càng nhiều, có các nghiên cứu về thế giới vật chất mà mình đang sống
-→　Trên đây là 3 phát minh vĩ đại cấu thành nên nền tảng KHTN của quan điểm duy vật biện chứng và duy vật lịch sử, Là cơ sở phương pháp luận cho các nhà sáng lập Chủ nghĩa xã hội khoa học nghiên cứu những vấn đề lý luận chính trị-xã hội đương thời
+Thuyết tiến hóa (Darwin, 1859) nêu rõ cơ chế chọn lọc tự nhiên, giúp vượt qua quan điểm duy tâm – thần học về nguồn gốc loài người và thế giới vật chất. Nhờ đó, các nhà triết học có cơ sở lý giải sự phát triển của nhân loại theo quy luật tự nhiên, phù hợp với lập trường duy vật biện chứng.
 
-b) Tiền đề tư tưởng lý luận
-Cùng với sự phát triển của khoa học tự nhiên, khoa học xã hội cũng có những thành tựu đáng ghi nhận:
-- Triết học cổ điển Đức (đại biểu Phơ-bách và Heghen): 
-+ Mác thừa kế phép biện chứng của Hêghen trên cơ sở loại bỏ các yêu tố duy tâm thần bí trong hệ thống triết học của Hêghen, đồng thời thừa kế các quan điểm duy vật tiến bộ của Phơbách để xây dựng phép biện chứng duy vật.
-- Kinh tế chính trị Cổ điển Anh (Đại biểu là Adam Smit và D. Ricado): 
-+ Trong tư tưởng của các nhà không tưởng, kinh tế chính trị cổ điển Anh thì Mác đã kế thừa được hạt nhân hợp lý, đó chính là giá trị thặng dư.
-+ Qua nghiên cứu giá trị thặng dư thì Mác đã chỉ ra nguyên nhân làm nên sự giàu có của giai cấp tư sản và cũng chỉ ra được hình thức bóc lột của gia cấp tư sản 5 đối với giai cấp công nhân là bóc lột giá trị thặng dư. Từ đó Mác có cơ sở để khẳng định rằng trong các giai cấp đối lập với giai cấp tư sản thì giai cấp công dân là giai cấp cách mạng.
-- CNXHKT – phê phán Pháp: 
-+ Là nguồn gốc lý luận trực tiếp cho sự ra đời của chủ nghĩa xã hội khoa học và sự ra đời này đã đóng góp nhiều giá trị tích cực: Phê phán chế độ phong kiến, chủ nghĩa tư bản sâu sắc, toàn diện, Đưa ra nhiều luận điểm có giá trị về mô hình xã hội trong tương lai, thức tỉnh tinh thần đấu tranh của giai cấp công nhân chống lại chủ nghĩa tư bản
-+ Bên cạnh đó cũng có nhiều hạn chế như chưa phát hiện ra quy luật vận động nội tại của phương thức sản xuất tư bản chủ nghĩa, chưa phát hiện ra được lực lượng giai cấp tiên phong đóng vai trò lãnh đạo trong quá trình chuyển biến cách mạng từ xã hội cũ sang xã hội mới, hay chưa tìm ra con đường và biện pháp đấu tranh cách mạng từ chủ nghĩa tư bản lên chủ nghĩa xã hội
-+ Chính những hạn chế này đã đặt ra yêu cầu cho Mác phải đi giải quyết, khắc phục. Và việc Mác khắc phục chủ nghĩa xã hội không tưởng đầu thế kỷ XIX cũng chính là cơ sở ra đời lý luận chủ nghĩa xã hội khoa học.
+Định luật bảo toàn và chuyển hóa năng lượng (Lômônôxốp & Mayer, 1842–1845) khẳng định rằng năng lượng không tự sinh ra và không tự mất đi, nó chỉ chuyển hóa từ dạng này sang dạng khác hoặc từ vật thể này sang vật thể khác (hoặc cả hai). Việc vận dụng định luật này cho phép các nhà triết học nhận thức rằng thế giới vật chất là vô cùng, vô tận, luôn luôn chuyển hóa và biểu hiện dưới nhiều hình thức khác nhau mà không thể biến mất.
 
-c) Kết luận:
-Chính những tiền đề khoa học tự nhiên và tiền đề tư tưởng lý luận là những vấn đề thực tiễn đặt ra để Mác - Ăngghen kế thừa, cải tạo có sự chọn lọc và phát triển lên học thuyết của mình, cho ra đời chủ nghĩa xã hội khoa học sau này.`,
+Như vậy, sự phát triển mạnh mẽ của khoa học tự nhiên thời kỳ này đã làm thay đổi quan niệm siêu hình trong nhận thức về thế giới tự nhiên, đồng thời khẳng định tính biện chứng khách quan của mọi quá trình vận động và phát triển trong thế giới. Khoa học tự nhiên mang tính lý luận ở giai đoạn này chính là tiền đề quan trọng cho sự ra đời của triết học Mác và chủ nghĩa xã hội khoa học, đồng thời là cơ sở thế giới quan và phương pháp luận khoa học cho việc nhận thức thế giới một cách khách quan.
+
+b)Về mặt tư tưởng – lý luận, 
+trước hết phải kể đến triết học cổ điển Đức, tiêu biểu là Hegel và Feuerbach. C. Mác đã kế thừa phép biện chứng của Hegel nhưng loại bỏ quan điểm duy tâm thần bí để xây dựng nên chủ nghĩa duy vật biện chứng và áp dụng vào việc nghiên cứu các vấn đề xã hội. Đồng thời, ông kế thừa quan điểm duy vật tiến bộ của Feuerbach trên cơ sở loại bỏ phương pháp luận siêu hình, từ đó hình thành nên chủ nghĩa duy vật lịch sử. Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử chính là hai bộ phận hợp thành nền tảng triết học của chủ nghĩa Mác.
+
+Trong lĩnh vực kinh tế chính trị học cổ điển Anh, các nhà kinh tế như Adam Smith và David Ricardo đã đưa ra nhiều thành tựu về lý luận như bàn tay vô hình, kinh tế hàng hóa, lý thuyết về tiền tệ, đặc biệt là thuyết giá trị lao động. C. Mác đã kế thừa học thuyết giá trị của A. Smith và D. Ricardo, từ đó xây dựng nên học thuyết giá trị thặng dư để vạch rõ nguồn gốc của sự giàu có trong chủ nghĩa tư bản. Đây chính là tiền đề lý luận trực tiếp cho kinh tế chính trị học Mác.
+
+Chủ nghĩa xã hội không tưởng phê phán Pháp đầu thế kỷ XIX, với đại diện là Saint-Simon, Fourier và Robert Owen, cũng là một tiền đề lý luận trực tiếp cho sự ra đời của chủ nghĩa xã hội khoa học. Hệ thống các quan điểm và tư tưởng của họ nhằm cải tạo xã hội và giải phóng loài người, hướng đến một chế độ xã hội không có tư hữu, bất công và bóc lột.
+
+Giá trị tích cực của chủ nghĩa xã hội không tưởng thể hiện ở ba điểm lớn. Thứ nhất, họ đã mạnh mẽ phê phán, lên án chế độ quân chủ chuyên chế và chủ nghĩa tư bản đầy bất công, xung đột. Thứ hai, họ đưa ra nhiều luận điểm có giá trị về xã hội tương lai như cách tổ chức sản xuất và phân phối sản phẩm xã hội, vai trò của công nghiệp và khoa học – kỹ thuật, sự nghiệp giải phóng phụ nữ, và vai trò lịch sử của nhà nước. Thứ ba, họ đã góp phần thức tỉnh giai cấp công nhân và người lao động trong cuộc đấu tranh chống lại các chế độ áp bức đương thời.
+
+Tuy nhiên, hạn chế của chủ nghĩa xã hội không tưởng là không phát hiện được quy luật vận động và phát triển của xã hội, không xác định được lực lượng xã hội tiên phong có khả năng thực hiện cuộc chuyển biến cách mạng từ chủ nghĩa tư bản sang chủ nghĩa cộng sản – chính là giai cấp công nhân, và không chỉ ra được biện pháp hiện thực để cải tạo xã hội áp bức, bất công đương thời.
+
+Chính những giá trị khoa học và cống hiến lớn lao từ các nhà tư tưởng tiền bối này đã tạo ra tiền đề tư tưởng – lý luận để C. Mác và Ph. Ăngghen kế thừa, chọn lọc những hạt nhân hợp lý, gạt bỏ những yếu tố phi khoa học, bất hợp lý, từ đó xây dựng và phát triển nên CNXHKH.
+`,
     },
     {
         label: "Câu 2: Vai trò của C.Mác và Ph. Ăngghen đối với sự ra đời của chủ nghĩa xã hội khoa học.",
