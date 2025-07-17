@@ -2,123 +2,107 @@ import { Question } from ".";
 
 export const cnxh: Question[] = [
     {
-        label: "Câu 1: Hoàn cảnh ra đời của chủ nghĩa xã hội khoa học",
+        label: "Câu1a: Phân tích điều kiện kinh tế - xã hội cho sự ra đời CNXHKH",
         dapan: `Điều kiện kinh tế - xã hội
-Về kinh tế:
-+ Trong những năm 40 của TK 19 dưới sự tác động của CMCN, CNTB đã có sự phát triển quan trọng làm bộc lộ rõ bản chất và những mâu thuận nội tại của PTSX TBCN
-+ Sự phát triển quan trọng ở đây đó là CNTB hình thành chưa đầy 1 thế kỷ nhưng nó đã tạo một khối lượng lực lượng sản xuất khổng lồ bằng tất cả các xã hội trước cộng lại
-+ Chính sự phát triển rất nhanh của LLSX đã tác động tới PTSX dẫn tới mâu thuẫn giữa lực lượng sản xuất mang tính xã hội hóa ngày càng cao với quan hệ sản xuất dựa trên chế độ chiếm hữu tư nhân về TLSX
-+ Mẫu thuẫn ngày càng gay gắt, được thể hiện bằng các cuộc khủng hoảng kinh tế (1825, 1836, 1847, 1857)
-+ Các cuộc khủng hoảng là minh chứng cho sự mất cân bằng cung và cầu trên thị trường. Khi cung lớn hơn cầu thì dẫn tới khủng hoàng thừa, sau khủng hoảng thừa thì người ta lại hạn chế sản xuất, thu hẹp quy mô sản xuất dẫn tới cung nhỏ hơn cầu và dẫn tới khủng hoảng thiếu.
-+ Qua đó ta thấy được học thuyết kinh tế bàn tay vô hình (để thị trường tự điều tiết) không còn phù hợp nữa. Tất yếu nó cần được thay thế bằng một học thuyết kinh tế khác.
-+ Đó là lý do các nhà kinh tế đã đưa ra các quan điểm về sự điều tiết của nhà nước dưới góc độ vĩ mô để tránh các tổn thất của các cuộc khủng hoảng.
-
-Về xã hội:
-+ Giai cấp công nhân đã có sự phát triển về số lượng và chất lượng
-+ Hình thành mâu thuẫn giữa giai cấp công nhân và giai cấp tư sản. Mâu thuẫn này không chỉ thể hiện một cách đơn thuần như trước mà đã biểu hiện một cách gay gắt. Thể hiện qua 3 phong trào đấu tranh, khởi nghĩa trên quy mô lớn:
-+ Cuộc khởi nghĩa CN Dệt ở thành phố Lion ( Pháp) 1831 & 1834
-+ Cuộc khởi nghĩa CN Dệt ở thành phố Xilêdi (Đức) 1844
-+ Phong trào Hiến chương của công nhân Anh ( 1836 – 1848)
-Địa điểm diễn ra các cuộc khởi nghĩa đều là những nước đã và đang chịu sự tác động của cách mạng công nghiệp và giai cấp công nhân đã trưởng thành, trở thành một lực lượng chính trị độc lập, đấu tranh chống lại giai cấp tư sản để đòi hỏi những lợi ích về kinh tế và chính trị cho giai cấp của mình.
-+ Tất cả phong trào đấu tranh đều là đấu tranh tự phát, chịu ảnh hưởng của tư tưởng tư sản, sớm hay muộn cũng bị giai cấp tư sản đàn áp và thất bại.
-+ Chính những phong trào đấu tranh của giai cấp công nhân đã đi đến một yêu cầu đặt ra đối với thực tiễn là để giai cấp công nhân có thể đấu tranh chiến thắng giai cấp tư sản thì họ cần có một lý luận cách mạng soi đường
-
-Kết luận:
-+ Chính sự phát triển của CNTB và phong trào công nhân đã đặt ra yêu cầu thực tiễn cho các nhà lý luận nghiên cứu để cho ra đời lý luận CNXHKH.
-+ Điều kiện Kinh tế - Xã hội chính là mảnh đất hiện thực cho sự ra đời của CNXHKH
-
-- Tiền đề khoa học tự nhiên và tư tưởng lý luận
-a) Tiền đề khoa học tự nhiên
-Cuối thế kỷ XVIII – đầu thế kỷ XIX, nhân loại đạt được nhiều thành tựu lớn trong khoa học tự nhiên và xã hội, đặt nền móng cho sự phát triển của tư duy lý luận.
-
-Thuyết tế bào (Schleiden & Schwann, 1838–1839) bác bỏ quan điểm siêu hình biệt lập giữa động – thực vật, khẳng định sự thống nhất của sinh giới khi mọi sinh vật đều khởi nguồn từ tế bào đầu tiên. Đây là tiền đề cho học thuyết tiến hóa, đồng thời hình thành tư duy biện chứng – một trong ba luận điểm quan trọng của triết học duy vật biện chứng, khẳng định sinh giới hình thành từ quá trình ngẫu sinh hóa học và tiến hóa lâu dài, không phải bởi lực lượng siêu nhiên nào.
-
-Thuyết tiến hóa (Darwin, 1859) nêu rõ cơ chế chọn lọc tự nhiên, giúp vượt qua quan điểm duy tâm – thần học về nguồn gốc loài người và thế giới vật chất. Nhờ đó, các nhà triết học có cơ sở lý giải sự phát triển của nhân loại theo quy luật tự nhiên, phù hợp với lập trường duy vật biện chứng.
-
-Định luật bảo toàn và chuyển hóa năng lượng (Lômônôxốp & Mayer, 1842–1845) khẳng định rằng năng lượng không tự sinh ra và không tự mất đi, nó chỉ chuyển hóa từ dạng này sang dạng khác hoặc từ vật thể này sang vật thể khác (hoặc cả hai). Việc vận dụng định luật này cho phép các nhà triết học nhận thức rằng thế giới vật chất là vô cùng, vô tận, luôn luôn chuyển hóa và biểu hiện dưới nhiều hình thức khác nhau mà không thể biến mất.
-
+Vào những năm 40 của thế kỷ XIX, cuộc cách mạng công nghiệp phát triển mạnh mẽ tạo nên nền đại công nghiệp. Nền đại công nghiệp cơ khí làm cho phương thức sản xuất tư bản chủ nghĩa có bước phát triển vượt bậc, dẫn tới bộc lộ mâu thuẫn trong lòng xã hội tư bản :  
+- Về kinh tế: Mâu thuẫn giữa Lực lượng sản xuất (mang tính chất xã hội hóa ngày càng cao) với Quan hệ sản xuất TBCN (dựa trên chế độ sở hữu tư nhân về tư liệu sản xuất) Biểu hiện ra bên ngoài bằng các cuộc khủng hoảng kinh tế theo chu kỳ (1825, 1836, 1846,1857) đây là bằng chứng cho sự mâu thuẫn của phương thức sản xuất TBCN đã trở nên gay gắt không thể tự điều tiết bằng các học thuyết kinh tế đương thời. 
+- Về xã hội: Mâu thuẫn giữa giai cấp công nhân với giai cấp tư sản đã trở nên gay gắt, bộc lộ ra thành các phong trào đấu tranh của giai cấp công nhân o Cuộc đấu tranh của công nhân dệt Lion ( Pháp) 1831 và 1834 o Cuộc đấu tranh của công nhân dệt Xilêdi ( Đức) 1844 o Phong trào Hiến chương Anh kéo dài hơn 10 năm từ 1836 - 1848 
+Các cuộc đấu tranh giữa giai cấp công nhân và giai cấp tư sản diễn ra ở các nước tư bản phát triển, chịu ảnh hưởng của cuộc cách mạng công nghiệp ( Anh, Pháp, Đức) Các phong trào đấu tranh đã thể hiện giai cấp công nhân đã trường thành phát triển cả về số lượng và chất lượng, họ trở thành một lực lượng chính trị xã hội độc lập, lần đầu tiên họ đứng lên đấu tranh chống lại giai cấp tư sản với tư cách là một giai cấp để đòi hỏi những lợi ích về kinh tế và chính trị. Tuy nhiên những phong trào này chỉ dừng lại là những hình thức đấu tranh tự phát và bị thất bại. 
+Cuộc đấu tranh giai cấp công nhân tất yếu sẽ dẫn đến một yêu cầu mới, yêu cầu phải có một lý luận khoa học dẫn đường, để đưa giai cấp công nhân đi từ đấu tranh tự phát tới đấu tranh tự giác vì lợi ích của giai cấp mình. Đây chính là yêu cầu khánh quan để các nhà tư tưởng nghiên cứu tổng kết thực tiễn cho ra đời lý luận  CNXHKH 
+Như vậy, sự ra đời  của CNXHKH đã đáp ứng được yêu cầu phát triển của phong trào công nhân.  
+Điều kiện kinh tế- xã hội chính là mảnh đất hiện thực cho sự ra đời của CNXHKH. `,
+    },
+    {
+        label: "Câu1b: Phân tích tiền đề khoa học tự nhiên và tư tưởng – lý luận cho sự ra đời CNXHKH",
+        dapan: `➢ Tiền đề khoa học tự nhiên
++ Thuyết tế bào, phát minh vào những năm 1838-1839 của nhà thực vật học người Đức M.J. Schleiden. (1804-1881) và nhà vật lý học người Đức Th.Schwam (1810-1882) 
+Việc ra đời thuyết tế bào đã giúp cho con người bác bỏ những quan điểm siêu hình khi nhận thức tách biệt, biệt lập về mối quan hệ giữa thế giới động vật và thực vật. Đồng thời, chính sự ra đời của thuyết tế bào đã giúp cho các nhà khoa học thấy được sự thống nhất trong sự đa dạng của sinh giới, mối quan hệ biện chứng của thế giới sinh vật sống (động vật và thực vật) đều bắt đầu từ 1 tế bào đầu tiên. Đây là cơ sở để hình thành phương pháp tư duy biện chứng trong nghiên cứu về giới tự nhiên và cơ sở tiền đề cho học thuyết tiến hóa của Darwin. Đây là 1 trong 3 luận điểm quan trọng của triết học DVBC chứng minh sinh giới được tạo ra từ ngẫu sinh hóa học và tiến hóa lâu dài chứ không phải do bất kỳ 1 lực lượng siêu nhiên nào. 
++ Thuyết tiến hóa, phát minh năm 1859 của Charles Darwin người Anh (1809-1882) 
+Việc ra đời của thuyết tiến hóa đã phát hiện ý nghĩa của chọn lọc tự nhiên giúp con người thoát khỏi quan điểm duy tâm thần học đã tồn tại trước đó khi lý giải về nguồn gốc của loài người và thế giới vật chất. Đồng thời, thuyết tiến hóa của Charles Darwin đã giúp cho các nhà triết học nghiên cứu sự phát triển của thế giới vật chất theo quan điểm duy vật biện chứng và đưa ra một cách lý giải về sự phát triển của loài người là một quá trình phát triển tuân theo qui luật tự nhiên.  
++ Định luật bảo toàn và chuyển hóa năng lượng, phát minh vào khoảng 1842-1845 do M.V.Lômôlôxốp người Nga (1711-1765) và Mayer (1814-1878) 
+Ý nghĩa của định luật bảo toàn và chuyển hóa năng lượng đã khẳng định  là năng lượng không thể được tạo ra cũng như không thể bị phá hủy; thay vào đó, nó chỉ có thể được biến đổi từ dạng này sang dạng khác hoặc chuyển đổi từ vật này sang vật khác (hoặc cả hai). Vận dụng định luật này vào xem xét sự phát triển của thế giới vật chất cho phép các nhà triết học thấy được thế giới vật chất là vô cùng vô tận, có sự chuyển hóa và biểu hiện ở các dạng khác nhau và không thể biến mất.  
 Như vậy, sự phát triển KHTN đã làm thay đổi quan điểm siêu hình về thế giới tự nhiên, khẳng định tính khách quan – biện chứng của mọi quá trình vận động và phát triển, tạo nền tảng lý luận, thế giới quan, phương pháp luận cho triết học Mác và CNXHKH.
 
-b)Về mặt tư tưởng – lý luận, 
-trước hết phải kể đến triết học cổ điển Đức, tiêu biểu là Hegel và Feuerbach. C. Mác đã kế thừa phép biện chứng của Hegel nhưng loại bỏ quan điểm duy tâm thần bí để xây dựng nên chủ nghĩa duy vật biện chứng và áp dụng vào việc nghiên cứu các vấn đề xã hội. Đồng thời, ông kế thừa quan điểm duy vật tiến bộ của Feuerbach trên cơ sở loại bỏ phương pháp luận siêu hình, từ đó hình thành nên chủ nghĩa duy vật lịch sử. Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử chính là hai bộ phận hợp thành nền tảng triết học của chủ nghĩa Mác.
-
-Trong lĩnh vực kinh tế chính trị học cổ điển Anh, các nhà kinh tế như Adam Smith và David Ricardo đã đưa ra nhiều thành tựu về lý luận như bàn tay vô hình, kinh tế hàng hóa, lý thuyết về tiền tệ, đặc biệt là thuyết giá trị lao động. C. Mác đã kế thừa và từ đó xây dựng nên học thuyết giá trị thặng dư để vạch rõ nguồn gốc của sự giàu có trong chủ nghĩa tư bản. Đây chính là tiền đề lý luận trực tiếp cho kinh tế chính trị học Mác.
-
-Chủ nghĩa xã hội không tưởng phê phán Pháp đầu thế kỷ XIX (Saint-Simon, Fourier và Robert Owen) cũng là một tiền đề lý luận trực tiếp cho sự ra đời của chủ nghĩa xã hội khoa học. Nội dung bao gồm hệ thống các quan điểm và tư tưởng nhằm cải tạo xã hội và giải phóng loài người, hướng đến một chế độ xã hội không có tư hữu, bất công và bóc lột.
-
-Giá trị tích cực của chủ nghĩa xã hội không tưởng thể hiện ở ba điểm lớn. Thứ nhất, họ đã mạnh mẽ phê phán, lên án chế độ quân chủ chuyên chế và chủ nghĩa tư bản đầy bất công, xung đột. Thứ hai, họ đưa ra nhiều luận điểm có giá trị về xã hội tương lai như cách tổ chức sản xuất và phân phối sản phẩm xã hội, vai trò của công nghiệp và khoa học – kỹ thuật, sự nghiệp giải phóng phụ nữ, và vai trò lịch sử của nhà nước. Thứ ba, họ đã góp phần thức tỉnh giai cấp công nhân và người lao động trong cuộc đấu tranh chống lại các chế độ áp bức đương thời.
-
-Tuy nhiên, hạn chế của chủ nghĩa xã hội không tưởng là không phát hiện được quy luật vận động và phát triển của xã hội, không xác định được lực lượng xã hội tiên phong có khả năng thực hiện cuộc chuyển biến cách mạng từ chủ nghĩa tư bản sang chủ nghĩa cộng sản – chính là giai cấp công nhân, và không chỉ ra được biện pháp hiện thực để cải tạo xã hội áp bức, bất công đương thời.
-
-Chính những giá trị khoa học và cống hiến lớn lao từ các nhà tư tưởng tiền bối này đã tạo ra tiền đề tư tưởng – lý luận để C. Mác và Ph. Ăngghen kế thừa, chọn lọc những hạt nhân hợp lý, gạt bỏ những yếu tố phi khoa học, bất hợp lý, từ đó xây dựng và phát triển nên CNXHKH.
-`,
+➢ Tiền đề tư tưởng lý luận 
+- Triết học cổ điển Đức (Heghen, Phơ Bách) với những thành tựu của Phép biện chứng duy tâm và chủ nghĩa duy vật siêu hình. 
+- Kinh tế chính trị học cổ điển Anh (Adam Smith, David Ricardo) với những thành tựu về bàn tay vô hình, kinh tế hàng hóa, lý luận về tiền tệ, lý luận về giá trị lao động… 
+- Chủ nghĩa xã hội không tưởng phê phán  (Xanh xi mông, Phurie, Ooen) với những tư tưởng về xây dựng chế độ công hữu về tư liệu sản xuất, về nhà
+CNXHKH. 
+- Giá trị tích cực chủ nghĩa không tưởng phê phán đầu thế kỷ 19 
+1.	Đã thể hiện tinh thần phê phán, lên án chế độ quân chủ chuyên chế và chế độ tư bản chủ nghĩa đầy bất công, xung đột, của cải khánh kiệt, đạo đức đảo lộn, tội ác gia tăng; 
+2.	Đã đưa ra nhiều luận điểm có giá trị về xã hội tương lai: về tổ chức sản xuất và phân phối sản phẩm xã hội; vai trò của công nghiệp và khoa học - kỹ thuật; về sự nghiệp giải phóng phụ nữ và về vai trò lịch sử của nhà nước…;  
+3.	Đã thức tỉnh giai cấp công nhân và người lao động trong cuộc đấu tranh chống chế độ quân chủ chuyên chế và chế độ tư bản chủ nghĩa đầy bất công, xung đột. 
+- Hạn chế chủ nghĩa xã hội không tưởng phê phán  
+1.	Do điều kiện lịch sử, hoặc do chính sự hạn chế về tầm nhìn và thế giới quan của những nhà tư tưởng, không phát hiện ra được quy luật vận động và phát triển của xã hội loài người nói chung; bản chất, quy luật vận động, phát triển của chủ nghĩa tư bản nói riêng. 
+2.	Không phát hiện ra lực lượng xã hội tiên phong có thể thực hiện cuộc chuyển biến cách mạng từ chủ nghĩa tư bản lên chủ nghĩa cộng sản, giai cấp công nhân; 
+3.	Không chỉ ra được những biện pháp hiện thực cải tạo xã hội áp bức, bất công đương thời, xây dựng xã hội mới tốt đẹp.  
+Chính vì những hạn chế ấy, mà chủ nghĩa xã hội không tưởng phê phán chỉ dừng lại ở mức độ một học thuyết xã hội chủ nghĩa không tưởng- phê phán.  
+Đây chính là những giá trị khoa học, cống hiến của các nhà tư tưởng đã tạo ra tiền đề tư tưởng- lý luận, để C.Mác và Ph.Ănghen kế thừa những hạt nhân hợp lý, lọc bỏ những bất hợp lý, xây dựng và phát triển chủ nghĩa xã hội khoa học. `,
     },
     {
         label: "Câu 2: Vai trò của C.Mác và Ph. Ăngghen đối với sự ra đời của chủ nghĩa xã hội khoa học.",
-        dapan: `a) Sự chuyển biến lập trường triết học và lập trường chính trị
-Khi bước vào hoạt động cách mạng, C.Mác và Ph.Ăngghen là những thành viên tích cực của Câu lạc bộ Hêghen trẻ, chịu ảnh hưởng sâu sắc từ triết học của Hêghen và L. Feuerbach. Với nhãn quan khoa học uyên bác, các ông đã sớm nhận ra cả những mặt tích cực lẫn hạn chế trong hệ thống tư tưởng đó. Từ triết học Hêghen, các ông kế thừa “hạt nhân hợp lý” của phép biện chứng, đồng thời kiên quyết cải tạo và loại bỏ cái vỏ thần bí, duy tâm để xây dựng một hình thức mới – phép biện chứng duy vật. Từ triết học Feuerbach, các ông tiếp thu tinh thần duy vật nhưng cũng không ngừng phê phán, vượt qua tính siêu hình và những giới hạn lịch sử của nó, để phát triển thành chủ nghĩa duy vật lịch sử, nền tảng triết học của chủ nghĩa xã hội khoa học.
+        dapan: `
+1. Sự chuyển biến lập trường triết học và lập trường chính trị    
+Khi bước vào hoạt động khoa học, C.Mác và Ph.Ăngghen là hai thành viên tích cực của câu lạc bộ Hêghen trẻ và chịu ảnh hưởng của quan điểm triết học của V.Ph.Hêghen và L.Phoiơbắc. Với nhãn quan khoa học uyên bác, các ông đã sớm nhận thấy những mặt tích cực và hạn chế trong triết học của V.Ph.Hêghen và L. Phoiơbắc. C.Mác và Ph.Ăng ghen đã kế thừa “cái hạt nhân hợp lý”, cải tạo và loại bỏ cải vỏ thần bí duy tâm, siêu hinh để xây dựng nên lý thuyết mới chủ nghĩa duy vật biện chứng.  
+Với C.Mác, từ cuối năm 1843 đến 4/1844, thông qua tác phẩm “Góp phần phê phán triết học pháp quyền của Hêghen - Lời nói đầu (1844)”, đã thể hiện rõ sự chuyển biến từ thế giới quan duy tâm sang thế giới quan duy vật, từ lập trường dân chủ cách mạng sang lập trường cộng sản chủ nghĩa . 
+Đối với Ph.Ăngghen, từ năm 1843 với tác phẩm “Tình cảnh nước Anh”; “Lược khảo khoa kinh tế - chính trị” đã thể hiện rõ sự chuyển biến từ thế giới quan duy tâm sang thế giới quan duy vật từ lập trường dân chủ cách mạng sang lập trường cộng sản chủ nghĩa . 
+Chỉ trong một thời gian ngắn (từ 1843 -1848) vừa hoạt động thực tiễn, vừa nghiên cứu khoa học, C.Mác và Ph.Ăngghen đã thể hiện quá trình chuyển biến lập trường triết học và lập trường chính trị và từng bước củng cố, dứt khoát, kiên định, nhất quán và vững chắc lập trường đó, mà nếu không có sự chuyển biến này thì chắc chắn sẽ không có Chủ nghĩa xã hội khoa học.  
 
-Trong giai đoạn ngắn từ 1843 đến 1848, thông qua hoạt động thực tiễn cách mạng gắn liền với nghiên cứu lý luận, đặc biệt qua các tác phẩm tiêu biểu như “Góp phần phê phán triết học pháp quyền của Hêghen – Lời nói đầu”, “Tình cảnh giai cấp công nhân ở Anh”,... hai ông đã thể hiện rõ quá trình chuyển biến căn bản cả về lập trường triết học lẫn lập trường chính trị – từ thế giới quan duy tâm sang duy vật, từ lập trường dân chủ cách mạng sang lập trường cộng sản chủ nghĩa. Chính sự chuyển biến mang tính bước ngoặt này là điều kiện tất yếu để hình thành nên chủ nghĩa xã hội khoa học – học thuyết cách mạng gắn kết giữa lý luận và thực tiễn giải phóng con người.
+2. Ba phát kiến vĩ đại của C.Mác và Ph.Ăngghen  
+a) Chủ nghĩa duy vật lịch sử - Phát kiến thứ nhất 
+Đây là phát kiến thứ nhất của C. Mác về triết học là người đầu tiên nghiên cứu sự phát triển của loài người trên cơ sở của CNDVBC. Chỉ ra sự phát triển của lịch sử loài người là 1 quá trình lịch sử tự nhiên thông qua sự vận động của các hình thái kinh tế - xã hội. Đồng thời, thông qua qui luật vận động của phương thức sản xuất TBCN, C.Mác đã đi đến khẳng định về sự thay thế của hình thái kinh tế - xã hội TBCN và sự ra đời của hình thái KT – XH CSCN là tất yếu khách quan. 
+b) Học thuyết về giá trị thặng dư – Phát kiến thứ 2 
+Từ việc phát hiện ra chủ nghĩa duy vật lịch sử, C.Mác và Ph.Ăngghen đi sâu nghiên cứu nền sản xuất công nghiệp và nền kinh tế tư bản chủ nghĩa đã viết nên bộ “Tư bản”, mà giá trị to lớn nhất của nó là “Học thuyết về giá trị thặng dư - phát kiến vĩ đại thứ hai của C.Mác và Ph.Ăngghhen khẳng định về phương diện kinh tế sự thay thế của phương thức sản xuất tư bản chủ nghĩa với đặc trưng là QHSX dựa trên chế độ tư hữu về tư liệu sản xuất  và sự ra đời tất yếu của phương thức sản xuất CSCN với đặc trưng là QHSX dựa trên chế độ công hữu về tư liệu sản xuất là tất yếu. 
+c) Học thuyết về sứ mệnh lịch sử toàn thế giới của giai cấp công nhân - Phát kiến thứ 3 
+Trên cơ sở hai phát kiến vĩ đại là chủ nghĩa duy vật lịch sử và học thuyết về giá trị thặng dư, C.Mác và Ph.Ăngghen đã có phát kiến vĩ đại thứ ba, sứ mệnh lịch sử toàn thế giới của giai cấp công nhân, giai cấp có sứ mệnh thủ tiêu chủ nghĩa tư bản, xây dựng thành công chủ nghĩa xã hội và chủ nghĩa cộng sản.  
+Với phát kiến thứ ba, những hạn chế có tính lịch sử của chủ nghĩa xã hội không tưởng- phê phán đã được khắc phục một cách triệt để; đồng thời đã luận chứng và khẳng định về phương diện chính trị- xã hội sự thay thế của chủ nghĩa tư bản và sự ra đời tất yếu của chủ nghĩa cộng sản (giai đoạn đầu là CNXH) 
 
-b) Ba phát kiến vĩ đại của C.Mác và P.Ăng ghen
-- Chủ nghĩa Duy vật lịch sử: có ý nghĩa như phương pháp luận chung nhất để nghiên cứu xã hội tư bản chủ nghĩa, từ đó sáng lập ra một trong những học thuyết khoa học lớn nhất mangý nghĩa vạch thời đại cho khoa học xã hội phát triển lên tầm cao mới: “Học thuyết duy vật lịch sử” mà nội dung cơ bản của nó là lý luận về “hình thái kinh tế - xã hội” chỉ ra bản chất của sự vận động và phát triển của xã hội loài người 
-=> là phát kiến vĩ đại thứ nhất của C.Mác và Ph.Ăngghen; là cơ sở về mặt triết học khẳng định sự sụp đổ của giai cấp tư sản và sự thắng lợi của giai cấp công nhân đều tất yếu như nhau
-- Học thuyết giá trị thặng dư: trong chủ nghĩa tư bản, sức lao động của công nhân là loại “hàng hóa đặc biệt” mà nhà tư bản, giai cấp tư sản đã mua và có những thủ đoạn tinh vi chiếm đoạt ngày càng lớn “giá trị thặng dư” được sinh ra nhờ bóc lột sức lao động của công nhân mà nhà tư bản, giai cấp tư sản không trả cho công nhân 
-=> là nguyên nhân cơ bản làm cho mâu thuẫn giữa giai cấp công nhân và giai cấp tư sản tăng lên không thể dung hòa trong khuôn khổ chủ nghĩa tư bản 
-=> k/đ về phương diện KT sự thay thế của PTSX TBCN và sự ra đời tất yếu của PTSX CSCN với đặc trưng là QHSX dựa trên chế độ công hữu về TLSX.
-- Học thuyết về sứ mệnh lịch sử toàn thế giới của giai cấp công nhân: 
-Với phát kiến thứ ba: sứ mệnh lịch sử toàn thế giới của giai cấp công nhân là thủ tiêu chủ nghĩa tư bản, xây dựng thành công chủ nghĩa xã hội và chủ nghĩa cộng sản, những hạn chế có tính lịch sử của chủ nghĩa xã hội không tưởng – phê phán đã được khắc phục một cách triệt để; đồng thời đã luận chứng và khẳng định về phương diện chính trị – xã hội sự thay thế của chủ nghĩa tư bản và sự ra đời tất yếu của chủ nghĩa cộng sản (giai đoạn đầu là chủ nghĩa xã hội).
-
-c) Tuyên ngôn Đảng cộng sản – Đánh dấu sự ra đời của CNXHKH
-- Được sự uỷ nhiệm của những người cộng sản và công nhân quốc tế, ngày 24 tháng 2 năm 1848, Tuyên ngôn của Đảng Cộng sản do C.Mác và Ph.Ăngghen soạn thảo được công bố trước toàn thế giới 
-=> đánh dấu sự ra đời của CNXHKH
-- Nội dung: nêu và phân tích một cách có hệ thống lịch sử và lô gic hoàn chỉnh về những các vấn đề như:
-+ Giải phóng giai cấp công nhân không thể tách rời khỏi việc giải phóng toàn xã hội khỏi áp bức, bóc lột và đấu tranh giai cấp. Để làm được điều đó, giai cấp vô sản phải có chính đảng cách mạng của mình – sản phẩm tất yếu từ sự phát triển của cuộc đấu tranh giai cấp.
-+ Chủ nghĩa tư bản phát triển đến một giai đoạn nhất định sẽ tất yếu dẫn đến khủng hoảng và sụp đổ, mở đường cho chủ nghĩa xã hội thắng lợi như một xu thế lịch sử không thể đảo ngược.
-+ Giai cấp công nhân, với vị trí đại diện cho lực lượng sản xuất tiên tiến, là lực lượng nòng cốt trong cách mạng xã hội chủ nghĩa và tiến lên chủ nghĩa cộng sản.
--Giá trị:
-+ Cương lĩnh chính trị, kim chỉ nam cho phong trào cộng sản và công nhân quốc tế
-+ Đánh dấu sự ra đời những quan điểm cơ bản nhất của CNXHKH
-+ Chỉ ra một cách khoa học con đường để giai cấp công nhân hoàn thành sứ mệnh lịch sử, mục tiêu cuối cùng là giải phóng giai cấp, giải phóng dân tộc, giải phóng con người`,
+3.Tuyên ngôn của Đảng Cộng sản đánh dấu sự ra đời của CNXHKH 
+Được sự uỷ nhiệm của những người cộng sản và công nhân quốc tế, tháng 2 năm 
+1848, tác phẩm “Tuyên ngôn của Đảng Cộng sản” do C.Mác và Ph.Ăngghen soạn thảo được công bố trước toàn thế giới. 
+Tuyên ngôn của Đảng Cộng sản là tác phẩm kinh điển chủ yếu của chủ nghĩa xã hội khoa học.  
+Sự ra đời của tác phẩm vĩ đại này đánh dấu sự hình thành về cơ bản lý luận của chủ nghĩa Mác bao gồm ba bộ phận hợp thành: Triết học, Kinh tế chính trị học và Chủ nghĩa xã hội khoa học. 
+Tuyên ngôn của Đảng Cộng sản còn là cương lĩnh chính trị, là kim chỉ nam hành động của toàn bộ phong trào cộng sản và công nhân quốc tế. 
+Tuyên ngôn của Đảng Cộng sản là ngọn cờ dẫn dắt giai cấp công nhân và nhân dân lao động toàn thế giới trong cuộc đấu tranh chống chủ nghĩa tư bản, giải phóng loài người vĩnh viễn thoát khỏi mọi áp bức, bóc lột giai cấp, bảo đảm cho loài người được thực sự sống trong hòa bình, tự do và hạnh phúc.  
+Chính Tuyên ngôn của Đảng Cộng sản đã nêu và phân tích một cách có hệ thống lịch sử và lô gic hoàn chỉnh về những vấn đề cơ bản nhất, đầy đủ, xúc tích và chặt chẽ nhất thâu tóm hầu như toàn bộ những luận điểm của chủ nghĩa xã hội khoa học chỉ ra con đường và biện pháp cách mạng để giai cấp công nhân thực hiện sứ mệnh lịch sử của mình.  
+Đây là tác phẩm làm cho Chủ nghĩa Mác trở thành một học thuyết hoàn chỉnh không chỉ nhận thức thế giới mà quan trọng hơn là cải tạo thế giới. 
+`,
     },
     {
-        label: "Câu 3:  Nhưng điều kiện khách quan và chủ quan quy định sứ mệnh lịch sử của giai cấp công nhân",
-        dapan: `1. Sứ mệnh lịch sử tổng quát của Giai cấp công nhân
-Thông qua chính đảng tiền phong, Giai cấp công nhân tổ chức, lãnh đạo nhân dân lao động đấu tranh xóa bỏ các chế độ người bóc lột người, xóa bỏ Chủ nghĩa tư bản, giải phóng Giai cấp công nhân, nhân dân lao động khỏi mọi sự áp bức, bóc lột, nghèo nàn, lạc hậu, xây dựng xã hội Cộng sản chủ nghĩa văn minh.
+        label: "Câu3a: Nhưng điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân",
+        dapan: `Điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân bao gồm: 
+Thứ nhất, do địa vị kinh tế của giai cấp công nhân quy định 
++ Giai cấp công nhân  là sản phẩm trực tiếp của nền đại công nghiệp trong phương thức sản xuất tư bản chủ nghĩa, là chủ thể của quá trình sản xuất vật chất hiện đại. 
++ Giai cấp công nhân đại diện cho phương thức sản xuất tiên tiến và lực lượng sản xuất hiện đại (mang tính chất xã hội hóa) có vai trò quyết định sự thay thế quan hệ sản xuất TBCN (dựa trên chế độ tư hữu về tư liệu sản xuất) thiết lập Quan hệ sản xuất mới phù hợp với sự phát triển của Lực lượng sản xuất ( chế độ công hữu về tư liệu sản xuất) 
++ Điều kiện khách quan này là nhân tố kinh tế, quy định giai cấp công nhân là lực lượng phá vỡ quan hệ sản xuất tư bản chủ nghĩa,  
++ Về xã hội: Trong CNTB giai cấp công nhân là giai cấp chịu sự áp bức bóc lột trực tiếp từ giai cấp tư sản, mâu thuẫn giữa giai cấp tư sản và giai cấp công nhân ngày càng phát triển thể hiện thông qua các cuộc đấu tranh cả về kinh tế và chính trị. 
++ Về chính trị: Để giải phóng mình khỏ sự áp bức bóc lột về kinh tế, xã hội giai cấp công nhân đấu tranh giành chính quyền về tay mình, xóa bỏ sự thống trị của giai cấp tư sản, xóa bỏ CNTB. 
++ Giai cấp công nhân trở thành đại biểu cho sự tiến hóa tất yếu của lịch sử, là lực lượng duy nhất có đủ điều kiện để tổ chức và lãnh đạo xã hội, xây dựng và phát triển lực lượng sản xuất và quan hệ sản xuất xã hội chủ nghĩa, tạo nền tảng vững chắc để xây dựng chủ nghĩa xã hội với tư cách là một chế độ xã hội kiểu mới, không còn chế độ người áp bức, bóc lột người. 
 
-2. Điều kiện khách quan
-a. Do địa vị Kinh tế của Giai cấp công nhân
-- Giai cấp công nhân gắn liền với lực lượng sản xuất tiên tiến nhất, họ là con đẻ, sản phẩm của nền Đại Công nghiệp, có tính xã hội hóa ngày càng cao, là chủ thể của quá trình sản xuất vật chất hiện đại. Như Lênin đã nói: “Lực lượng sản xuất hàng đầu của toàn thể nhân loại là công nhân, là người lao động”.
-- Giai cấp công nhân là lực lượng quyết định phá vỡ Quan hệ sản xuất Tư bản chủ nghĩa, giành chính quyền về tay mình, chuyển từ giai cấp “tự nó” thành giai cấp “vì nó”.
-→ Kể cả sau khi giành chính quyền, Giai cấp công nhân cũng là người duy nhất có khả năng lãnh đạo xã hội xây dựng một phương thức sản xuất mới cao hơn.
+Thứ hai, do địa vị chính trị - xã hội của giai cấp công nhân quy định 
++ Là con đẻ của nền sản xuất đại công nghiệp, giai cấp công nhân có được những phẩm chất của một giai cấp tiên tiến, giai cấp cách mạng: tính tổ chức và kỷ luật, tự giác và đoàn kết trong cuộc đấu tranh tự giải phóng mình và giải phóng xã hội. 
++ Những phẩm chất ấy của giai cấp công nhân được hình thành từ chính những điều kiện khách quan, được quy định từ địa vị kinh tế và địa vị chính trị - xã hội của nó trong nền sản xuất hiện đại và trong xã hội hiện đại mà giai cấp tư sản và chủ nghĩa tư bản đã tạo ra một cách khách quan, ngoài ý muốn của nó. 
++ Giai cấp công nhân được trang bị lý luận tiên tiến là chủ nghĩa Mác – Lênin, có đội tiền phong là Đảng cộng sản dẫn dắt. 
++ Giai cấp công nhân là giai cấp đại biểu cho tương lai, cho xu thế đi lên của tiến trình phát triển lịch sử. Đây là đặc tính quan trọng, quyết định bản chất cách mạng của giai cấp công nhân.  
++ Giai cấp công nhân là một giai cấp cách mạng hoàn toàn không phải vì nghèo khổ, tình trạng này của giai cấp công nhân dưới chủ nghĩa tư bản là hậu quả của sự bóc lột, áp bức mà giai cấp tư sản và chủ nghĩa tư bản tạo ra đối với công nhân, đó là trạng thái mà cách mạng sẽ xóa bỏ để giải phóng giai cấp công nhân và giải phóng xã hội. 
++ Địa vị chính trị - xã hội  của giai cấp công nhân đã tạo nên những phẩm chất chính trị là giai cấp tiến tiến nhất; giai cấp có ý thức kỷ luật cao; giai cấp có tinh thần cách mạng triệt để; giai cấp có bản chất quốc tế. 
 
-b. Do địa vị Chính trị – Xã hội của Giai cấp công nhân
-- Giai cấp công nhân không sở hữu tư liệu sản xuất chủ yếu, phải bán sức lao động và bị bóc lột nặng nề nên lợi ích cơ bản của Giai cấp công nhân đối lập trực tiếp với lợi ích của Giai cấp tư sản.
-- Là giai cấp có điều kiện sống và làm việc đã tạo điều kiện cho họ đoàn kết chặt chẽ với nhau trong cuộc đấu tranh giai cấp.
-- Là giai cấp có khả năng liên minh lâu dài với các giai tầng lao động khác do có lợi ích cơ bản thống nhất với nhau.
-- Là con đẻ của nền sản xuất công nghiệp hiện đại – Giai cấp công nhân có phẩm chất của một giai cấp tiên tiến, giai cấp cách mạng: Tính tổ chức, kỷ luật, tự giác, đoàn kết…
-- Giai cấp công nhân được trang bị lý luận tiên tiến nhất là Chủ nghĩa Mác – Lênin, có đội tiền phong là Đảng Cộng sản dẫn dắt.
-→ Là giai cấp đại biểu cho lực lượng sản xuất hiện đại, phương thức sản xuất tiên tiến; đại biểu cho tương lai, cho xu thế tiên tiến của tiến trình Lịch sử. Giai cấp công nhân là giai cấp duy nhất có khả năng lãnh đạo Cách mạng xã hội chủ nghĩa.
-Tóm lại, chính địa vị kinh tế và địa vị chính trị - xã hội của giai cấp công nhân là yếu tố khách quan quy định sứ mệnh lịch sử của giai cấp công nhân.
+Tóm lại, chính địa vị kinh tế và địa vị chính trị - xã hội của giai cấp công nhân là yếu tố khách  quan qui định sứ mệnh lịch sử của giai cấp công nhân. `,
+    },
+    {
+        label: "Câu3b: Phân tích điều kiện chủ quan để giai cấp công nhân thực hiện sứ mệnh lịch sử ",
+        dapan: `+ Sự phát triển của bản thân giai cấp công nhân cả về số lượng và chất lượng. Thông qua sự phát triển này có thể thấy sự lớn mạnh của giai cấp công nhân cùng với quy mô phát triển của nền sản xuất vật chất hiện đại trên nền tảng của công nghiệp, của kỹ thuật và công nghệ. 
++ Sự phát triển về số lượng phải gắn liền với sự phát triển về chất lượng giai cấp công nhân hiện đại, đảm bảo cho giai cấp công nhân thực hiện được sứ mệnh lịch sử của mình. Chất lượng giai cấp công nhân phải thể hiện ở trình độ trưởng thành về ý thức chính trị của một giai cấp cách mạng, tức là tự giác nhận thức được vai trò và trọng trách của giai cấp mình đối với lịch sử, do đó giai cấp công nhân phải được giác ngộ về lý luận khoa học và cách mạng của chủ nghĩa Mác - Lênin. 
++ Là giai cấp đại diện tiêu biểu cho phương thức sản xuất tiên tiến, chất lượng giai cấp công nhân còn phải thể hiện ở năng lực và trình độ làm chủ khoa học kỹ thuật và công nghệ hiện đại, nhất là trong điều kiện hiện nay.  
 
-3. Điều kiện chủ quan
-a. Sự phát triển của bản thân Giai cấp công nhân cả về số lượng và chất lượng
-- Sự phát triển về số lượng phải gắn liền với sự phát triển về chất lượng Giai cấp công nhân hiện đại, đảm bảo cho Giai cấp công nhân thực hiện được Sứ mệnh lịch sử của mình.
-- Chất lượng Giai cấp công nhân thể hiện ở:
-+ Trình độ trưởng thành về ý thức Chính trị của một giai cấp cách mạng, tức là tự giác nhận thức được vai trò và trọng trách của giai cấp mình đối với Lịch sử.
-+ Năng lực và trình độ làm chủ Khoa học - Kỹ thuật và công nghệ hiện đại.
-- Số lượng Giai cấp công nhân: xét tổng quát trên toàn thế giới thì số lượng công nhân đang lớn mạnh dần.
-→ Do đó Giai cấp công nhân phải được giác ngộ về lý luận Khoa học và Cách mạng của Chủ nghĩa Mác – Lênin.
+Đảng Cộng sản là nhân tố chủ quan quan trọng nhất để giai cấp công nhân thực hiện thắng lợi sứ mệnh lịch sử của mình. 
++ Đảng Cộng sản – đội tiên phong của giai cấp công nhân ra đời và đảm nhận vai trò lãnh đạo cuộc cách mạng là dấu hiệu về sự trưởng thành vượt bậc của giai cấp công nhân với tư cách là giai cấp cách mạng. 
++ Quy luật chung, phổ biến cho sự ra đời của Đảng Cộng sản là sự kết hợp giữa chủ nghĩa xã hội khoa học, tức chủ nghĩa Mác - Lênin với phong trào công nhân 
++ Giai cấp công nhân là cơ sở xã hội và nguồn bổ sung lực lượng quan trọng nhất của Đảng, làm cho Đảng mang bản chất giai cấp công nhân trở thành đội tiên phong, bộ tham mưu chiến đấu của giai cấp. Đảng Cộng sản đại biểu trung thành cho lợi ích của giai cấp công nhân, của dân tộc và xã hội. Sức mạnh của Đảng không chỉ thể hiện ở bản chất giai cấp công nhân mà còn ở mối liên hệ mật thiết giữa Đảng với nhân dân, với quần chúng lao động đông đảo trong xã hội, thực hiện cuộc cách mạng do Đảng lãnh đạo để giải phóng giai cấp và giải phóng xã hội. 
 
-b. Đảng Cộng sản là nhân tố chủ quan quan trọng nhất để Giai cấp công nhân thực hiện thắng lợi Sứ mệnh lịch sử của mình.
-Đảng Cộng sản – đội tiên phong của Giai cấp công nhân ra đời và đảm nhận vai trò lãnh đạo cuộc cách mạng là dấu hiệu về sự trưởng thành vượt bậc của Giai cấp công nhân với tư cách là giai cấp cách mạng.
-Quy luật chung, phổ biến cho sự ra đời của Đảng Cộng sản là sự kết hợp giữa Chủ nghĩa xã hội khoa học, tức Chủ nghĩa Mác – Lênin với Phong trào công nhân. Giai cấp công nhân là cơ sở xã hội và nguồn bổ sung lực lượng quan trọng nhất của Đảng, làm Đảng mang bản chất Giai cấp công nhân trở thành đội tiên phong, bộ tham mưu chiến đấu của giai cấp. Đảng Cộng sản đại biểu trung thành cho lợi ích của Giai cấp công nhân, của dân tộc và xã hội. Sức mạnh của Đảng không chỉ thể hiện ở bản chất Giai cấp công nhân mà còn ở mối liên hệ mật thiết giữa Đảng với nhân dân, với quần chúng lao động đông đảo trong xã hội, thực hiện cuộc cách mạng do Đảng lãnh đạo để giải phóng giai cấp và giải phóng xã hội.
-
-c. Liên minh giai cấp giữa Giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác.
-Ngoài hai điều kiện thuộc về nhân tố chủ quan nêu trên Chủ nghĩa Mác – Lênin còn chỉ rõ, để cuộc cách mạng thực hiện sứ mệnh lịch sử của giai cấp công nhân đi tới thắng lợi, phải có sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác do giai cấp công nhân thông qua đội tiên phong của nó là Đảng Cộng sản lãnh đạo.
-
-4. Kết luận
-Khẳng định Giai cấp công nhân mang vai trò, trọng trách Lịch sử quan trọng là người xây dựng xã hội chủ nghĩa. Chỉ duy nhất Giai cấp công nhân có Sứ mệnh lịch sử xóa bỏ Chủ nghĩa tư bản, từng bước xây dựng Chủ nghĩa xã hội, Chủ nghĩa cộng sản trên phạm vi toàn thế giới.`,
+Liên minh giai cấp giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác  
++ Ngoài hai điều kiện thuộc về nhân tố chủ quan nêu trên chủ nghĩa Mác - Lênin còn chỉ rõ, để cuộc cách mạng thực hiện sứ mệnh lịch sử của giai cấp công nhân đi tới thắng lợi, phải có sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác do giai cấp công nhân thông qua đội tiên phong của nó là Đảng Cộng sản lãnh đạo. 
++ Đây cũng là một điều kiện quan trọng không thể thiếu để thực hiện sứ mệnh lịch sử của giai cấp công nhân. `,
     },
     {
         label: "Câu 4: Tính tất yếu khách quan của thời kỳ quá độ lên chủ nghĩa xã hội",
@@ -142,9 +126,9 @@ Xây dựng CNXH là một quá trình chuyển đổi một cách sâu sắc, t
     {
         label: "Câu 5: Khái niệm dân tộc và cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
         dapan: `1. Khái niệm dân tộc 
-- Dân tộc dùng để chỉ một cộng đồng người ổn định làm thành nhân dân một nước.
-- Có lãnh thổ quốc gia, có nền kinh tế thống nhất, có ngôn ngữ chung và có ý thức về sự thống nhất của mình.
-- Gắn bó với nhau bởi quyền lợi chính trị, kinh tế, truyền thống văn hóa, truyền thống đấu tranh chung trong quá trình dựng nước và giữ nước.
+- Khái niệm dân tộc theo nghĩa rộng: dùng để chỉ một cộng đồng người ổn định làm thành nhân dân một nước, có lãnh thổ quốc gia, có nền kinh tế thống nhất, có ngôn ngữ chung và có ý thức về sự thống nhất của mình, gắn bó với nhau bởi quyền lợi chính trị, kinh tế, truyền thống văn hoá và truyền thống đấu tranh chung trong suốt quá trình lịch sử lâu dài dựng nước và giữ nước. Đây là khái niệm dùng để chỉ 1 quốc gia dân tộc. 
+- Khái niệm dân tộc theo nghĩa hẹp: dùng để chỉ một cộng đồng người được hình thành trong lịch sử, có mối liên hệ chặt chẽ và bền vững, có chung ý thức tự giác tộc người, ngôn ngữ và văn hoá. Đây là khái niệm dùng để chỉ tộc người. 
+Việc phân biệt khái niệm Dân tộc theo nghĩa rộng hay hẹp chỉ có ý nghĩa tương đối thường được dùng để phân biệt với những quốc gia dân tộc có nhiều tộc người ( đa tộc người) 
 
 1. Căn cứ đề ra cương lĩnh Dân tộc, Để xây dựng cương lĩnh Dân tộc, Lênin dựa trên 3 căn cứ:
 - Dựa trên quan điểm của Chủ nghĩa Mác về vấn đề dân tộc.
@@ -181,47 +165,53 @@ c. Liên hiệp công nhân tất cả các Dân tộc
 Cương lĩnh Dân tộc của Chủ nghĩa Mác – Lênin là cơ sở lý luận quan trọng để các Đảng Cộng sản trong quốc tế đấu tranh giành độc lập Dân tộc và xây dựng Chủ nghĩa xã hội.`,
     },
     {
-        label: "Câu 6: Quan điểm của Chủ nghĩa Mác – Lênin về bản chất, nguồn gốc và nguyên tắc giải quyết vấn đề tôn giáo trong Thời kỳ quá độ lên Chủ nghĩa xã hội",
+        label: "Câu6a: Phân tích quan điểm của chủ nghĩa Mác – Lênin về bản chất, nguồn gốc của tôn giáo. ",
         dapan: `1. Bản chất Tôn giáo (ưu tiên 3 ý đầu)
-- Tôn giáo là một hình thái (h/thái) ý thức xã hội phản ánh hoang đường, hư ảo hiện thực khách quan (KQ). Qua sự phản ánh của Tôn giáo, mọi sức mạnh của tự nhiên và xã hội trở nên thần bí.
-+ Xét về bản chất: Tôn giáo là một hiện tượng xã hội tiêu cực.
-+ Trong chừng mực nhất định, Tôn giáo có những mặt tích cực.
-- “Tôn giáo là tiếng thở của chúng sinh bị áp bức, là trái tim của thế giới không có trái tim, tinh thần của trạng thái không có tinh thần, Tôn giáo là thuốc phiện của nhân dân” (Ăngghen).
+Chủ nghĩa Mác – Lênin cho rằng tôn giáo là một hình thái ý thức xã hội phản ánh hiện thực khách quan một cách hư ảo. Trong đó, các lực lượng tự nhiên và xã hội bị thần thánh hóa, trở thành siêu nhiên và huyền bí. Ở góc độ khác, tôn giáo còn là một thực thể xã hội cụ thể, gồm các tôn giáo như Công giáo, Phật giáo, với những đặc điểm như: niềm tin vào đấng siêu nhiên, hệ thống giáo lý – giáo luật – lễ nghi, cơ sở thờ tự, tổ chức tôn giáo và cộng đồng tín đồ đông đảo.
 
-2. Nguồn gốc Tôn giáo (1 nguồn gốc: 2 ý: trình độ thấp + cao)
-Có 3 nguồn gốc: Kinh tế - Xã hội ; Nhận thức; Tâm lý. Trong đó, nguồn gốc Kinh tế - Xã hội  là cơ bản nhất.
+Về bản chất, chủ nghĩa Mác – Lênin khẳng định tôn giáo là một hiện tượng xã hội – văn hóa do con người sáng tạo ra, nhằm phục vụ nhu cầu tinh thần, phản ánh những ước mơ, khát vọng của con người trong hoàn cảnh cụ thể. Tuy nhiên, sau khi sáng tạo ra tôn giáo, con người lại bị lệ thuộc, tuyệt đối hóa và phục tùng nó. Sự tồn tại và phát triển của tôn giáo, xét đến cùng, phụ thuộc vào sản xuất vật chất và quan hệ kinh tế. Tức là, mọi quan niệm, tổ chức và thiết chế tôn giáo đều nảy sinh từ hoạt động sản xuất và điều kiện sống xã hội, và sẽ thay đổi khi cơ sở kinh tế thay đổi.
 
-a, Nguồn gốc Kinh tế – Xã hội:
-- Kinh tế trình độ thấp: Trong xã hội công xã nguyên thủy, con người thần thánh hóa Tự nhiên => Tôn giáo ra đời.
-- Kinh tế phát triển trình độ cao: Trong nền Kinh tế thị trường, do gặp rủi ro trong kinh doanh nên con người dựa vào Tôn giáo để bù đắp yếu tố tâm lý của mình.
-- Xã hội trình độ thấp: Khi xã hội xuất hiện áp bức bất công, do không giải thích được nguồn gốc của áp bức bóc lột, con người trông chờ vào sự Giải phóng của một lực lượng siêu nhiên ngoài trần thế.
-- Xã hội phát triển trình độ cao: Dù xã hội phát triển hiện đại, nhưng mâu thuẫn về Dân tộc, giai cấp vẫn còn, khi ấy con người đòi hỏi một Biện pháp chữa lành tinh thần, dẫn đến Tôn giáo.
+Về thế giới quan, tôn giáo mang tính duy tâm, đối lập với thế giới quan duy vật biện chứng và khoa học của chủ nghĩa Mác – Lênin. Tuy nhiên, những người cộng sản không xem thường hay trấn áp nhu cầu tín ngưỡng của nhân dân, mà luôn tôn trọng quyền tự do tín ngưỡng, bao gồm cả quyền theo hoặc không theo tôn giáo.
 
-b, Nguồn gốc nhận thức:
-- Nhận thức trình độ thấp: Khi mà khoảng cách giữa “biết” và “chưa biết” vẫn tồn tại, khi những điều mà Khoa học (KH) chưa giải thích được, thì điều đó thường được giải thích thông qua Tôn giáo.
-- Nhận thức phát triển trình độ cao: Khi Khoa học (KH), xã hội phát triển đạt đến trình độ tư duy trừu tượng, con người dựa trên những suy luận xa rời thực tế, tạo tiền đề cho Tôn giáo tiếp tục phát triển.
+Tôn giáo và tín ngưỡng tuy khác nhau nhưng có sự giao thoa nhất định. Tín ngưỡng là niềm tin và cách thể hiện niềm tin vào các sự vật, hiện tượng linh thiêng như thờ cúng tổ tiên, thờ Mẫu, thờ anh hùng dân tộc… Trong khi đó, mê tín là niềm tin mù quáng không có cơ sở khoa học, còn mê tín dị đoan là mức độ cực đoan của mê tín, dẫn đến hành vi lệch lạc, vi phạm đạo đức và pháp luật, gây hại cho cá nhân và xã hội.
 
-c, Nguồn gốc tâm lý:
-- Tâm lý sợ hãi: Sự sợ hãi trước những hiện tượng Tự nhiên xã hội, lúc ốm đau; may, rủi bất ngờ, hoặc tâm lý muốn được bình yên khi làm một việc lớn (Ví dụ: cưới xin, xây nhà,...) con người cũng dễ tìm đến với Tôn giáo.
-- Tâm lý thành kính, yêu thương: Xuất phát từ tình yêu, lòng biết ơn với những người có công với nước (Ví dụ: thờ các anh hùng Dân tộc, thờ các thành hoàng làng,…)
+2. Nguồn gốc của tôn giáo:
+- Nguồn gốc tự nhiên, kinh tế - xã hội  
+Trong xã hội công xã nguyên thuỷ, do lực lượng sản xuất chưa phát triển, trước thiên nhiên hùng vĩ tác động và chi phối khiến cho con người cảm thấy yếu đuối và bất lực, không giải thích được, nên con người đã gán cho tự nhiên những sức mạnh, quyền lực thần bí. 
+Khi xã hội xuất hiện các giai cấp đối kháng, có áp bức bất công, do không giải thích được nguồn gốc của sự phân hoá giai cấp và áp bức bóc lột bất công, tội ác v.v..., cộng với lo sợ trước sự thống trị của các lực lượng xã hội, con người trông chờ vào sự giải phóng của một lực lượng siêu nhiên ngoài trần thế. 
+- Nguồn gốc nhận thức 
+Ở một giai đoạn lịch sử nhất định, sự nhận thức của con người về tự nhiên, xã hội và chính bản thân mình là có giới hạn. Khi mà khoảng cách giữa “biết” và “chưa biết” vẫn tồn tại, khi những điều mà khoa học chưa giải thích được, thì điều đó thường được giải thích thông qua lăng kính các tôn giáo. Ngay cả những vấn đề đã được khoa học chứng minh, nhưng do trình độ dân trí thấp, chưa thể nhận thức đầy đủ, thì đây vẫn là điều kiện, là mảnh đất cho tôn giáo ra đời, tồn tại và phát triển. Thực chất nguồn gốc nhận thức của tôn giáo chính là sự tuyệt đối hoá, sự cường điệu mặt chủ thể của nhận thức con người, biến cái nội dung khách quan thành cái siêu nhiên, thần thánh. 
+- Nguồn gốc tâm lý 
+Sự sợ hãi trước những hiện tượng tự nhiên, xã hội, hay trong những lúc ốm đau, bệnh tật; ngay cả những may, rủi bất ngờ xảy ra, hoặc tâm lý muốn được bình yên khi làm một việc lớn (ví dụ: ma chay, cưới xin, làm nhà, khởi đầu sự nghiệp kinh doanh…), con người cũng dễ tìm đến với tôn giáo. Thậm chí cả những tình cảm tích cực như tình yêu, lòng biết ơn, lòng kính trọng đối với những người có công với nước, với dân cũng dễ dẫn con người đến với tôn giáo (ví dụ: thờ các anh hùng dân tộc, thờ các thành hoàng làng…). `,
+    },
+    {
+        label: "Câu6b: Phân tích nguyên tắc giải quyết vấn đề tôn giáo trong thời kỳ quá độ lên CNXH",
+        dapan: `Trong thời kỳ quá độ lên chủ nghĩa xã hội, tôn giáo vẫn còn tồn tại, tuy đã có sự biến đổi trên nhiều mặt. Vì vậy, khi giải quyết vấn đề tôn giáo cần đảm bảo các nguyên tắc sau:
 
-3. Nguyên tắc giải quyết vấn đề Tôn giáo
-Khi giải quyết vấn đề Tôn giáo cần đảm bảo các nguyên tắc sau:
+✅ Nguyên tắc 1: Tôn trọng, bảo đảm quyền tự do tín ngưỡng và không tín ngưỡng của nhân dân
+Tín ngưỡng tôn giáo là niềm tin sâu sắc của quần chúng vào đấng tối cao, đấng thiêng liêng nào đó mà họ tôn thờ, thuộc lĩnh vực ý thức tư tưởng. Do đó, tự do tín ngưỡng và tự do không tín ngưỡng thuộc quyền tự do tư tưởng của nhân dân.
+Quyền này nói lên rằng việc theo đạo, đổi đạo, hay không theo đạo là thuộc quyền tự do lựa chọn của mỗi người dân, không một cá nhân, tổ chức nào, kể cả các chức sắc tôn giáo, tổ chức giáo hội… được quyền can thiệp vào sự lựa chọn này.
+Mọi hành vi cấm đoán, ngăn cản tự do theo đạo, đổi đạo, bỏ đạo hay đe dọa, bắt buộc người dân phải theo đạo đều xâm phạm đến quyền tự do tư tưởng của họ.
+Tôn trọng tự do tín ngưỡng cũng chính là tôn trọng quyền con người, thể hiện bản chất ưu việt của chế độ xã hội chủ nghĩa.
+Nhà nước xã hội chủ nghĩa không can thiệp và không cho bất cứ ai can thiệp, xâm phạm đến quyền tự do tín ngưỡng, quyền lựa chọn theo hay không theo tôn giáo của nhân dân.
+Các tôn giáo và hoạt động tôn giáo bình thường, các cơ sở thờ tự, các phương tiện phục vụ nhằm thoả mãn nhu cầu tín ngưỡng của người dân được Nhà nước xã hội chủ nghĩa tôn trọng và bảo hộ.
 
-a, Tôn trọng, bảo đảm quyền tự do tín ngưỡng và không tín ngưỡng của nhân dân
-Việc theo đạo, đổi đạo, hay không theo đạo là thuộc quyền tự do lựa chọn của mỗi người dân, không một cá nhân, tổ chức nào được quyền can thiệp vào. Mọi hành vi cấm đoán, ngăn cản tự do theo đạo, đổi đạo, bỏ đạo hay đe dọa, bắt buộc người dân phải theo đạo đều xâm phạm đến quyền tự do tư tưởng.
+✅ Nguyên tắc 2: Khắc phục dần những ảnh hưởng tiêu cực của tôn giáo phải gắn liền với quá trình cải tạo xã hội cũ, xây dựng xã hội mới
+Nguyên tắc này để khẳng định chủ nghĩa Mác - Lênin chỉ hướng vào giải quyết những ảnh hưởng tiêu cực của tôn giáo đối với quần chúng nhân dân mà không chủ trương can thiệp vào công việc nội bộ của các tôn giáo.
+Theo quan điểm của chủ nghĩa Mác – Lênin: Muốn thay đổi ý thức xã hội, trước hết cần phải thay đổi bản thân tồn tại xã hội; muốn xoá bỏ ảo tưởng nảy sinh trong tư tưởng con người, phải xoá bỏ nguồn gốc sinh ra ảo tưởng ấy. Điều cần thiết trước hết là phải xác lập được một thế giới hiện thực không có áp bức, bất công, nghèo đói và thất học… cũng như những tệ nạn nảy sinh trong xã hội. Đó là một quá trình lâu dài, và không thể thực hiện được nếu tách rời việc cải tạo xã hội cũ, xây dựng xã hội mới.
 
-b, Khắc phục dần những ảnh hưởng tiêu cực của Tôn giáo phải gắn liền với quá trình cải tạo xã hội cũ, xây dựng xã hội mới
-Muốn thay đổi ý thức xã hội, cần phải thay đổi bản thân tồn tại xã hội; muốn xóa bỏ ảo tưởng nảy sinh trong tư tưởng con người, phải xóa bỏ nguồn gốc sinh ra ảo tưởng ấy. Đây là một quá trình lâu dài, và không thể thực hiện được nếu tách rời việc cải tạo xã hội cũ, xây dựng xã hội mới.
+✅ Nguyên tắc 3: Phân biệt hai mặt chính trị và tư tưởng; tín ngưỡng, tôn giáo và lợi dụng tín ngưỡng, tôn giáo trong quá trình giải quyết vấn đề tôn giáo
+Trong xã hội công xã nguyên thuỷ, tín ngưỡng, tôn giáo chỉ biểu hiện thuần tuý về tư tưởng. Nhưng khi xã hội đã xuất hiện giai cấp thì dấu ấn giai cấp - chính trị ít nhiều đều in rõ trong các tôn giáo. Từ đó, hai mặt chính trị và tư tưởng thường thể hiện và có mối quan hệ với nhau trong vấn đề tôn giáo và bản thân mỗi tôn giáo.
+Mặt chính trị phản ánh mối quan hệ giữa tiến bộ với phản tiến bộ, phản ánh mâu thuẫn đối kháng về lợi ích kinh tế, chính trị giữa các giai cấp, mâu thuẫn giữa những thế lực lợi dụng tôn giáo chống lại sự nghiệp cách mạng với lợi ích của nhân dân lao động.
+Mặt tư tưởng biểu hiện sự khác nhau về niềm tin, mức độ tin giữa những người có tín ngưỡng tôn giáo và những người không theo tôn giáo, cũng như những người có tín ngưỡng, tôn giáo khác nhau, phản ánh mâu thuẫn không mang tính đối kháng.
+Phân biệt hai mặt chính trị và tư tưởng trong giải quyết vấn đề tôn giáo thực chất là phân biệt tính chất khác nhau của hai loại mâu thuẫn luôn tồn tại trong bản thân tôn giáo và trong vấn đề tôn giáo.
+Sự phân biệt này, trong thực tế không đơn giản, bởi lẽ, trong đời sống xã hội, hiện tượng nhiều khi phản ánh sai lệch bản chất, mà vấn đề chính trị và tư tưởng trong tôn giáo thường đan xen vào nhau. Mặt khác, trong xã hội có đối kháng giai cấp, tôn giáo thường bị yếu tố chính trị chi phối rất sâu sắc, nên khó nhận biết vấn đề chính trị hay tư tưởng thuần tuý trong tôn giáo.
+Việc phân biệt hai mặt này là cần thiết nhằm tránh khuynh hướng cực đoan trong quá trình quản lý, ứng xử những vấn đề liên quan đến tín ngưỡng, tôn giáo.
 
-c, Phân biệt 2 mặt Chính trị và tư tưởng; tín ngưỡng, Tôn giáo và lợi dụng tín ngưỡng, Tôn giáo trong quá trình giải quyết vấn đề Tôn giáo
-- Mặt Chính trị phản ánh mâu thuẫn đối kháng về lợi ích Kinh tế, Chính trị giữa các giai cấp. Mặt tư tưởng biểu hiện (b/hiện) sự khác nhau về niềm tin, mức độ tin tưởng giữa những người có và không theo Tôn giáo, Tôn giáo khác nhau, phản ánh mâu thuẫn không mang tính đối kháng.
-- Tuy sự phân biệt này không đơn giản, nhưng là cần thiết nhằm tránh khuynh hướng cực đoan trong quá trình quản lý, ứng xử những vấn đề liên quan đến tín ngưỡng, Tôn giáo.
-
-d, Quan điểm Lịch sử cụ thể trong giải quyết vấn đề tín ngưỡng, Tôn giáo
-- Tôn giáo không phải là một hiện tượng xã hội bất biến mà luôn vận động và biến đổi không ngừng.
-Mỗi Tôn giáo đều có Lịch sử hình thành (h/thành), có quá trình tồn tại và phát triển nhất định.
-Ở những thời kỳ Lịch sử khác nhau, quan điểm, thái độ của các giáo hội, giáo sĩ về các lĩnh vực đời sống xã hội luôn có sự khác biệt.
-- Vì vậy, cần phải có quan điểm Lịch sử cụ thể khi xem xét, đánh giá các vấn đề có liên quan đến Tôn giáo và đối với từng Tôn giáo cụ thể.`,
+✅ Nguyên tắc 4: Quan điểm lịch sử – cụ thể trong giải quyết vấn đề tín ngưỡng, tôn giáo
+Tôn giáo không phải là một hiện tượng xã hội bất biến, ngược lại, nó luôn luôn vận động và biến đổi không ngừng tuỳ thuộc vào những điều kiện kinh tế - xã hội - lịch sử cụ thể.
+Mỗi tôn giáo đều có lịch sử hình thành, có quá trình tồn tại và phát triển nhất định. Ở những thời kỳ lịch sử khác nhau, vai trò, tác động của từng tôn giáo đối với đời sống xã hội không giống nhau.
+Quan điểm, thái độ của các giáo hội, giáo sĩ, giáo dân về những lĩnh vực của đời sống xã hội luôn có sự khác biệt.
+Vì vậy, cần phải có quan điểm lịch sử cụ thể khi xem xét, đánh giá và ứng xử đối với những vấn đề có liên quan đến tôn giáo và đối với từng tôn giáo cụ thể.`,
     },
 ];
