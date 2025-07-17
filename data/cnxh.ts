@@ -75,21 +75,20 @@ Tuyên ngôn của Đảng Cộng sản còn là cương lĩnh chính trị, là
     {
         label: "Câu3a: Nhưng điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân",
         dapan: `Điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân bao gồm: 
-Thứ nhất, do địa vị kinh tế của giai cấp công nhân quy định 
-+ Giai cấp công nhân  là sản phẩm trực tiếp của nền đại công nghiệp trong phương thức sản xuất tư bản chủ nghĩa, là chủ thể của quá trình sản xuất vật chất hiện đại. 
-+ Giai cấp công nhân đại diện cho phương thức sản xuất tiên tiến và lực lượng sản xuất hiện đại (mang tính chất xã hội hóa) có vai trò quyết định sự thay thế quan hệ sản xuất TBCN (dựa trên chế độ tư hữu về tư liệu sản xuất) thiết lập Quan hệ sản xuất mới phù hợp với sự phát triển của Lực lượng sản xuất ( chế độ công hữu về tư liệu sản xuất) 
-+ Điều kiện khách quan này là nhân tố kinh tế, quy định giai cấp công nhân là lực lượng phá vỡ quan hệ sản xuất tư bản chủ nghĩa,  
-+ Về xã hội: Trong CNTB giai cấp công nhân là giai cấp chịu sự áp bức bóc lột trực tiếp từ giai cấp tư sản, mâu thuẫn giữa giai cấp tư sản và giai cấp công nhân ngày càng phát triển thể hiện thông qua các cuộc đấu tranh cả về kinh tế và chính trị. 
-+ Về chính trị: Để giải phóng mình khỏ sự áp bức bóc lột về kinh tế, xã hội giai cấp công nhân đấu tranh giành chính quyền về tay mình, xóa bỏ sự thống trị của giai cấp tư sản, xóa bỏ CNTB. 
-+ Giai cấp công nhân trở thành đại biểu cho sự tiến hóa tất yếu của lịch sử, là lực lượng duy nhất có đủ điều kiện để tổ chức và lãnh đạo xã hội, xây dựng và phát triển lực lượng sản xuất và quan hệ sản xuất xã hội chủ nghĩa, tạo nền tảng vững chắc để xây dựng chủ nghĩa xã hội với tư cách là một chế độ xã hội kiểu mới, không còn chế độ người áp bức, bóc lột người. 
+Thứ nhất, do địa vị kinh tế của giai cấp công nhân quy định
+Giai cấp công nhân là sản phẩm trực tiếp của nền đại công nghiệp trong phương thức sản xuất tư bản chủ nghĩa, đồng thời là chủ thể của quá trình sản xuất vật chất hiện đại.
+Họ đại diện cho phương thức sản xuất tiên tiến và lực lượng sản xuất hiện đại mang tính xã hội hóa, có vai trò quyết định trong việc thay thế quan hệ sản xuất tư bản chủ nghĩa (dựa trên chế độ tư hữu về tư liệu sản xuất) bằng quan hệ sản xuất mới, phù hợp với sự phát triển của lực lượng sản xuất (dựa trên chế độ công hữu).
+Trong xã hội tư bản, giai cấp công nhân là lực lượng bị bóc lột trực tiếp, mâu thuẫn với giai cấp tư sản ngày càng sâu sắc, dẫn đến những cuộc đấu tranh về kinh tế và chính trị.
+Để giải phóng khỏi sự áp bức, bóc lột, giai cấp công nhân phải đấu tranh giành lấy chính quyền, xóa bỏ sự thống trị của giai cấp tư sản và lật đổ chủ nghĩa tư bản.
+Với vai trò gắn bó trực tiếp với lực lượng sản xuất hiện đại, công nhân là lực lượng duy nhất có khả năng tổ chức và lãnh đạo xã hội, xây dựng và phát triển lực lượng sản xuất và quan hệ sản xuất xã hội chủ nghĩa – tạo nền tảng cho một chế độ xã hội mới, không còn áp bức và bóc lột giai cấp.
 
-Thứ hai, do địa vị chính trị - xã hội của giai cấp công nhân quy định 
-+ Là con đẻ của nền sản xuất đại công nghiệp, giai cấp công nhân có được những phẩm chất của một giai cấp tiên tiến, giai cấp cách mạng: tính tổ chức và kỷ luật, tự giác và đoàn kết trong cuộc đấu tranh tự giải phóng mình và giải phóng xã hội. 
-+ Những phẩm chất ấy của giai cấp công nhân được hình thành từ chính những điều kiện khách quan, được quy định từ địa vị kinh tế và địa vị chính trị - xã hội của nó trong nền sản xuất hiện đại và trong xã hội hiện đại mà giai cấp tư sản và chủ nghĩa tư bản đã tạo ra một cách khách quan, ngoài ý muốn của nó. 
-+ Giai cấp công nhân được trang bị lý luận tiên tiến là chủ nghĩa Mác – Lênin, có đội tiền phong là Đảng cộng sản dẫn dắt. 
-+ Giai cấp công nhân là giai cấp đại biểu cho tương lai, cho xu thế đi lên của tiến trình phát triển lịch sử. Đây là đặc tính quan trọng, quyết định bản chất cách mạng của giai cấp công nhân.  
-+ Giai cấp công nhân là một giai cấp cách mạng hoàn toàn không phải vì nghèo khổ, tình trạng này của giai cấp công nhân dưới chủ nghĩa tư bản là hậu quả của sự bóc lột, áp bức mà giai cấp tư sản và chủ nghĩa tư bản tạo ra đối với công nhân, đó là trạng thái mà cách mạng sẽ xóa bỏ để giải phóng giai cấp công nhân và giải phóng xã hội. 
-+ Địa vị chính trị - xã hội  của giai cấp công nhân đã tạo nên những phẩm chất chính trị là giai cấp tiến tiến nhất; giai cấp có ý thức kỷ luật cao; giai cấp có tinh thần cách mạng triệt để; giai cấp có bản chất quốc tế. 
+Thứ hai, do địa vị chính trị – xã hội của giai cấp công nhân quy định
+Là sản phẩm của nền sản xuất đại công nghiệp, giai cấp công nhân mang trong mình những phẩm chất của một giai cấp tiên tiến, cách mạng: tổ chức, kỷ luật, tự giác và đoàn kết trong quá trình đấu tranh giải phóng mình và toàn xã hội.
+Những phẩm chất đó bắt nguồn từ chính điều kiện khách quan và địa vị kinh tế – xã hội của họ trong xã hội tư bản, do chính chủ nghĩa tư bản tạo ra một cách khách quan, ngoài ý muốn.
+Giai cấp công nhân được trang bị lý luận cách mạng là chủ nghĩa Mác – Lênin, và có đội tiên phong là Đảng Cộng sản lãnh đạo.
+Họ là đại biểu cho xu thế phát triển tất yếu của lịch sử, và đây chính là cơ sở quyết định tính chất cách mạng của giai cấp công nhân.
+Công nhân không cách mạng vì nghèo khổ, mà vì tình trạng đó là hậu quả của sự áp bức, bóc lột; cách mạng là con đường để xóa bỏ tình trạng đó, giải phóng chính họ và toàn xã hội.
+Chính địa vị chính trị – xã hội đã hình thành nên những phẩm chất chính trị đặc trưng của công nhân: là giai cấp tiến bộ nhất, có ý thức kỷ luật, tinh thần cách mạng triệt để và bản chất quốc tế.
 
 Tóm lại, chính địa vị kinh tế và địa vị chính trị - xã hội của giai cấp công nhân là yếu tố khách  quan qui định sứ mệnh lịch sử của giai cấp công nhân. `,
     },
