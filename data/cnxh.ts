@@ -63,8 +63,12 @@ Với phát kiến thứ ba, những hạn chế có tính lịch sử của ch�
 Tuyên ngôn của Đảng Cộng sản là tác phẩm kinh điển chủ yếu của chủ nghĩa xã hội khoa học.  
 Sự ra đời của tác phẩm vĩ đại này đánh dấu sự hình thành về cơ bản lý luận của chủ nghĩa Mác bao gồm ba bộ phận hợp thành: Triết học, Kinh tế chính trị học và Chủ nghĩa xã hội khoa học. 
 Tuyên ngôn của Đảng Cộng sản còn là cương lĩnh chính trị, là kim chỉ nam hành động của toàn bộ phong trào cộng sản và công nhân quốc tế. 
-Tuyên ngôn của Đảng Cộng sản là ngọn cờ dẫn dắt giai cấp công nhân và nhân dân lao động toàn thế giới trong cuộc đấu tranh chống chủ nghĩa tư bản, giải phóng loài người vĩnh viễn thoát khỏi mọi áp bức, bóc lột giai cấp, bảo đảm cho loài người được thực sự sống trong hòa bình, tự do và hạnh phúc.  
-Chính Tuyên ngôn của Đảng Cộng sản đã nêu và phân tích một cách có hệ thống lịch sử và lô gic hoàn chỉnh về những vấn đề cơ bản nhất, đầy đủ, xúc tích và chặt chẽ nhất thâu tóm hầu như toàn bộ những luận điểm của chủ nghĩa xã hội khoa học chỉ ra con đường và biện pháp cách mạng để giai cấp công nhân thực hiện sứ mệnh lịch sử của mình.  
+
+- Nội dung: nêu và phân tích một cách có hệ thống lịch sử và lô gic hoàn chỉnh về những các vấn đề như:
++ Giải phóng giai cấp công nhân không thể tách rời khỏi việc giải phóng toàn xã hội khỏi áp bức, bóc lột và đấu tranh giai cấp. Để làm được điều đó, giai cấp vô sản phải có chính đảng cách mạng của mình – sản phẩm tất yếu từ sự phát triển của cuộc đấu tranh giai cấp.
++ Chủ nghĩa tư bản phát triển đến một giai đoạn nhất định sẽ tất yếu dẫn đến khủng hoảng và sụp đổ, mở đường cho chủ nghĩa xã hội thắng lợi như một xu thế lịch sử không thể đảo ngược.
++ Giai cấp công nhân, với vị trí đại diện cho lực lượng sản xuất tiên tiến, là lực lượng nòng cốt trong cách mạng xã hội chủ nghĩa và tiến lên chủ nghĩa cộng sản.
+
 Đây là tác phẩm làm cho Chủ nghĩa Mác trở thành một học thuyết hoàn chỉnh không chỉ nhận thức thế giới mà quan trọng hơn là cải tạo thế giới. 
 `,
     },
