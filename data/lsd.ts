@@ -190,4 +190,23 @@ Sau khi phân tích tình hình chung của cả nước và đặc điểm tìn
 -Đường lối thực hiện đồng thời hai chiến lược CM thể hiện tư tưởng chiến lược của Đảng đó là ĐLDT gắn liền CNXH vừa phù hợp với MB, vừa phù hợp MN, vừa phù hợp với cả nước và tình hình quốc tế, huy động cao nhất sức mạnh tổng hợp to lớn, do đó đã đánh thắng đế quốc Mỹ và bè lũ tay sai giải phóng MN, thống nhất tổ quốc 
 -Đường lối thực hiện đồng thời 2 chiến lược CM thể hiện tinh thần ĐL tự chủ và sáng tạo của Đảng ta trong việc giải phóng những vấn đề của CMVN chưa hề có tiền lệ trong lịch sử (cả lý luận và thực tiễn) vừa đúng với thực tiễn VN, vừa phù hợp với lợi ích của nhân loại và xu thế thời đại.`,
     },
+    {
+        label: "Câu 9: Nội dung Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên CNXH ở Việt Nam ( Cương lĩnh năm 1991 và 2011) ? (4đ)",
+        dapan: `*Hoàn cảnh lịch sử:
+-Đại hội đại biểu toàn quốc lần thứ VII (6-1991) Đảng Cộng sản Việt Nam hoạch định Cương lĩnh xây dựng đất nước trong thời kì quá độ lên CNXH
+- Đại hội đại biểu toàn quốc lần thứ XI Đảng CSVN (1-2011) đã tổng kết thực tiễn, phát triển lý luận và thông qua Cương lĩnh XD đất nước trong thời kỳ quá độ lên CNXH ( Bổ sung, phát triển năm 2011)
+*Nội dung:
+-Cương lĩnh đề ra những định hướng lớn về phát triển kinh tế, văn hóa, xã hội, quốc phòng, an ninh, đối ngoại:
++ Về kinh tế: Phát triển nền kinh tế thị trường định hướng XHCN với nhiều hình thức sở hữu, nhiều thành phần kinh tế, hình thức tổ chức kinh doanh và hình thức phân phối. Các thành phần kinh tế hoạt động theo pháp luật đều là bộ phận hợp thành quan trọng của nền kinh tế, bình đẳng trước pháp luật, cùng phát triển lâu dài, hợp tác và cạnh tranh lành mạnh. Kinh tế nhà nước giữ vai trò chủ đạo. Kinh tế tập thể không ngừng được củng cố và phát triển. Kinh tế nhà nước cùng với kinh tế tập thể ngày càng trở thành nền tảng vững chắc của nền kinh tế quốc dân, kinh tế tư nhân là một trong những động lực của nền kinh tế. Kinh tế có vốn đầu tư nước ngoài được khuyến khích phát triển. Các hình thức sở hữu, các yếu tố thị trường, quan hệ phân phối, vai trò quản lý của Nhà nước được xác định rõ
+-Định hướng lớn về phát triển văn hóa: Xây dựng nên văn hóa tiên tiến, đậm đà bản sắc dân tộc, phát triển toàn diện, thống nhất trong đa dạng, tiếp thu tinh hoa văn hóa nhân loại, XD con người VN giàu lòng yêu nước, có ý thức làm chủ, trách nhiệm công dân:
++ Tiên tiến là yêu nước và tiến bộ với nội dung cốt lõi là lý tưởng độc lập dân tộc và CNXH theo chủ nghĩa Mác-lenin – Tư tưởng Hồ Chí Minh nhằm mục tiêu tất cả vì con người
++ Bản sắc dân tộc bao gồm những giá trị Việt Nam truyền thống bền vững của cộng đồng các dân tộc VN được vun đắp qua lịch sử hàng ngàn năm đấu tranh dựng nước và giữ nước
++ Bản sắc của một dân tộc là tổng thể những phẩm chất tính cách sức sống bên trong của một dân tộc giúp cho dân tộc ấy giữ vững được tính duy nhất và tính thống nhất tính nhất quán so với bản thân mình trong quá trình phát triển 
++ Để XH nền văn hóa tiên tiến đậm đà bản sắc dân tộc chúng ta chủ trương vừa bảo vệ bản sắc dân tộc vừa mở rộng giao lưu, tiếp thu tinh hoa VH nhân loại, XD VN thành 1 địa chỉ giao lưu văn hóa khu vực và quốc tế
++ Giữ gìn bản sắc dân tộc phải đi liền với loại bỏ những cái lạc hậu lỗi thời trong phong tục tập quán và lề thói cũ
+*Ý nghĩa:
+- Cương lĩnh có ý nghĩa đặc biệt quan trọng về lý luận và thực tiễn. Với kết quả nghiên cứu lý luận, đổi mới tư duy và tổng kết thực tiễn, Cương lĩnh đã làm rõ 8 đặc trưng cơ bản của chế độ XHCN ở VN
+- Nhận thức rõ hơn về quá độ lên CNXH ở Việt Nam với chế độ chính trị, kinh tế, thành phần , cấu trúc, văn hóa, con người, chiến lược quốc phòng, an ninh, đối ngoại và những chặng đường, bước đi cần thiết
+- Làm sáng tỏ khả năng bỏ qua CNTB để tiến lên CNXH tất yếu phải bỏ qua quan hệ sản xuất và kiến trúc thượng tầng TBCN, đồng thời có thể kế thừa những thành tựu đã đạt được dưới chế độ tư bản, nhất là sự phát triển của khoa học, công nghệ và trình độ tổ chức quản lý kinh tế và xã hội.`,
+    },
 ];

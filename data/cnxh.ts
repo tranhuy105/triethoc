@@ -4,40 +4,55 @@ export const cnxh: Question[] = [
     {
         label: "Câu1a: Phân tích điều kiện kinh tế - xã hội cho sự ra đời CNXHKH",
         dapan: `Điều kiện kinh tế - xã hội
-Vào những năm 40 của thế kỷ XIX, cuộc cách mạng công nghiệp phát triển mạnh mẽ tạo nên nền đại công nghiệp. Nền đại công nghiệp cơ khí làm cho phương thức sản xuất tư bản chủ nghĩa có bước phát triển vượt bậc, dẫn tới bộc lộ mâu thuẫn trong lòng xã hội tư bản :  
-- Về kinh tế: Mâu thuẫn giữa Lực lượng sản xuất (mang tính chất xã hội hóa ngày càng cao) với Quan hệ sản xuất TBCN (dựa trên chế độ sở hữu tư nhân về tư liệu sản xuất) Biểu hiện ra bên ngoài bằng các cuộc khủng hoảng kinh tế theo chu kỳ (1825, 1836, 1846,1857) đây là bằng chứng cho sự mâu thuẫn của phương thức sản xuất TBCN đã trở nên gay gắt không thể tự điều tiết bằng các học thuyết kinh tế đương thời. 
-- Về xã hội: Mâu thuẫn giữa giai cấp công nhân với giai cấp tư sản đã trở nên gay gắt, bộc lộ ra thành các phong trào đấu tranh của giai cấp công nhân o Cuộc đấu tranh của công nhân dệt Lion ( Pháp) 1831 và 1834 o Cuộc đấu tranh của công nhân dệt Xilêdi ( Đức) 1844 o Phong trào Hiến chương Anh kéo dài hơn 10 năm từ 1836 - 1848 
-Các cuộc đấu tranh giữa giai cấp công nhân và giai cấp tư sản diễn ra ở các nước tư bản phát triển, chịu ảnh hưởng của cuộc cách mạng công nghiệp ( Anh, Pháp, Đức) Các phong trào đấu tranh đã thể hiện giai cấp công nhân đã trường thành phát triển cả về số lượng và chất lượng, họ trở thành một lực lượng chính trị xã hội độc lập, lần đầu tiên họ đứng lên đấu tranh chống lại giai cấp tư sản với tư cách là một giai cấp để đòi hỏi những lợi ích về kinh tế và chính trị. Tuy nhiên những phong trào này chỉ dừng lại là những hình thức đấu tranh tự phát và bị thất bại. 
-Cuộc đấu tranh giai cấp công nhân tất yếu sẽ dẫn đến một yêu cầu mới, yêu cầu phải có một lý luận khoa học dẫn đường, để đưa giai cấp công nhân đi từ đấu tranh tự phát tới đấu tranh tự giác vì lợi ích của giai cấp mình. Đây chính là yêu cầu khánh quan để các nhà tư tưởng nghiên cứu tổng kết thực tiễn cho ra đời lý luận  CNXHKH 
-Như vậy, sự ra đời  của CNXHKH đã đáp ứng được yêu cầu phát triển của phong trào công nhân.  
-Điều kiện kinh tế- xã hội chính là mảnh đất hiện thực cho sự ra đời của CNXHKH. `,
+Về kinh tế:
++ Trong những năm 40 của TK 19 dưới sự tác động của CMCN, CNTB đã có sự phát triển quan trọng làm bộc lộ rõ bản chất và những mâu thuận nội tại của PTSX TBCN
++ Sự phát triển quan trọng ở đây đó là CNTB hình thành chưa đầy 1 thế kỷ nhưng nó đã tạo một khối lượng lực lượng sản xuất khổng lồ bằng tất cả các xã hội trước cộng lại
++ Chính sự phát triển rất nhanh của LLSX đã tác động tới PTSX dẫn tới mâu thuẫn giữa lực lượng sản xuất mang tính xã hội hóa ngày càng cao với quan hệ sản xuất dựa trên chế độ chiếm hữu tư nhân về TLSX
++ Mẫu thuẫn ngày càng gay gắt, được thể hiện bằng các cuộc khủng hoảng kinh tế (1825, 1836, 1847, 1857)
++ Các cuộc khủng hoảng là minh chứng cho sự mất cân bằng cung và cầu trên thị trường. Khi cung lớn hơn cầu thì dẫn tới khủng hoàng thừa, sau khủng hoảng thừa thì người ta lại hạn chế sản xuất, thu hẹp quy mô sản xuất dẫn tới cung nhỏ hơn cầu và dẫn tới khủng hoảng thiếu.
++ Qua đó ta thấy được học thuyết kinh tế bàn tay vô hình (để thị trường tự điều tiết) không còn phù hợp nữa. Tất yếu nó cần được thay thế bằng một học thuyết kinh tế khác.
++ Đó là lý do các nhà kinh tế đã đưa ra các quan điểm về sự điều tiết của nhà nước dưới góc độ vĩ mô để tránh các tổn thất của các cuộc khủng hoảng.
+
+Về xã hội:
++ Giai cấp công nhân đã có sự phát triển về số lượng và chất lượng
++ Hình thành mâu thuẫn giữa giai cấp công nhân và giai cấp tư sản. Mâu thuẫn này không chỉ thể hiện một cách đơn thuần như trước mà đã biểu hiện một cách gay gắt. Thể hiện qua 3 phong trào đấu tranh, khởi nghĩa trên quy mô lớn:
++ Cuộc khởi nghĩa CN Dệt ở thành phố Lion ( Pháp) 1831 & 1834
++ Cuộc khởi nghĩa CN Dệt ở thành phố Xilêdi (Đức) 1844
++ Phong trào Hiến chương của công nhân Anh ( 1836 – 1848)
+Địa điểm diễn ra các cuộc khởi nghĩa đều là những nước đã và đang chịu sự tác động của cách mạng công nghiệp và giai cấp công nhân đã trưởng thành, trở thành một lực lượng chính trị độc lập, đấu tranh chống lại giai cấp tư sản để đòi hỏi những lợi ích về kinh tế và chính trị cho giai cấp của mình.
++ Tất cả phong trào đấu tranh đều là đấu tranh tự phát, chịu ảnh hưởng của tư tưởng tư sản, sớm hay muộn cũng bị giai cấp tư sản đàn áp và thất bại.
++ Chính những phong trào đấu tranh của giai cấp công nhân đã đi đến một yêu cầu đặt ra đối với thực tiễn là để giai cấp công nhân có thể đấu tranh chiến thắng giai cấp tư sản thì họ cần có một lý luận cách mạng soi đường
+
+Kết luận:
++ Chính sự phát triển của CNTB và phong trào công nhân đã đặt ra yêu cầu thực tiễn cho các nhà lý luận nghiên cứu để cho ra đời lý luận CNXHKH.
++ Điều kiện Kinh tế - Xã hội chính là mảnh đất hiện thực cho sự ra đời của CNXHKH`,
     },
     {
         label: "Câu1b: Phân tích tiền đề khoa học tự nhiên và tư tưởng – lý luận cho sự ra đời CNXHKH",
-        dapan: `➢ Tiền đề khoa học tự nhiên
-+ Thuyết tế bào, phát minh vào những năm 1838-1839 của nhà thực vật học người Đức M.J. Schleiden. (1804-1881) và nhà vật lý học người Đức Th.Schwam (1810-1882) 
-Việc ra đời thuyết tế bào đã giúp cho con người bác bỏ những quan điểm siêu hình khi nhận thức tách biệt, biệt lập về mối quan hệ giữa thế giới động vật và thực vật. Đồng thời, chính sự ra đời của thuyết tế bào đã giúp cho các nhà khoa học thấy được sự thống nhất trong sự đa dạng của sinh giới, mối quan hệ biện chứng của thế giới sinh vật sống (động vật và thực vật) đều bắt đầu từ 1 tế bào đầu tiên. Đây là cơ sở để hình thành phương pháp tư duy biện chứng trong nghiên cứu về giới tự nhiên và cơ sở tiền đề cho học thuyết tiến hóa của Darwin. Đây là 1 trong 3 luận điểm quan trọng của triết học DVBC chứng minh sinh giới được tạo ra từ ngẫu sinh hóa học và tiến hóa lâu dài chứ không phải do bất kỳ 1 lực lượng siêu nhiên nào. 
-+ Thuyết tiến hóa, phát minh năm 1859 của Charles Darwin người Anh (1809-1882) 
-Việc ra đời của thuyết tiến hóa đã phát hiện ý nghĩa của chọn lọc tự nhiên giúp con người thoát khỏi quan điểm duy tâm thần học đã tồn tại trước đó khi lý giải về nguồn gốc của loài người và thế giới vật chất. Đồng thời, thuyết tiến hóa của Charles Darwin đã giúp cho các nhà triết học nghiên cứu sự phát triển của thế giới vật chất theo quan điểm duy vật biện chứng và đưa ra một cách lý giải về sự phát triển của loài người là một quá trình phát triển tuân theo qui luật tự nhiên.  
-+ Định luật bảo toàn và chuyển hóa năng lượng, phát minh vào khoảng 1842-1845 do M.V.Lômôlôxốp người Nga (1711-1765) và Mayer (1814-1878) 
-Ý nghĩa của định luật bảo toàn và chuyển hóa năng lượng đã khẳng định  là năng lượng không thể được tạo ra cũng như không thể bị phá hủy; thay vào đó, nó chỉ có thể được biến đổi từ dạng này sang dạng khác hoặc chuyển đổi từ vật này sang vật khác (hoặc cả hai). Vận dụng định luật này vào xem xét sự phát triển của thế giới vật chất cho phép các nhà triết học thấy được thế giới vật chất là vô cùng vô tận, có sự chuyển hóa và biểu hiện ở các dạng khác nhau và không thể biến mất.  
+        dapan: `- Tiền đề khoa học tự nhiên và tư tưởng lý luận
+a) Tiền đề khoa học tự nhiên
+Cuối thế kỷ XVIII – đầu thế kỷ XIX, nhân loại đạt được nhiều thành tựu lớn trong khoa học tự nhiên và xã hội, đặt nền móng cho sự phát triển của tư duy lý luận.
+
+Thuyết tế bào (Schleiden & Schwann, 1838–1839) bác bỏ quan điểm siêu hình biệt lập giữa động – thực vật, khẳng định sự thống nhất của sinh giới khi mọi sinh vật đều khởi nguồn từ tế bào đầu tiên. Đây là tiền đề cho học thuyết tiến hóa, đồng thời hình thành tư duy biện chứng – một trong ba luận điểm quan trọng của triết học duy vật biện chứng, khẳng định sinh giới hình thành từ quá trình ngẫu sinh hóa học và tiến hóa lâu dài, không phải bởi lực lượng siêu nhiên nào.
+
+Thuyết tiến hóa (Darwin, 1859) nêu rõ cơ chế chọn lọc tự nhiên, giúp vượt qua quan điểm duy tâm – thần học về nguồn gốc loài người và thế giới vật chất. Nhờ đó, các nhà triết học có cơ sở lý giải sự phát triển của nhân loại theo quy luật tự nhiên, phù hợp với lập trường duy vật biện chứng.
+
+Định luật bảo toàn và chuyển hóa năng lượng (Lômônôxốp & Mayer, 1842–1845) khẳng định rằng năng lượng không tự sinh ra và không tự mất đi, nó chỉ chuyển hóa từ dạng này sang dạng khác hoặc từ vật thể này sang vật thể khác (hoặc cả hai). Việc vận dụng định luật này cho phép các nhà triết học nhận thức rằng thế giới vật chất là vô cùng, vô tận, luôn luôn chuyển hóa và biểu hiện dưới nhiều hình thức khác nhau mà không thể biến mất.
+
 Như vậy, sự phát triển KHTN đã làm thay đổi quan điểm siêu hình về thế giới tự nhiên, khẳng định tính khách quan – biện chứng của mọi quá trình vận động và phát triển, tạo nền tảng lý luận, thế giới quan, phương pháp luận cho triết học Mác và CNXHKH.
 
-➢ Tiền đề tư tưởng lý luận 
-- Triết học cổ điển Đức (Heghen, Phơ Bách) với những thành tựu của Phép biện chứng duy tâm và chủ nghĩa duy vật siêu hình. 
-- Kinh tế chính trị học cổ điển Anh (Adam Smith, David Ricardo) với những thành tựu về bàn tay vô hình, kinh tế hàng hóa, lý luận về tiền tệ, lý luận về giá trị lao động… 
-- Chủ nghĩa xã hội không tưởng phê phán  (Xanh xi mông, Phurie, Ooen) với những tư tưởng về xây dựng chế độ công hữu về tư liệu sản xuất, về nhà
-CNXHKH. 
-- Giá trị tích cực chủ nghĩa không tưởng phê phán đầu thế kỷ 19 
-1.	Đã thể hiện tinh thần phê phán, lên án chế độ quân chủ chuyên chế và chế độ tư bản chủ nghĩa đầy bất công, xung đột, của cải khánh kiệt, đạo đức đảo lộn, tội ác gia tăng; 
-2.	Đã đưa ra nhiều luận điểm có giá trị về xã hội tương lai: về tổ chức sản xuất và phân phối sản phẩm xã hội; vai trò của công nghiệp và khoa học - kỹ thuật; về sự nghiệp giải phóng phụ nữ và về vai trò lịch sử của nhà nước…;  
-3.	Đã thức tỉnh giai cấp công nhân và người lao động trong cuộc đấu tranh chống chế độ quân chủ chuyên chế và chế độ tư bản chủ nghĩa đầy bất công, xung đột. 
-- Hạn chế chủ nghĩa xã hội không tưởng phê phán  
-1.	Do điều kiện lịch sử, hoặc do chính sự hạn chế về tầm nhìn và thế giới quan của những nhà tư tưởng, không phát hiện ra được quy luật vận động và phát triển của xã hội loài người nói chung; bản chất, quy luật vận động, phát triển của chủ nghĩa tư bản nói riêng. 
-2.	Không phát hiện ra lực lượng xã hội tiên phong có thể thực hiện cuộc chuyển biến cách mạng từ chủ nghĩa tư bản lên chủ nghĩa cộng sản, giai cấp công nhân; 
-3.	Không chỉ ra được những biện pháp hiện thực cải tạo xã hội áp bức, bất công đương thời, xây dựng xã hội mới tốt đẹp.  
-Chính vì những hạn chế ấy, mà chủ nghĩa xã hội không tưởng phê phán chỉ dừng lại ở mức độ một học thuyết xã hội chủ nghĩa không tưởng- phê phán.  
-Đây chính là những giá trị khoa học, cống hiến của các nhà tư tưởng đã tạo ra tiền đề tư tưởng- lý luận, để C.Mác và Ph.Ănghen kế thừa những hạt nhân hợp lý, lọc bỏ những bất hợp lý, xây dựng và phát triển chủ nghĩa xã hội khoa học. `,
+b)Về mặt tư tưởng – lý luận, 
+trước hết phải kể đến triết học cổ điển Đức, tiêu biểu là Hegel và Feuerbach. C. Mác đã kế thừa phép biện chứng của Hegel nhưng loại bỏ quan điểm duy tâm thần bí để xây dựng nên chủ nghĩa duy vật biện chứng và áp dụng vào việc nghiên cứu các vấn đề xã hội. Đồng thời, ông kế thừa quan điểm duy vật tiến bộ của Feuerbach trên cơ sở loại bỏ phương pháp luận siêu hình, từ đó hình thành nên chủ nghĩa duy vật lịch sử. Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử chính là hai bộ phận hợp thành nền tảng triết học của chủ nghĩa Mác.
+
+Trong lĩnh vực kinh tế chính trị học cổ điển Anh, các nhà kinh tế như Adam Smith và David Ricardo đã đưa ra nhiều thành tựu về lý luận như bàn tay vô hình, kinh tế hàng hóa, lý thuyết về tiền tệ, đặc biệt là thuyết giá trị lao động. C. Mác đã kế thừa và từ đó xây dựng nên học thuyết giá trị thặng dư để vạch rõ nguồn gốc của sự giàu có trong chủ nghĩa tư bản. Đây chính là tiền đề lý luận trực tiếp cho kinh tế chính trị học Mác.
+
+Chủ nghĩa xã hội không tưởng phê phán Pháp đầu thế kỷ XIX (Saint-Simon, Fourier và Robert Owen) cũng là một tiền đề lý luận trực tiếp cho sự ra đời của chủ nghĩa xã hội khoa học. Nội dung bao gồm hệ thống các quan điểm và tư tưởng nhằm cải tạo xã hội và giải phóng loài người, hướng đến một chế độ xã hội không có tư hữu, bất công và bóc lột.
+
+Giá trị tích cực của chủ nghĩa xã hội không tưởng thể hiện ở ba điểm lớn. Thứ nhất, họ đã mạnh mẽ phê phán, lên án chế độ quân chủ chuyên chế và chủ nghĩa tư bản đầy bất công, xung đột. Thứ hai, họ đưa ra nhiều luận điểm có giá trị về xã hội tương lai như cách tổ chức sản xuất và phân phối sản phẩm xã hội, vai trò của công nghiệp và khoa học – kỹ thuật, sự nghiệp giải phóng phụ nữ, và vai trò lịch sử của nhà nước. Thứ ba, họ đã góp phần thức tỉnh giai cấp công nhân và người lao động trong cuộc đấu tranh chống lại các chế độ áp bức đương thời.
+
+Tuy nhiên, hạn chế của chủ nghĩa xã hội không tưởng là không phát hiện được quy luật vận động và phát triển của xã hội, không xác định được lực lượng xã hội tiên phong có khả năng thực hiện cuộc chuyển biến cách mạng từ chủ nghĩa tư bản sang chủ nghĩa cộng sản – chính là giai cấp công nhân, và không chỉ ra được biện pháp hiện thực để cải tạo xã hội áp bức, bất công đương thời.
+
+Chính những giá trị khoa học và cống hiến lớn lao từ các nhà tư tưởng tiền bối này đã tạo ra tiền đề tư tưởng – lý luận để C. Mác và Ph. Ăngghen kế thừa, chọn lọc những hạt nhân hợp lý, gạt bỏ những yếu tố phi khoa học, bất hợp lý, từ đó xây dựng và phát triển nên CNXHKH.`,
     },
     {
         label: "Câu 2: Vai trò của C.Mác và Ph. Ăngghen đối với sự ra đời của chủ nghĩa xã hội khoa học.",
@@ -94,18 +109,25 @@ Tóm lại, chính địa vị kinh tế và địa vị chính trị - xã hộ
     },
     {
         label: "Câu3b: Phân tích điều kiện chủ quan để giai cấp công nhân thực hiện sứ mệnh lịch sử ",
-        dapan: `+ Sự phát triển của bản thân giai cấp công nhân cả về số lượng và chất lượng. Thông qua sự phát triển này có thể thấy sự lớn mạnh của giai cấp công nhân cùng với quy mô phát triển của nền sản xuất vật chất hiện đại trên nền tảng của công nghiệp, của kỹ thuật và công nghệ. 
-+ Sự phát triển về số lượng phải gắn liền với sự phát triển về chất lượng giai cấp công nhân hiện đại, đảm bảo cho giai cấp công nhân thực hiện được sứ mệnh lịch sử của mình. Chất lượng giai cấp công nhân phải thể hiện ở trình độ trưởng thành về ý thức chính trị của một giai cấp cách mạng, tức là tự giác nhận thức được vai trò và trọng trách của giai cấp mình đối với lịch sử, do đó giai cấp công nhân phải được giác ngộ về lý luận khoa học và cách mạng của chủ nghĩa Mác - Lênin. 
-+ Là giai cấp đại diện tiêu biểu cho phương thức sản xuất tiên tiến, chất lượng giai cấp công nhân còn phải thể hiện ở năng lực và trình độ làm chủ khoa học kỹ thuật và công nghệ hiện đại, nhất là trong điều kiện hiện nay.  
+        dapan: `3. Điều kiện chủ quan
+a. Sự phát triển của bản thân Giai cấp công nhân cả về số lượng và chất lượng
+- Sự phát triển về số lượng phải đi đôi với sự nâng cao về chất lượng của giai cấp công nhân hiện đại, nhằm đảm bảo cho họ thực hiện được sứ mệnh lịch sử của mình.
+- Chất lượng Giai cấp công nhân thể hiện ở:
++ Trình độ trưởng thành về ý thức Chính trị của một giai cấp cách mạng, tức là tự giác nhận thức được vai trò và trọng trách của giai cấp mình đối với Lịch sử.
++ Năng lực và trình độ làm chủ Khoa học - Kỹ thuật và công nghệ hiện đại.
+- Số lượng Giai cấp công nhân: xét tổng quát trên toàn thế giới thì số lượng công nhân đang lớn mạnh dần.
+→ Do đó Giai cấp công nhân phải được giác ngộ về lý luận Khoa học và Cách mạng của Chủ nghĩa Mác – Lênin.
 
-Đảng Cộng sản là nhân tố chủ quan quan trọng nhất để giai cấp công nhân thực hiện thắng lợi sứ mệnh lịch sử của mình. 
-+ Đảng Cộng sản – đội tiên phong của giai cấp công nhân ra đời và đảm nhận vai trò lãnh đạo cuộc cách mạng là dấu hiệu về sự trưởng thành vượt bậc của giai cấp công nhân với tư cách là giai cấp cách mạng. 
-+ Quy luật chung, phổ biến cho sự ra đời của Đảng Cộng sản là sự kết hợp giữa chủ nghĩa xã hội khoa học, tức chủ nghĩa Mác - Lênin với phong trào công nhân 
-+ Giai cấp công nhân là cơ sở xã hội và nguồn bổ sung lực lượng quan trọng nhất của Đảng, làm cho Đảng mang bản chất giai cấp công nhân trở thành đội tiên phong, bộ tham mưu chiến đấu của giai cấp. Đảng Cộng sản đại biểu trung thành cho lợi ích của giai cấp công nhân, của dân tộc và xã hội. Sức mạnh của Đảng không chỉ thể hiện ở bản chất giai cấp công nhân mà còn ở mối liên hệ mật thiết giữa Đảng với nhân dân, với quần chúng lao động đông đảo trong xã hội, thực hiện cuộc cách mạng do Đảng lãnh đạo để giải phóng giai cấp và giải phóng xã hội. 
+b. Đảng Cộng sản là nhân tố chủ quan quan trọng nhất để Giai cấp công nhân thực hiện thắng lợi Sứ mệnh lịch sử của mình.
 
-Liên minh giai cấp giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác  
-+ Ngoài hai điều kiện thuộc về nhân tố chủ quan nêu trên chủ nghĩa Mác - Lênin còn chỉ rõ, để cuộc cách mạng thực hiện sứ mệnh lịch sử của giai cấp công nhân đi tới thắng lợi, phải có sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác do giai cấp công nhân thông qua đội tiên phong của nó là Đảng Cộng sản lãnh đạo. 
-+ Đây cũng là một điều kiện quan trọng không thể thiếu để thực hiện sứ mệnh lịch sử của giai cấp công nhân. `,
+Đảng Cộng sản – đội tiên phong của Giai cấp công nhân ra đời và đảm nhận vai trò lãnh đạo cuộc cách mạng là dấu hiệu về sự trưởng thành vượt bậc của Giai cấp công nhân với tư cách là giai cấp cách mạng.
+
+Quy luật chung, phổ biến cho sự ra đời của Đảng Cộng sản là sự kết hợp giữa Chủ nghĩa xã hội khoa học, tức Chủ nghĩa Mác – Lênin với Phong trào công nhân. 
+
+Đảng Cộng sản có bản chất giai cấp công nhân vì được hình thành từ chính phong trào công nhân và do giai cấp công nhân bổ sung lực lượng. Đảng là đội tiên phong và bộ tham mưu của giai cấp, đại diện cho lợi ích của công nhân, dân tộc và xã hội. Sức mạnh của Đảng nằm ở bản chất giai cấp công nhân và mối liên hệ mật thiết với quần chúng, thực hiện sứ mệnh cách mạng giải phóng giai cấp và xã hội.
+
+c. Liên minh giai cấp giữa Giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác.
+Ngoài hai điều kiện thuộc về nhân tố chủ quan nêu trên Chủ nghĩa Mác – Lênin còn chỉ rõ, để cuộc cách mạng thực hiện sứ mệnh lịch sử của giai cấp công nhân đi tới thắng lợi, phải có sự liên minh giữa giai cấp công nhân với giai cấp nông dân và các tầng lớp lao động khác do giai cấp công nhân thông qua đội tiên phong của nó là Đảng Cộng sản lãnh đạo.`,
     },
     {
         label: "Câu 4: Tính tất yếu khách quan của thời kỳ quá độ lên chủ nghĩa xã hội",
