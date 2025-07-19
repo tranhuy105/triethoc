@@ -59,65 +59,77 @@ export function firstWordsOfLines(inputString: string): string {
 }
 
 export function compareStringsAndOutputPercentage(
-  referenceString: string,
-  targetString: string
-): { percentage: number; modifiedString: string } {
-  const normalizeString = (input: string) =>
-    input
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/[^\w\sĐđ]/g, "")
-      .replace(/[\u2022-]/g, "")
-      .replace(/\s+/g, " ")
-      .replaceAll("đ", "d")
-      .replaceAll("Đ", "D")
-      .toLowerCase();
+    referenceString: string,
+    targetString: string
+): {
+    percentage: number;
+    modifiedString: string;
+    resultWords: { word: string; isCorrect: boolean }[];
+} {
+    const normalizeString = (input: string) =>
+        input
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w\sĐđ]/g, "")
+            .replace(/[\u2022-]/g, "")
+            .replace(/\s+/g, " ")
+            .replaceAll("đ", "d")
+            .replaceAll("Đ", "D")
+            .toLowerCase();
 
-  const normalizedReferenceString = normalizeString(referenceString);
-  const normalizedTargetString = normalizeString(targetString);
+    const normalizedReferenceString =
+        normalizeString(referenceString);
+    const normalizedTargetString =
+        normalizeString(targetString);
 
-  // console.log(normalizedReferenceString);
-  // console.log(normalizedTargetString);
+    // console.log(normalizedReferenceString);
+    // console.log(normalizedTargetString);
 
-  const wordsReference = normalizedReferenceString
-    .split(" ")
-    .filter((word) => word !== "");
-  const wordsTarget = normalizedTargetString
-    .split(" ")
-    .filter((word) => word !== "");
+    const wordsReference = normalizedReferenceString
+        .split(" ")
+        .filter((word) => word !== "");
+    const wordsTarget = normalizedTargetString
+        .split(" ")
+        .filter((word) => word !== "");
 
-  // console.log(wordsReference);
-  // console.log(wordsTarget);
+    // console.log(wordsReference);
+    // console.log(wordsTarget);
 
-  const commonWords = wordsReference.filter((word) =>
-    wordsTarget.includes(word)
-  );
+    const commonWords = wordsReference.filter((word) =>
+        wordsTarget.includes(word)
+    );
 
-  // console.log(commonWords);
+    // console.log(commonWords);
 
-  const percentageSimilarity =
-    (commonWords.length /
-      Math.max(wordsReference.length, wordsTarget.length)) *
-    100;
+    const percentageSimilarity =
+        (commonWords.length /
+            Math.max(
+                wordsReference.length,
+                wordsTarget.length
+            )) *
+        100;
 
-  const modifiedString = wordsReference
-    .map((word) => {
-      if (wordsTarget.includes(word)) {
-        return word;
-      } else {
-        const match = wordsTarget.find((targetWord) =>
-          targetWord.includes(word)
-        );
-        return match ? `${word.toUpperCase()}` : word.toUpperCase();
-      }
-    })
-    .join(" ")
-    .replaceAll("đ", "d");
+    const resultWords = wordsReference.map((word) => ({
+        word,
+        isCorrect: wordsTarget.includes(word),
+    }));
 
-  return {
-    percentage: parseFloat(percentageSimilarity.toFixed(2)),
-    modifiedString,
-  };
+    const modifiedString = resultWords
+        .map((item) =>
+            item.isCorrect
+                ? item.word
+                : item.word.toUpperCase()
+        )
+        .join(" ")
+        .replaceAll("đ", "d");
+
+    return {
+        percentage: parseFloat(
+            percentageSimilarity.toFixed(2)
+        ),
+        modifiedString,
+        resultWords,
+    };
 }
 
 export function splitString(inputString: string): string[] {

@@ -10,12 +10,18 @@ import {
     AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
+import { compareStringsAndOutputPercentage } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
 
 interface LearnDialogProps {
     isOpen: boolean;
     onClose: () => void;
     currentText: string;
+}
+
+interface Result {
+    percentage: number;
+    resultWords: { word: string; isCorrect: boolean }[];
 }
 
 export const LearnDialog = ({
@@ -26,27 +32,33 @@ export const LearnDialog = ({
     const [input, setInput] = useState("");
     const [showAnswer, setShowAnswer] = useState(false);
     const textareaRef = useRef<HTMLTextAreaElement>(null);
+    const [result, setResult] = useState<Result | null>(
+        null
+    );
 
     // Reset state when dialog opens with new text
     useEffect(() => {
         if (isOpen) {
             setShowAnswer(false);
             setInput("");
+            setResult(null);
             setTimeout(() => {
                 textareaRef.current?.focus();
             }, 100);
         }
     }, [isOpen, currentText]);
 
-    const wordCount = currentText.split(/\s+/).length;
+    const wordCount = currentText
+        .split(/\s+/)
+        .filter(Boolean).length;
 
     const handleReset = () => {
         setInput("");
+        setResult(null);
         textareaRef.current?.focus();
     };
 
     useEffect(() => {
-        // reset when hit ctrl + enter
         const handleKeyDown = (e: KeyboardEvent) => {
             if (e.ctrlKey && e.key === "Enter") {
                 handleReset();
@@ -59,6 +71,18 @@ export const LearnDialog = ({
                 handleKeyDown
             );
     }, []);
+
+    const handleCheck = () => {
+        if (!input.trim()) return;
+        const checkResult =
+            compareStringsAndOutputPercentage(
+                currentText,
+                input
+            );
+        setResult(checkResult);
+    };
+
+    const isPass = result && result.percentage >= 80;
 
     return (
         <AlertDialog open={isOpen} onOpenChange={onClose}>
@@ -78,7 +102,7 @@ export const LearnDialog = ({
                                 {currentText}
                             </div>
                         ) : (
-                            <div className="flex flex-wrap gap-2 bg-muted p-4 rounded-md min-h-[100px]">
+                            <div className="flex flex-wrap gap-2 bg-muted p-4 rounded-md">
                                 {currentText
                                     .split(/\s+/)
                                     .map((_, i) => (
@@ -116,7 +140,13 @@ export const LearnDialog = ({
                     </AlertDialogDescription>
                 </AlertDialogHeader>
 
-                <form className="space-y-4 my-4">
+                <form
+                    className="space-y-4 my-4"
+                    onSubmit={(e) => {
+                        e.preventDefault();
+                        handleCheck();
+                    }}
+                >
                     <textarea
                         ref={textareaRef}
                         value={input}
@@ -128,9 +158,62 @@ export const LearnDialog = ({
                         autoComplete="off"
                         rows={4}
                     />
+                    <Button
+                        type="submit"
+                        className="w-full"
+                        disabled={!input}
+                    >
+                        Kiểm tra
+                    </Button>
                 </form>
 
-                <AlertDialogFooter>
+                {result && (
+                    <div className="mt-4 p-4 bg-muted rounded-md space-y-3 border">
+                        <h3 className="text-lg font-semibold text-center">
+                            Kết quả
+                        </h3>
+                        <div className="flex items-center justify-center gap-2">
+                            <p
+                                className={`text-2xl font-bold ${
+                                    isPass
+                                        ? "text-green-500"
+                                        : "text-red-500"
+                                }`}
+                            >
+                                {result.percentage}%
+                            </p>
+                            <span
+                                className={`font-bold text-xl ${
+                                    isPass
+                                        ? "text-green-500"
+                                        : "text-red-500"
+                                }`}
+                            >
+                                {isPass
+                                    ? "Đạt"
+                                    : "Chưa đạt"}
+                            </span>
+                        </div>
+                        <div className="bg-background p-3 rounded-md whitespace-pre-wrap text-base font-mono leading-relaxed border">
+                            {result.resultWords.map(
+                                (item, index) => (
+                                    <span
+                                        key={index}
+                                        className={
+                                            item.isCorrect
+                                                ? "text-green-600"
+                                                : "text-red-600 font-bold underline"
+                                        }
+                                    >
+                                        {item.word}{" "}
+                                    </span>
+                                )
+                            )}
+                        </div>
+                    </div>
+                )}
+
+                <AlertDialogFooter className="mt-4">
                     <AlertDialogCancel>
                         Đóng
                     </AlertDialogCancel>
