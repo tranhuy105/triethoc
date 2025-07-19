@@ -11,12 +11,21 @@ import {
 } from "@/components/ui/alert-dialog";
 import { Button } from "@/components/ui/button";
 import { compareStringsAndOutputPercentage } from "@/lib/utils";
+import {
+    ChevronLeft,
+    ChevronRight,
+    Minus,
+    Plus,
+} from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 interface LearnDialogProps {
     isOpen: boolean;
     onClose: () => void;
-    currentText: string;
+    allSentences: string[];
+    currentIndex: number;
+    onNext: () => void;
+    onPrevious: () => void;
 }
 
 interface Result {
@@ -27,7 +36,10 @@ interface Result {
 export const LearnDialog = ({
     isOpen,
     onClose,
-    currentText,
+    allSentences,
+    currentIndex,
+    onNext,
+    onPrevious,
 }: LearnDialogProps) => {
     const [input, setInput] = useState("");
     const [showAnswer, setShowAnswer] = useState(false);
@@ -35,18 +47,31 @@ export const LearnDialog = ({
     const [result, setResult] = useState<Result | null>(
         null
     );
+    const [localCurrentIndex, setLocalCurrentIndex] =
+        useState(currentIndex);
+    const [forwardContextCount, setForwardContextCount] =
+        useState(0);
 
-    // Reset state when dialog opens with new text
+    const currentText =
+        allSentences[localCurrentIndex] || "";
+
+    // Update local index when the currentIndex from props changes
+    useEffect(() => {
+        setLocalCurrentIndex(currentIndex);
+    }, [currentIndex]);
+
+    // Reset state when dialog opens or sentence changes
     useEffect(() => {
         if (isOpen) {
             setShowAnswer(false);
             setInput("");
             setResult(null);
+            setForwardContextCount(0); // Reset context on sentence change
             setTimeout(() => {
                 textareaRef.current?.focus();
             }, 100);
         }
-    }, [isOpen, currentText]);
+    }, [isOpen, localCurrentIndex]);
 
     const wordCount = currentText
         .split(/\s+/)
@@ -55,6 +80,7 @@ export const LearnDialog = ({
     const handleReset = () => {
         setInput("");
         setResult(null);
+        setForwardContextCount(0); // Reset context
         textareaRef.current?.focus();
     };
 
@@ -76,10 +102,33 @@ export const LearnDialog = ({
         if (!input.trim()) return;
         const checkResult =
             compareStringsAndOutputPercentage(
-                currentText,
+                getTextToLearn(),
                 input
             );
         setResult(checkResult);
+    };
+
+    const handlePrevious = () => {
+        if (localCurrentIndex > 0) {
+            setLocalCurrentIndex((prev) => prev - 1);
+            onPrevious();
+        }
+    };
+
+    const handleNext = () => {
+        if (localCurrentIndex < allSentences.length - 1) {
+            setLocalCurrentIndex((prev) => prev + 1);
+            onNext();
+        }
+    };
+
+    const getTextToLearn = () => {
+        const start = localCurrentIndex;
+        const end = Math.min(
+            allSentences.length,
+            localCurrentIndex + forwardContextCount + 1
+        );
+        return allSentences.slice(start, end).join("\n");
     };
 
     const isPass = result && result.percentage >= 80;
@@ -88,54 +137,122 @@ export const LearnDialog = ({
         <AlertDialog open={isOpen} onOpenChange={onClose}>
             <AlertDialogContent className="max-w-4xl w-[95vw] md:w-[80vw] max-h-[90vh] overflow-y-auto">
                 <AlertDialogHeader>
-                    <AlertDialogTitle className="text-xl">
-                        Luyện tập
-                    </AlertDialogTitle>
-                    <AlertDialogDescription>
-                        <p className="text-lg mb-2">
-                            Hãy gõ đoạn văn cho nhớ (
-                            {wordCount} từ):
-                        </p>
+                    <div className="flex justify-between items-center">
+                        <Button
+                            variant="ghost"
+                            size="icon"
+                            onClick={handlePrevious}
+                            disabled={
+                                localCurrentIndex === 0
+                            }
+                        >
+                            <ChevronLeft className="h-6 w-6" />
+                        </Button>
+                        <AlertDialogTitle className="text-xl font-bold text-center">
+                            Luyện tập (Câu{" "}
+                            {localCurrentIndex + 1} /{" "}
+                            {allSentences.length})
+                        </AlertDialogTitle>
+                        <Button
+                            variant="ghost"
+                            size="icon"
+                            onClick={handleNext}
+                            disabled={
+                                localCurrentIndex ===
+                                allSentences.length - 1
+                            }
+                        >
+                            <ChevronRight className="h-6 w-6" />
+                        </Button>
+                    </div>
+                    <AlertDialogDescription asChild>
+                        <div className="space-y-4">
+                            <p className="text-lg text-center text-muted-foreground">
+                                Gõ lại đoạn văn sau (
+                                {wordCount} từ):
+                            </p>
 
-                        {showAnswer ? (
-                            <div className="bg-muted p-4 rounded-md text-foreground whitespace-pre-wrap text-base text-start">
-                                {currentText}
-                            </div>
-                        ) : (
-                            <div className="flex flex-wrap gap-2 bg-muted p-4 rounded-md">
-                                {currentText
-                                    .split(/\s+/)
-                                    .map((_, i) => (
-                                        <span
-                                            key={i}
-                                            className="w-4 md:w-6 h-1 bg-gray-400 rounded-full"
-                                        ></span>
-                                    ))}
-                            </div>
-                        )}
+                            <div className="flex justify-center items-center gap-4">
+                                {/* Context Controls */}
+                                <div className="flex items-center gap-2 mr-auto">
+                                    <span className="text-sm text-muted-foreground">
+                                        Câu sau:
+                                    </span>
+                                    <Button
+                                        variant="outline"
+                                        size="icon"
+                                        className="h-6 w-6"
+                                        onClick={() =>
+                                            setForwardContextCount(
+                                                (p) =>
+                                                    Math.max(
+                                                        0,
+                                                        p -
+                                                            1
+                                                    )
+                                            )
+                                        }
+                                    >
+                                        <Minus className="h-4 w-4" />
+                                    </Button>
+                                    <span className="font-bold text-lg">
+                                        {
+                                            forwardContextCount
+                                        }
+                                    </span>
+                                    <Button
+                                        variant="outline"
+                                        size="icon"
+                                        className="h-6 w-6"
+                                        onClick={() =>
+                                            setForwardContextCount(
+                                                (p) => p + 1
+                                            )
+                                        }
+                                    >
+                                        <Plus className="h-4 w-4" />
+                                    </Button>
+                                </div>
 
-                        <div className="mt-2 text-right">
-                            <Button
-                                className="mr-2"
-                                variant="destructive"
-                                size="sm"
-                                onClick={handleReset}
-                            >
-                                Reset
-                            </Button>
-                            <Button
-                                variant="outline"
-                                size="sm"
-                                onClick={() =>
-                                    setShowAnswer(
-                                        !showAnswer
-                                    )
-                                }
-                            >
-                                {showAnswer
-                                    ? "Ẩn đáp án"
-                                    : "Hiện đáp án"}
-                            </Button>
+                                <Button
+                                    variant="destructive"
+                                    size="sm"
+                                    onClick={handleReset}
+                                >
+                                    Làm lại
+                                </Button>
+                                <Button
+                                    variant="outline"
+                                    size="sm"
+                                    onClick={() =>
+                                        setShowAnswer(
+                                            !showAnswer
+                                        )
+                                    }
+                                >
+                                    {showAnswer
+                                        ? "Ẩn đáp án"
+                                        : "Hiện đáp án"}
+                                </Button>
+                            </div>
+
+                            {showAnswer ? (
+                                <div className="bg-muted p-4 rounded-md text-foreground whitespace-pre-wrap text-base text-start font-mono">
+                                    {getTextToLearn()}
+                                </div>
+                            ) : (
+                                <div className="flex flex-wrap gap-2 bg-muted p-4 rounded-md min-h-[100px] items-center justify-center">
+                                    {currentText
+                                        .split(/\s+/)
+                                        .filter(Boolean)
+                                        .map((_, i) => (
+                                            <span
+                                                key={i}
+                                                className="w-5 h-1 bg-gray-400 rounded-full"
+                                            ></span>
+                                        ))}
+                                </div>
+                            )}
                         </div>
                     </AlertDialogDescription>
                 </AlertDialogHeader>

@@ -27,6 +27,11 @@ const FlashCard = ({
     const [isLearnOpen, setIsLearnOpen] = useState(false);
 
     const ref = useRef<HTMLDivElement>(null);
+
+    const allSentences = splitString(val);
+    const currentIndex =
+        show.length > 0 ? show.length - 1 : 0;
+
     useEffect(() => {
         if (show.length) {
             ref.current?.scrollIntoView({
@@ -84,10 +89,6 @@ const FlashCard = ({
             setIsLearnOpen(true);
         }
     };
-
-    // Current text to learn is the last visible phrase
-    const currentTextToLearn =
-        show.length > 0 ? show[show.length - 1] : "";
 
     return (
         <>
@@ -151,7 +152,10 @@ const FlashCard = ({
             <LearnDialog
                 isOpen={isLearnOpen}
                 onClose={() => setIsLearnOpen(false)}
-                currentText={currentTextToLearn}
+                allSentences={allSentences}
+                currentIndex={currentIndex}
+                onNext={add}
+                onPrevious={remove}
             />
         </>
     );
