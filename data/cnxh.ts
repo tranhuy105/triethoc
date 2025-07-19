@@ -137,10 +137,8 @@ Ngoài hai điều kiện thuộc về nhân tố chủ quan nêu trên Chủ ng
 2. Tính tất yếu khách quan của thời kỳ quá độ lên chủ nghĩa xã hội
 - Theo qui luật của lịch sử chuyển từ hình thái kinh tế xã hội này sang một hình thái kinh tế xã hội khác cao hơn luôn phải cần một thời kỳ để giai cấp thống trị tiến hành cải tạo xã hội cũ xây dựng xã hội mới. Vì vậy, việc thay thế hình thái kinh tế TBCN bằng hình thái kinh tế xã hội mới là CSCN ( giai đoạn đầu là CNXH) tất yếu phải trải qua TKQĐ.
 - So với các hình thái kinh tế xã hội đã xuất hiện trong lịch sử hình thái kinh tế xã hội cộng sản chủ nghĩa có sự khác biệt về chất, nếu như các hình thái kinh tế xã hội trước đó cộng sản nguyên thủy, chiếm hữu nô lệ, phong kiến, tư bản chủ nghĩa bản chất vẫn là đựa trên QHSX tư hữu về tư liệu sản xuất còn chủ nghĩa cộng sản QHSX dựa trên hình thức công hữu về tư liệu sản xuất.
-- Mặt khác, CNXH không thể tự hình thành và phát triển trong lòng CNTB mà cần có quá trình đấu tranh thông qua hoạt động tự giác của giai cấp công nhân trong cuộc cách mạng XHCN. Vì vậy, sau cuộc cách mạng XHCN giai cấp công nhân sử dụng chính quyền
-để từng bước xóa bỏ quan hệ sản xuất cũ và xây dựng quan hệ sản xuất mới đựa trên chế độ công hữu về tư liệu sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất.
-- Theo quan điểm của chủ nghĩa Mác- Lênin, từ chủ nghĩa tư bản lên chủ nghĩa xã hội tất yếu phải trải qua thời kỳ quá độ chính trị. Thích ứng với thời kỳ ấy là một thời kỳ quá độ chính trị, và nhà nước của thời kỳ ấy không thể là cái gì khác hơn là nền chuyên chính
-cách mạng của giai cấp vô sản
+- Mặt khác, CNXH không thể tự hình thành và phát triển trong lòng CNTB mà cần có quá trình đấu tranh thông qua hoạt động tự giác của giai cấp công nhân trong cuộc cách mạng XHCN. Vì vậy, sau cuộc cách mạng XHCN giai cấp công nhân sử dụng chính quyền để từng bước xóa bỏ quan hệ sản xuất cũ và xây dựng quan hệ sản xuất mới đựa trên chế độ công hữu về tư liệu sản xuất phù hợp với trình độ phát triển của lực lượng sản xuất.
+- Theo chủ nghĩa Mác – Lênin, quá trình chuyển đổi từ chủ nghĩa tư bản sang chủ nghĩa xã hội không thể diễn ra ngay lập tức mà phải trải qua một giai đoạn trung gian, gọi là thời kỳ quá độ. Trong giai đoạn này, cần có một nhà nước kiểu mới – tức nền chuyên chính vô sản – để giai cấp công nhân nắm quyền lãnh đạo và tiến hành cải biến xã hội.
 - Vì vậy, để phát triển lên CNXH dù là những nước chưa hay đã trải qua sự phát triển TBCN đều cần phải trải qua thời kỳ quá độ lên CNXH ( theo 1 trong 2 hình thức là quá độ là trực tiếp hay gián tiếp)
 
 Có hai loại quá độ từ chủ nghĩa tư bản lên chủ nghĩa xã hội
@@ -150,44 +148,67 @@ Xây dựng CNXH là một quá trình chuyển đổi một cách sâu sắc, t
     },
     {
         label: "Câu 5: Khái niệm dân tộc và cương lĩnh dân tộc của chủ nghĩa Mác – Lênin",
-        dapan: `1. Khái niệm dân tộc 
-- Khái niệm dân tộc theo nghĩa rộng: dùng để chỉ một cộng đồng người ổn định làm thành nhân dân một nước, có lãnh thổ quốc gia, có nền kinh tế thống nhất, có ngôn ngữ chung và có ý thức về sự thống nhất của mình, gắn bó với nhau bởi quyền lợi chính trị, kinh tế, truyền thống văn hoá và truyền thống đấu tranh chung trong suốt quá trình lịch sử lâu dài dựng nước và giữ nước. Đây là khái niệm dùng để chỉ 1 quốc gia dân tộc. 
-- Khái niệm dân tộc theo nghĩa hẹp: dùng để chỉ một cộng đồng người được hình thành trong lịch sử, có mối liên hệ chặt chẽ và bền vững, có chung ý thức tự giác tộc người, ngôn ngữ và văn hoá. Đây là khái niệm dùng để chỉ tộc người. 
-Việc phân biệt khái niệm Dân tộc theo nghĩa rộng hay hẹp chỉ có ý nghĩa tương đối thường được dùng để phân biệt với những quốc gia dân tộc có nhiều tộc người ( đa tộc người) 
+        dapan: `0. Khái niệm dân tộc
+- Dân tộc theo nghĩa rộng:
++ Dùng để chỉ một cộng đồng người ổn định làm thành nhân dân của một nước, 
++ có lãnh thổ quốc gia, có nền kinh tế thống nhất, có ngôn ngữ chung và có ý thức về sự thống nhất của mình. 
++ Các thành viên gắn bó với nhau bởi quyền lợi chính trị, kinh tế, truyền thống văn hóa, truyền thống đấu tranh chung trong quá trình dựng nước và giữ nước.
 
-1. Căn cứ đề ra cương lĩnh Dân tộc, Để xây dựng cương lĩnh Dân tộc, Lênin dựa trên 3 căn cứ:
-- Dựa trên quan điểm của Chủ nghĩa Mác về vấn đề dân tộc.
-- Dựa vào sự phân tích sâu sắc hai xu hướng khách quan của sự phát triển các dân tộc gắn liền với quá trình phát triển của chủ nghĩa tư bản. Hai xu hướng đó là: chia tách và sáp nhập.
-- Sự tổng kết kinh nghiệm cuộc đấu tranh của phong trào cách mạng thế giới và cách mạng Nga đầu thế kỷ 20.
+- Dân tộc theo nghĩa hẹp:
++ Dùng để chỉ một cộng đồng người được hình thành trong lịch sử, có mối liên hệ chặt chẽ và bền vững, có chung ý thức tự giác tộc người, ngôn ngữ và văn hóa. 
++ Đây là khái niệm dùng để chỉ các tộc người trong một quốc gia.
 
-2. Cương lĩnh Dân tộc (1 nội dung gồm: Nội dung + Ý nghĩa): Cương lĩnh Dân tộc của Chủ nghĩa Mác – Lênin gồm 3 nội dung sau:
-a. Các Dân tộc hoàn toàn bình đẳng
+Việc phân biệt dân tộc theo nghĩa rộng và nghĩa hẹp chỉ có ý nghĩa tương đối, thường để phân biệt trong các quốc gia có nhiều tộc người (đa tộc người).
+
+1. Căn cứ đề ra cương lĩnh dân tộc
+- Để xây dựng cương lĩnh dân tộc, Lênin dựa trên 3 căn cứ:
+
++ Dựa trên quan điểm của chủ nghĩa Mác về vấn đề dân tộc
++ Dựa vào sự phân tích hai xu hướng khách quan của sự phát triển dân tộc gắn với quá trình phát triển của chủ nghĩa tư bản: chia tách và sáp nhập
++ Tổng kết kinh nghiệm cuộc đấu tranh của phong trào cách mạng thế giới và cách mạng Nga đầu thế kỷ XX
+
+2. Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin
+Gồm 3 nội dung chính (mỗi nội dung gồm phần nội dung và ý nghĩa):
+
+a. Các dân tộc hoàn toàn bình đẳng
 - Nội dung:
-+ Nghĩa hẹp: Có nghĩa vụ, quyền lợi ngang nhau trong quan hệ xã hội và quan hệ quốc tế. Không có đặc quyền, đặc lợi của dân tộc này đối với dân tộc khác.
-+ Nghĩa rộng: Trong quốc gia Dân tộc, bình đẳng thể hiện trên mọi lĩnh vực, giữa các dân tộc phải được pháp luật (PL) bảo vệ và phải được thực hiện sinh động trong thực tế.
-+ Trong phạm vi quốc tế, bình đẳng dân tộc trong giai đoạn hiện nay đòi hỏi trước hết phải thủ tiêu tình trạng áp bức, nô dịch.
-- Ý nghĩa: Bình đẳng dân tộc là quyền thiêng liêng của dân tộc và là mục tiêu phấn đấu của các dân tộc trong sự nghiệp Giải phóng. Nó là cơ sở để thực hiện quyền dân tộc tự quyết và xây dựng mối quan hệ hữu nghị hợp tác.
++ Theo nghĩa hẹp: Các dân tộc có nghĩa vụ và quyền lợi ngang nhau trong quan hệ xã hội và quan hệ quốc tế; không có đặc quyền, đặc lợi của dân tộc này đối với dân tộc khác
++ Theo nghĩa rộng: Trong một quốc gia dân tộc, sự bình đẳng thể hiện trên mọi lĩnh vực và phải được pháp luật bảo vệ, đồng thời được thực hiện sinh động trong thực tiễn
++ Trong phạm vi quốc tế, bình đẳng dân tộc trong giai đoạn hiện nay đòi hỏi trước hết phải thủ tiêu tình trạng áp bức, nô dịch
 
-b. Các Dân tộc được quyền tự quyết
-- Thực chất: là quyền làm chủ của một dân tộc, tự mình quyết định vận mệnh của dân tộc mình; là Giải phóng các dân tộc bị áp bức (thuộc địa và phụ thuộc) khỏi ách thống trị của chủ nghĩa thực dân, giành độc lập dân tộc và đưa đất nước tiến lên theo con đường tiến bộ xã hội.
-- Nội dung: Quyền tự quyết về chế độ Chính trị và con đường phát triển của dân tộc mình.
-+ Quyền thành lập (h/thành) một quốc gia độc lập.
-+ Quyền liên hiệp lại thành một liên bang trên cơ sở bình đẳng giúp đỡ nhau cùng tiến bộ (quyền liên hiệp).
-+ Triệt để ủng hộ các phong trào tiến bộ, phù hợp với lợi ích chính đáng của Giai cấp công nhân và nhân dân lao động.
-+ Kiên quyết đấu tranh chống âm mưu, thủ đoạn của các thế lực đế quốc lợi dụng chiêu bài “Dân tộc tự quyết” để can thiệp vào nội bộ của các nước.
-- Ý nghĩa: Quyền cơ bản của Phong trào công nhân. Nó là cơ sở để xóa bỏ sự hiềm khích, thù hằn giữa các dân tộc; phát huy tiềm năng của các dân tộc vào sự phát triển chung của nhân loại.
+- Ý nghĩa:
++ Bình đẳng dân tộc là quyền thiêng liêng và là mục tiêu phấn đấu của các dân tộc trong sự nghiệp giải phóng
++ Đây là cơ sở để thực hiện quyền dân tộc tự quyết và xây dựng mối quan hệ hữu nghị, hợp tác
 
-c. Liên hiệp công nhân tất cả các Dân tộc
-- Nội dung: Giai cấp công nhân thuộc các dân tộc khác nhau đều thống nhất, đoàn kết, hợp tác giúp đỡ lẫn nhau trong cuộc đấu tranh chống kẻ thù chung vì sự nghiệp Giải phóng Dân tộc.
-- Ý nghĩa: Là nội dung cơ bản, quan trọng nhất trong 3 nội dung.
-+ Phản ánh bản chất quốc tế của Phong trào công nhân.
-+ Phản ánh sự thống nhất giữa sự nghiệp Giải phóng Dân tộc và Giải phóng giai cấp.
-+ Đảm bảo cho Phong trào Giải phóng Dân tộc có đủ sức mạnh để giành thắng lợi.
-+ Là điều kiện thực hiện thắng lợi Sứ mệnh lịch sử của Giai cấp công nhân. Do đó là cơ sở để giải quyết đúng đắn vấn đề Dân tộc và Giải phóng Dân tộc bị áp bức.
-+ Liên kết cả 3 nội dung thành một chỉnh thể.
+b. Các dân tộc được quyền tự quyết
+- Thực chất:
++ Là quyền làm chủ của một dân tộc, tự quyết định vận mệnh của dân tộc mình
++ Là giải phóng các dân tộc bị áp bức (thuộc địa và phụ thuộc) khỏi ách thống trị của chủ nghĩa thực dân, giành độc lập dân tộc và phát triển theo con đường tiến bộ xã hội
 
-3. Tổng kết: 
-Cương lĩnh Dân tộc của Chủ nghĩa Mác – Lênin là cơ sở lý luận quan trọng để các Đảng Cộng sản trong quốc tế đấu tranh giành độc lập Dân tộc và xây dựng Chủ nghĩa xã hội.`,
+- Nội dung: Quyền tự quyết về chế độ chính trị và con đường phát triển của dân tộc mình
++ Quyền thành lập một quốc gia độc lập
++ Quyền liên hiệp lại thành một liên bang trên cơ sở bình đẳng, giúp đỡ nhau cùng tiến bộ
++ Triệt để ủng hộ các phong trào tiến bộ phù hợp với lợi ích chính đáng của giai cấp công nhân và nhân dân lao động
++ Kiên quyết đấu tranh chống các âm mưu và thủ đoạn của các thế lực đế quốc lợi dụng chiêu bài "dân tộc tự quyết" để can thiệp vào công việc nội bộ của các nước
+
+-Ý nghĩa:
++ Là quyền cơ bản của phong trào công nhân
++ Là cơ sở để xóa bỏ hiềm khích, thù hằn giữa các dân tộc
++ Giúp phát huy tiềm năng của các dân tộc vào sự phát triển chung của nhân loại
+
+c. Liên hiệp công nhân tất cả các dân tộc
+- Nội dung:
+Giai cấp công nhân thuộc các dân tộc khác nhau phải thống nhất, đoàn kết, hợp tác và giúp đỡ lẫn nhau trong cuộc đấu tranh chống kẻ thù chung vì sự nghiệp giải phóng dân tộc
+
+- Ý nghĩa: Là nội dung cơ bản, quan trọng nhất trong ba nội dung
++ Phản ánh bản chất quốc tế của phong trào công nhân
++ Phản ánh sự thống nhất giữa sự nghiệp giải phóng dân tộc và giải phóng giai cấp
++ Đảm bảo cho phong trào giải phóng dân tộc có đủ sức mạnh để giành thắng lợi
++ Là điều kiện để thực hiện thắng lợi sứ mệnh lịch sử của giai cấp công nhân. Do đó Là cơ sở để giải quyết đúng đắn vấn đề dân tộc và giải phóng dân tộc bị áp bức
++ Gắn kết cả ba nội dung thành một chỉnh thể
+
+3. Tổng kết
+Cương lĩnh dân tộc của chủ nghĩa Mác – Lênin là cơ sở lý luận quan trọng để các Đảng Cộng sản trên thế giới tiến hành cuộc đấu tranh giành độc lập dân tộc và xây dựng chủ nghĩa xã hội.`,
     },
     {
         label: "Câu6a: Phân tích quan điểm của chủ nghĩa Mác – Lênin về bản chất, nguồn gốc của tôn giáo. ",
