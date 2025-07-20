@@ -63,13 +63,10 @@ export const LearnDialog = ({
     // Reset state when dialog opens or sentence changes
     useEffect(() => {
         if (isOpen) {
-            setShowAnswer(false);
+            setShowAnswer(true);
             setInput("");
             setResult(null);
-            setForwardContextCount(0); // Reset context on sentence change
-            setTimeout(() => {
-                textareaRef.current?.focus();
-            }, 100);
+            // setForwardContextCount(0); // Reset context on sentence change
         }
     }, [isOpen, localCurrentIndex]);
 
@@ -80,7 +77,7 @@ export const LearnDialog = ({
     const handleReset = () => {
         setInput("");
         setResult(null);
-        setForwardContextCount(0); // Reset context
+        // setForwardContextCount(0); // Reset context
         textareaRef.current?.focus();
     };
 
@@ -173,11 +170,7 @@ export const LearnDialog = ({
                             </p>
 
                             <div className="flex justify-center items-center gap-4">
-                                {/* Context Controls */}
                                 <div className="flex items-center gap-2 mr-auto">
-                                    <span className="text-sm text-muted-foreground">
-                                        Câu sau:
-                                    </span>
                                     <Button
                                         variant="outline"
                                         size="icon"
