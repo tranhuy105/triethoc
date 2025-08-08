@@ -42,17 +42,32 @@ Thuyết tiến hóa (Darwin, 1859) nêu rõ cơ chế chọn lọc tự nhiên,
 Như vậy, sự phát triển KHTN đã làm thay đổi quan điểm siêu hình về thế giới tự nhiên, khẳng định tính khách quan – biện chứng của mọi quá trình vận động và phát triển, tạo nền tảng lý luận, thế giới quan, phương pháp luận cho triết học Mác và CNXHKH.
 
 b)Về mặt tư tưởng – lý luận, 
-trước hết phải kể đến triết học cổ điển Đức, tiêu biểu là Hegel và Feuerbach. C. Mác đã kế thừa phép biện chứng của Hegel nhưng loại bỏ quan điểm duy tâm thần bí để xây dựng nên chủ nghĩa duy vật biện chứng và áp dụng vào việc nghiên cứu các vấn đề xã hội. Đồng thời, ông kế thừa quan điểm duy vật tiến bộ của Feuerbach trên cơ sở loại bỏ phương pháp luận siêu hình, từ đó hình thành nên chủ nghĩa duy vật lịch sử. Chủ nghĩa duy vật biện chứng và chủ nghĩa duy vật lịch sử chính là hai bộ phận hợp thành nền tảng triết học của chủ nghĩa Mác.
+•	Triết học cổ điển Đức (Hegel và L. Feuerbach)
 
-Trong lĩnh vực kinh tế chính trị học cổ điển Anh, các nhà kinh tế như Adam Smith và David Ricardo đã đưa ra nhiều thành tựu về lý luận như bàn tay vô hình, kinh tế hàng hóa, lý thuyết về tiền tệ, đặc biệt là thuyết giá trị lao động. C. Mác đã kế thừa và từ đó xây dựng nên học thuyết giá trị thặng dư để vạch rõ nguồn gốc của sự giàu có trong chủ nghĩa tư bản. Đây chính là tiền đề lý luận trực tiếp cho kinh tế chính trị học Mác.
+-> Mác đã kế thừa:
++ Hegel: Phép BC, trên cơ sở loại bỏ q/điểm DT thần bí để xây dựng nên CN DVBC. Từ đó đưa vào áp dụng nghiên cứu các v/đề XH.
++ Feuerbach: Q/điểm DV tiến bộ trên cơ sở loại bỏ PP luận SH và cho ra đời CN DVLS.
++ Trong đó: CN DVBC và CN DVLS là 2 bộ phận hợp thành CN Mác
 
-Chủ nghĩa xã hội không tưởng phê phán Pháp đầu thế kỷ XIX (Saint-Simon, Fourier và Robert Owen) cũng là một tiền đề lý luận trực tiếp cho sự ra đời của chủ nghĩa xã hội khoa học. Nội dung bao gồm hệ thống các quan điểm và tư tưởng nhằm cải tạo xã hội và giải phóng loài người, hướng đến một chế độ xã hội không có tư hữu, bất công và bóc lột.
+•	KTCT học cổ điển Anh (A. Smith, D. Ricardo)
+Với những thành tựu về bàn tay vô hình, KTHH, lý luận về tiền tệ, thuyết GT LĐ...
+->	Mác đã kế thừa học thuyết GT của A. Smith và D. Ricardo và h/thành học thuyết GTTD để chỉ ra nguồn gốc giàu có của CNTB => Tiền đề lý luận trực tiếp của KTCT
 
-Giá trị tích cực của chủ nghĩa xã hội không tưởng thể hiện ở ba điểm lớn. Thứ nhất, họ đã mạnh mẽ phê phán, lên án chế độ quân chủ chuyên chế và chủ nghĩa tư bản đầy bất công, xung đột. Thứ hai, họ đưa ra nhiều luận điểm có giá trị về xã hội tương lai như cách tổ chức sản xuất và phân phối sản phẩm xã hội, vai trò của công nghiệp và khoa học – kỹ thuật, sự nghiệp giải phóng phụ nữ, và vai trò lịch sử của nhà nước. Thứ ba, họ đã góp phần thức tỉnh giai cấp công nhân và người lao động trong cuộc đấu tranh chống lại các chế độ áp bức đương thời.
+•	CNXH không tưởng phê phán Pháp đầu TK 19 (Saint Simon, Phurie, R.Owen)
+=> Tiền đề lý luận trực tiếp cho sự ra đời của CNXHKH.
 
-Tuy nhiên, hạn chế của chủ nghĩa xã hội không tưởng là không phát hiện được quy luật vận động và phát triển của xã hội, không xác định được lực lượng xã hội tiên phong có khả năng thực hiện cuộc chuyển biến cách mạng từ chủ nghĩa tư bản sang chủ nghĩa cộng sản – chính là giai cấp công nhân, và không chỉ ra được biện pháp hiện thực để cải tạo xã hội áp bức, bất công đương thời.
+-	ND: Hệ thống các q/niệm và tư tưởng nhằm cải tạo XH, GP loài người. Nó xd một chế độ XH  không có tư hữu, bất công, bóc lột.
+-	GT tích cực: (3 ý)
++ Phê phán, lên án chế độ quân chủ chuyên chế và chế độ TBCN đầy bất công, xung đột.
++ Đưa ra nhiều luận điểm có GT về XH tương lai: về tổ chức SX và phân phối sp XH; vai trò của công nghiệp và KH-KT; về sự nghiệp GP phụ nữ và về vai trò LS của NN...
++ Thức tỉnh GCCN và người LĐ trong cuộc đ/tranh chống chế độ quân chủ chuyên chế và chế độ TBCN.
 
-Chính những giá trị khoa học và cống hiến lớn lao từ các nhà tư tưởng tiền bối này đã tạo ra tiền đề tư tưởng – lý luận để C. Mác và Ph. Ăngghen kế thừa, chọn lọc những hạt nhân hợp lý, gạt bỏ những yếu tố phi khoa học, bất hợp lý, từ đó xây dựng và phát triển nên CNXHKH.`,
+-	Hạn chế: (3 ý)
++ Không phát hiện QL vận động phát triển của XH
++ Không phát hiện lực lượng XH tiên phong có thể thực hiện cuộc chuyển biến CM từ CNTB lên CNCS, GCCN
++ Không chỉ ra được BP hiện thực cải tạo XH áp bức, bất công đương thời
+
+Đây chính là những GT KH, cống hiến của các nhà tư tưởng đã tạo ra tiền đề tư tưởng- lý luận, để C.Mác và Ph.Ăngghen kế thừa những hạt nhân hợp lý, lọc bỏ những bất hợp lý, xây dựng và phát triển CNXHKH.`,
     },
     {
         label: "Câu 2: Vai trò của C.Mác và Ph. Ăngghen đối với sự ra đời của chủ nghĩa xã hội khoa học.",
