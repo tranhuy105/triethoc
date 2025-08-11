@@ -104,23 +104,24 @@ Tuyên ngôn của Đảng Cộng sản còn là cương lĩnh chính trị, là
     },
     {
         label: "Câu3a: Nhưng điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân",
-        dapan: `Điều kiện khách quan quy định sứ mệnh lịch sử của giai cấp công nhân bao gồm: 
-Thứ nhất, do địa vị kinh tế của giai cấp công nhân quy định
-Giai cấp công nhân là sản phẩm trực tiếp của nền đại công nghiệp trong phương thức sản xuất tư bản chủ nghĩa, đồng thời là chủ thể của quá trình sản xuất vật chất hiện đại.
-Họ đại diện cho phương thức sản xuất tiên tiến và lực lượng sản xuất hiện đại mang tính xã hội hóa, có vai trò quyết định trong việc thay thế quan hệ sản xuất tư bản chủ nghĩa (dựa trên chế độ tư hữu về tư liệu sản xuất) bằng quan hệ sản xuất mới, phù hợp với sự phát triển của lực lượng sản xuất (dựa trên chế độ công hữu).
-Trong xã hội tư bản, giai cấp công nhân là lực lượng bị bóc lột trực tiếp, mâu thuẫn với giai cấp tư sản ngày càng sâu sắc, dẫn đến những cuộc đấu tranh về kinh tế và chính trị.
-Để giải phóng khỏi sự áp bức, bóc lột, giai cấp công nhân phải đấu tranh giành lấy chính quyền, xóa bỏ sự thống trị của giai cấp tư sản và lật đổ chủ nghĩa tư bản.
-Với vai trò gắn bó trực tiếp với lực lượng sản xuất hiện đại, công nhân là lực lượng duy nhất có khả năng tổ chức và lãnh đạo xã hội, xây dựng và phát triển lực lượng sản xuất và quan hệ sản xuất xã hội chủ nghĩa – tạo nền tảng cho một chế độ xã hội mới, không còn áp bức và bóc lột giai cấp.
+        dapan: `
+•Do địa vị về kinh tế của GCCN quy định:
+        GCCN là sản phẩm của nền đại công nghiệp trong phương thức sản xuất TBCN khi nền sản xuất đại công nghiệp phát triển thì GCCN cũng sẽ phát triển trên 2 mặt là số lượng và chất lượng. GCCN là chủ thể của quá trình sản xuất vật chất hiện đại. 
+        GCCN trong CNTB không có hoặc có rất ít TLSX, do đó họ là những người lao động làm thuê và bị bóc lột giá trị thặng dư. Điều kiện khách quan này là nhân tố kinh tế, quy định GCCN là lực lượng phá vỡ QHSX tư bản chủ nghĩa (dựa trên tư hữu về TLSX) xây dựng và phát triển QHSX mới( dựa trên công hữu về TLSX) .
+        GCCN còn có những lợi ích cơ bản thống nhất với lợi ích của đại đa số quần chúng lao động, nhờ đó họ có khả năng đoàn kết với các tầng lớp nhân dân lao động khác trong cuộc đấu tranh chống CNTB.
+        Với vai trò gắn bó trực tiếp với lực lượng sản xuất hiện đại, công nhân là lực lượng duy nhất có khả năng tổ chức và lãnh đạo xã hội, xây dựng và phát triển lực lượng sản xuất và quan hệ sản xuất xã hội chủ nghĩa – tạo nền tảng cho một chế độ xã hội mới, không còn áp bức và bóc lột giai cấp.
 
-Thứ hai, do địa vị chính trị – xã hội của giai cấp công nhân quy định
-Là sản phẩm của nền sản xuất đại công nghiệp, giai cấp công nhân mang trong mình những phẩm chất của một giai cấp tiên tiến, cách mạng: tổ chức, kỷ luật, tự giác và đoàn kết trong quá trình đấu tranh giải phóng mình và toàn xã hội.
-Những phẩm chất đó bắt nguồn từ chính điều kiện khách quan và địa vị kinh tế – xã hội của họ trong xã hội tư bản, do chính chủ nghĩa tư bản tạo ra một cách khách quan, ngoài ý muốn.
-Giai cấp công nhân được trang bị lý luận cách mạng là chủ nghĩa Mác – Lênin, và có đội tiên phong là Đảng Cộng sản lãnh đạo.
-Họ là đại biểu cho xu thế phát triển tất yếu của lịch sử, và đây chính là cơ sở quyết định tính chất cách mạng của giai cấp công nhân.
-Công nhân không cách mạng vì nghèo khổ, mà vì tình trạng đó là hậu quả của sự áp bức, bóc lột; cách mạng là con đường để xóa bỏ tình trạng đó, giải phóng chính họ và toàn xã hội.
-Chính địa vị chính trị – xã hội đã hình thành nên những phẩm chất chính trị đặc trưng của công nhân: là giai cấp tiến bộ nhất, có ý thức kỷ luật, tinh thần cách mạng triệt để và bản chất quốc tế.
-
-Tóm lại, chính địa vị kinh tế và địa vị chính trị - xã hội của giai cấp công nhân là yếu tố khách  quan qui định sứ mệnh lịch sử của giai cấp công nhân. `,
+•Do địa vị về chính trị -xã hội của GCCN quy định:
+   Là con đẻ của nền sản xuất đại công nghiệp, giai cấp công nhân có được những phẩm chất của một giai cấp tiên tiến, giai cấp cách mạng: tính tổ chức và kỷ luật, tự giác và đoàn kết trong cuộc đấu tranh tự giải phóng mình và giải phóng xã hội.
+   GCCN được trang bị lý luận tiên tiến là chủ nghĩa Mác – Lênin, có đội tiền phong là Đảng cộng sản dẫn dắt. GCCN là giai cấp đại biểu cho tương lai, cho xu thế đi lên của tiến trình phát triển lịch sử. Đây là đặc tính quan trọng, quyết định bản chất cách mạng của GCCN.
+   
+   Địa vị chính trị - xã hội của giai cấp công nhân đã tạo nên những phẩm chất chính trị :
+   Đầu tiên GCCN là giai cấp tân tiến nhất: Họ đại diện cho xu hướng phát triển khách quan của lịch sử – đó là công nghiệp hóa, hiện đại hóa. Gắn liền với máy móc, khoa học – kỹ thuật và công nghệ sản xuất hiện đại, GCCN thường xuyên tiếp xúc, làm chủ công nghệ mới, từ đó có khả năng tiếp thu nhanh tiến bộ khoa học – kỹ thuật.
+   Thứ 2 GCCN là giai cấp có ý thức tổ chức kỷ luật cao: do làm việc trong nền đại công nghiệp – nơi hệ thống sản xuất mang tính chất dây chuyền cao. Họ buộc phải tuân thủ nghiêm ngặt kỹ thuật lao động
+   Thứ 3 GCCN là giai cấp có tinh thần cách mạng triệt để: vì họ đấu tranh không chỉ để cải thiện điều kiện sống, mà để xóa bỏ tận gốc mọi hình thức bóc lột và nguyên nhân sinh ra bóc lột. Họ chỉ có thể tự giải phóng bản thân bằng cách giải phóng toàn bộ xã hội khỏi chế độ tư bản chủ nghĩa (TBCN).
+   Thứ 4 GCCN có tinh thần đoàn kết quốc tế sâu sắc. Bởi vì GCTS là lực lượng mang tính quốc tế, bóc lột không chỉ GCCN trong nước mà còn ở các nước thuộc địa, nên GCCN trên toàn thế giới có chung một mục tiêu đấu tranh. 
+  
+  Tóm lại địa vị về kinh tế và địa vị về chính trị - xã hội của GCCN là yếu tố khách quan quy định SMLS của GCCN`,
     },
     {
         label: "Câu3b: Phân tích điều kiện chủ quan để giai cấp công nhân thực hiện sứ mệnh lịch sử ",
