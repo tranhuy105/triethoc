@@ -31,7 +31,12 @@ export const lsd: Question[] = [
 - Sau khi 3 TC cộng sản ra đời, hoạt động mạnh mẽ nhưng riêng rẽ, mất đoàn kết gây bất lợi trong phong trào chung
 - Trước tình hình đó lãnh tụ NAQ đã triệu tập hội nghị hợp nhất các TC cộng sản. Hội nghị diễn ra từ 03-07/02/1930 ở (Cửu Long) Hương Cảng, TQ
 -Hội nghị quyết định bỏ mọi thành kiến, xung đột cũ, và thành thật hợp tác với nhau trong 1 đảng duy nhất ở VN và đặt tên là Đảng CSVN 
--Hội nghị thông qua chính cương vắn tắt , sách lược vắn tắt, chương trình tóm tắt, điều lệ vắn tắt do NAQ soạn thảo. Đó là cương lĩnh chính trị đầu tiên của Đảng.`,
+-Hội nghị thông qua chính cương vắn tắt , sách lược vắn tắt, chương trình tóm tắt, điều lệ vắn tắt do NAQ soạn thảo. Đó là cương lĩnh chính trị đầu tiên của Đảng.
+
+
+Ý nghĩa:
+Đảng Cộng sản Việt Nam ra đời, chấm dứt khủng hoảng đường lối cứu nước, đưa cách mạng Việt Nam gắn bó với cách mạng vô sản thế giới. Thành quả này là nhờ sự thống nhất phong trào cách mạng và sự chuẩn bị bản lĩnh, sáng tạo của Nguyễn Ái Quốc cùng các chiến sĩ tiên phong.
+Đảng Cộng sản Việt Nam là sản phẩm của sự kết hợp giữa chủ nghĩa Mác- Lênin, phong trào công nhân và phong trào yêu nước Việt Nam.`,
     },
     {
         label: "Câu 2: Hoàn cảnh ra đời, nội dung và ý nghĩa Cương lĩnh chính trị đầu tiên của Đảng cộng sản Việt Nam. Điểm khác của Luận cương chính trị tháng 10/1930 so với Cương lĩnh chính trị đầu tiên của Đảng? (6đ)",
@@ -56,11 +61,9 @@ export const lsd: Question[] = [
 + Đây là vũ khí sắc bén của Đảng và nhân dân tiến hành cuộc đấu tranh CM chống lại các kẻ thù của dân tộc và của giai cấp đồng thời đó còn là cơ sở của Đảng ta vận dụng và phát triển đường lối sau này
 
 -Điểm khác của luận cương chính trị tháng 10/1930 so với cương lĩnh chính trị đầu tiên của Đảng:
-Luận cương tháng 10/1930 do Trần Phú soạn thảo được thông qua tại Hội nghị Trung Ương lần thứ nhất của Đảng, luận cương có hai điểm khác cơ bản so với Cương lĩnh:
-. Đặt nhiệm vụ chống Pk lên hàng đầu, sau đó mới đánh đuổi giặc Pháp
-. Xác định lực lượng CM là công-nông, nên không đề cao tinh thần đoàn kết dân tộc rộng rãi…
-Những điểm khác này là điểm hạn chế của Luận cương so với Cương lĩnh trong quá trình lãnh đạo CMVN
-Cả hai văn kiện tuy có điểm khác nhau, nhưng đều đóng vai trò rất lớn. Đó là sự chuẩn bị tất yếu. Đồng thời là nền tảng cho việc XD lý luận, tư tưởng đến tận ngày nay.`,
+Luận cương chính trị 10/1930 (Trần Phú) – khác cương lĩnh ở 2 điểm:
+Nhiệm vụ: Đặt chống phong kiến lên trước chống Pháp → chưa xác định đúng mâu thuẫn chủ yếu, xem nhẹ giải phóng dân tộc, thiên về đấu tranh giai cấp và cách mạng ruộng đất.
+Lực lượng: Chỉ xác định công nhân và nông dân là động lực chính, đánh giá thấp vai trò các giai cấp khác. Tư sản thương nghiệp bị coi đứng hẳn về phía đế quốc chống cách mạng; tư sản công nghiệp đứng phía quốc gia cải lương, khi cách mạng cao thì sẽ theo đế quốc → không xây dựng được chiến lược liên minh dân tộc, giai cấp rộng rãi chống đế quốc và tay sai.`,
     },
     {
         label: "Câu 3: Hoàn cảnh lịch sử, nội dung cơ bản và ý nghĩa Hội nghị Trung Ương lần thứ 8 (5/1941) của Đảng CS Đông Dương? (6đ)",
@@ -143,7 +146,7 @@ NX: Sau CMT8 nước ta đứng trước tình trạng khó khăn “chồng ch�
 + Tác phẩm “kháng chiến nhất định thắng lợi” của đồng chí Trường Chinh xuất hiện đầu năm 1947
 - Mục đích của cuộc kháng chiến: Đánh đuổi thực dân Pháp xâm lược hoàn thành độc lập dân tộc từng bước xây dựng chế độ mới
 - Tính chất của cuộc kháng chiến: Là cuộc chiến tranh nhân dân bảo vệ tổ quốc .Một cuộc chiến tranh chính nghĩa Toàn dân kháng chiến, toàn diện kháng chiến
--Phương châm đường lối kháng chiến: Toàn dân, Toàn diện, Lâu dài, Tự lực cánh sinh
+- Phương châm đường lối kháng chiến: Toàn dân, Toàn diện, Lâu dài, Tự lực cánh sinh
 + Toàn dân: đánh giặc với tinh thần mỗi người dân là một chiến sỹ, mỗi đường phố là 1 mặt trận, mỗi làng xã là 1 pháo đài đánh giặc được thể hiện rõ trong lời kêu gọi toàn quốc kháng chiến của Hồ Chủ Tịch: “Bất kỳ đàn ông, đàn bà, bất kỳ người già, người trẻ, không chia đảng phái, tôn giáo dân tộc. Hễ là người VN thì phải đứng lên đánh thực dân Pháp để cứu Tổ Quốc. Ai có súng thì dùng súng, ai có gươm thì dùng gươm, không có súng có gươm thì dùng cuốc, thuổng, gậy , gộc. Ai cũng phải ra sức chống thực dân Pháp cứu nước.
 .Tác dụng: Tạo ra sức mạnh tổng hợp của cả dân tộc, của toàn dân cho CM
 + Toàn diện: Là đánh giặc trên tất cả các mặt:
@@ -152,8 +155,10 @@ NX: Sau CMT8 nước ta đứng trước tình trạng khó khăn “chồng ch�
 . Về kinh tế: Tăng gia sản xuất xây dựng kinh tế của ta
 . Về văn hóa: Đánh đổ nền văn hóa nô dịch,XH nền văn hóa mới
 .Tác dụng: Tạo sức mạnh toàn diện cho CM VN đánh thắng Pháp
-+ Kháng chiến lâu dài là để có thời gian làm chuyển hóa tương quan lực lượng giữa ta và Pháp. Kháng chiến lâu dài để có thời gian làm cho chỗ yếu cơ bản của địch ngày càng bộc lộ, chỗ mạnh của địch ngày 1 hạn chế, chỗ yếu của ta được khắc phục, chỗ mạnh của ta ngày một càng phát huy tiến tới áp đảo Pháp kết thúc cuộc kháng chiến
-+ Tự lực cánh sinh: Là dựa vào sức lực của toàn dân vào đường lối của Đảng và các điều kiện của nước ta
++ Lâu dài là tư tưởng chỉ đạo chiến lược của Đảng trong bối cảnh tương quan lực lượng ban đầu giữa Việt Nam và thực dân Pháp quá chênh lệch.
+.Kháng chiến lâu dài là để có thời gian làm chuyển hóa tương quan lực lượng giữa ta và Pháp. Kháng chiến lâu dài để có thời gian làm cho chỗ yếu cơ bản của địch ngày càng bộc lộ, chỗ mạnh của địch ngày 1 hạn chế, chỗ yếu của ta được khắc phục, chỗ mạnh của ta ngày một càng phát huy tiến tới áp đảo Pháp kết thúc cuộc kháng chiến
++ Tự lực cánh sinh: Đây là sự kế thừa tư tưởng chiến lược trong chỉ đạo sự nghiệp cách mạng giải phóng dân tộc của Chủ tịch Hồ Chí Minh "đem sức ta giải phóng cho ta".
+.Xuất phát từ thực tế cuộc kháng chiến của nhân dân ta nổ ra trong điều kiện quốc tế bất lợi, Việt Nam nằm trong vòng vây của chủ nghĩa đế quốc, Việt Nam chưa được nước nào trên thế giới công nhận, đặt quan hệ ngoại giao, và từ phong cách kháng chiến của dân tộc trong lịch sử- bình tĩnh kiên cường một mình kháng chiến, nên Đảng xác định dựa vào sức mình là chính trong kháng chiến chống Pháp.
 
 *Ý nghĩa của đường lối kháng chiến:
 -Đường lối kháng chiến chống Pháp của Đảng là sự vận dụng sáng tạo Chủ nghĩa Mác-Lênin về chiến tranh CM vào hoàn cảnh thực tiễn VN. Đường lối đó còn là sự vận dụng những truyền thống, kinh nghiệm đánh giặc giữ nước của dân tộc 
@@ -193,18 +198,20 @@ Sau khi phân tích tình hình chung của cả nước và đặc điểm tìn
     {
         label: "Câu 9: Nội dung Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên CNXH ở Việt Nam ( Cương lĩnh năm 1991 và 2011) ? (4đ)",
         dapan: `*Hoàn cảnh lịch sử:
--Đại hội đại biểu toàn quốc lần thứ VII (6-1991) Đảng Cộng sản Việt Nam hoạch định Cương lĩnh xây dựng đất nước trong thời kì quá độ lên CNXH
-- Đại hội đại biểu toàn quốc lần thứ XI Đảng CSVN (1-2011) đã tổng kết thực tiễn, phát triển lý luận và thông qua Cương lĩnh XD đất nước trong thời kỳ quá độ lên CNXH ( Bổ sung, phát triển năm 2011)
+- Đại hội đại biểu toàn quốc lần thứ VII (6-1991) Đảng Cộng sản Việt Nam hoạch định Cương lĩnh xây dựng đất nước trong thời kì quá độ lên CNXH
+- Đại hội đại biểu toàn quốc lần thứ XI Đảng CSVN (1-2011) Diễn ra tại Hà Nội trong bối cảnh thế giới và trong nước nhiều biến động, vừa có cơ hội hợp tác phát triển vừa đối mặt thách thức, nguy cơ. Sau 20 năm thực hiện, một số nội dung Cương lĩnh 1991 không còn phù hợp. Đại hội XI phân tích tình hình, đánh giá thành tựu và hạn chế, khẳng định tiếp tục phát triển đất nước dựa trên giá trị cốt lõi của Cương lĩnh 1991, đồng thời sửa đổi, bổ sung thành Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên CNXH (bổ sung, phát triển 2011) – gọi tắt là Cương lĩnh 2011.
 *Nội dung:
--Cương lĩnh đề ra những định hướng lớn về phát triển kinh tế, văn hóa, xã hội, quốc phòng, an ninh, đối ngoại:
+Cương lĩnh đề ra những định hướng lớn về phát triển kinh tế, văn hóa, xã hội, quốc phòng an ninh, đối ngoại trong thời kỳ mới, trong đó nhấn mạnh những định hướng lớn về xây dựng phát triển kinh tế/văn hóa như sau:
 + Về kinh tế: Phát triển nền kinh tế thị trường định hướng XHCN với nhiều hình thức sở hữu, nhiều thành phần kinh tế, hình thức tổ chức kinh doanh và hình thức phân phối. Các thành phần kinh tế hoạt động theo pháp luật đều là bộ phận hợp thành quan trọng của nền kinh tế, bình đẳng trước pháp luật, cùng phát triển lâu dài, hợp tác và cạnh tranh lành mạnh. Kinh tế nhà nước giữ vai trò chủ đạo. Kinh tế tập thể không ngừng được củng cố và phát triển. Kinh tế nhà nước cùng với kinh tế tập thể ngày càng trở thành nền tảng vững chắc của nền kinh tế quốc dân, kinh tế tư nhân là một trong những động lực của nền kinh tế. Kinh tế có vốn đầu tư nước ngoài được khuyến khích phát triển. Các hình thức sở hữu, các yếu tố thị trường, quan hệ phân phối, vai trò quản lý của Nhà nước được xác định rõ
--Định hướng lớn về phát triển văn hóa: Xây dựng nên văn hóa tiên tiến, đậm đà bản sắc dân tộc, phát triển toàn diện, thống nhất trong đa dạng, tiếp thu tinh hoa văn hóa nhân loại, XD con người VN giàu lòng yêu nước, có ý thức làm chủ, trách nhiệm công dân:
++ Cương lĩnh xác định phát triển kinh tế là nhiệm vụ trung tâm. Xây dựng nền kinh tế độc lập tự chủ, đồng thời chủ động, tích cực hội nhập kinh tế quốc tế.
+
+- Định hướng lớn về phát triển văn hóa: Xây dựng nên văn hóa tiên tiến, đậm đà bản sắc dân tộc, phát triển toàn diện, thống nhất trong đa dạng, tiếp thu tinh hoa văn hóa nhân loại, XD con người VN giàu lòng yêu nước, có ý thức làm chủ, trách nhiệm công dân:
 + Tiên tiến là yêu nước và tiến bộ với nội dung cốt lõi là lý tưởng độc lập dân tộc và CNXH theo chủ nghĩa Mác-lenin – Tư tưởng Hồ Chí Minh nhằm mục tiêu tất cả vì con người
 + Bản sắc dân tộc bao gồm những giá trị Việt Nam truyền thống bền vững của cộng đồng các dân tộc VN được vun đắp qua lịch sử hàng ngàn năm đấu tranh dựng nước và giữ nước
 + Bản sắc của một dân tộc là tổng thể những phẩm chất tính cách sức sống bên trong của một dân tộc giúp cho dân tộc ấy giữ vững được tính duy nhất và tính thống nhất tính nhất quán so với bản thân mình trong quá trình phát triển 
 + Để XH nền văn hóa tiên tiến đậm đà bản sắc dân tộc chúng ta chủ trương vừa bảo vệ bản sắc dân tộc vừa mở rộng giao lưu, tiếp thu tinh hoa VH nhân loại, XD VN thành 1 địa chỉ giao lưu văn hóa khu vực và quốc tế
 + Giữ gìn bản sắc dân tộc phải đi liền với loại bỏ những cái lạc hậu lỗi thời trong phong tục tập quán và lề thói cũ
-*Ý nghĩa:
+* Ý nghĩa:
 - Cương lĩnh có ý nghĩa đặc biệt quan trọng về lý luận và thực tiễn. Với kết quả nghiên cứu lý luận, đổi mới tư duy và tổng kết thực tiễn, Cương lĩnh đã làm rõ 8 đặc trưng cơ bản của chế độ XHCN ở VN
 - Nhận thức rõ hơn về quá độ lên CNXH ở Việt Nam với chế độ chính trị, kinh tế, thành phần , cấu trúc, văn hóa, con người, chiến lược quốc phòng, an ninh, đối ngoại và những chặng đường, bước đi cần thiết
 - Làm sáng tỏ khả năng bỏ qua CNTB để tiến lên CNXH tất yếu phải bỏ qua quan hệ sản xuất và kiến trúc thượng tầng TBCN, đồng thời có thể kế thừa những thành tựu đã đạt được dưới chế độ tư bản, nhất là sự phát triển của khoa học, công nghệ và trình độ tổ chức quản lý kinh tế và xã hội.`,
